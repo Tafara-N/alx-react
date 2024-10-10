@@ -53,7 +53,7 @@ Copyright - Holberton School
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x00-Webpack`
-File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
+- File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 
 ### 1. Learning how to use Webpack with a config file
 
@@ -93,7 +93,7 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x00-Webpack`
-File: `task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html`
+- File: `task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html`
 
 ### 2. Adding CSS & Images
 
@@ -119,7 +119,7 @@ Create a specific configuration for Webpack.
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x00-Webpack`
-File: `task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html`
+- File: `task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html`
 
 3. Dev servers, modules, and tree shaking
 mandatory
@@ -161,4 +161,4 @@ Opening your main file should not generate any error in the console.
 
 - GitHub repository: `alx-react`
 - Directory: `0x00-Webpack`
-File: `task_3/modules/body/body.css, task_3/modules/body/body.js, task_3/modules/footer/footer.css, task_3/modules/footer/footer.js, task_3/modules/header/header.css, task_3/modules/header/header.js, task_3/package.json, task_3/webpack.config.js`
+- File: `task_3/modules/body/body.css, task_3/modules/body/body.js, task_3/modules/footer/footer.css, task_3/modules/footer/footer.js, task_3/modules/header/header.css, task_3/modules/header/header.js, task_3/package.json, task_3/webpack.config.js`
