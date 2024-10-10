@@ -14,8 +14,9 @@ create-react-app
 React Developer Tools
 What is Babel?
 Enzyme
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 How to create a basic Javascript application using React
 How to use the package create-react-app to start developing quickly with React
