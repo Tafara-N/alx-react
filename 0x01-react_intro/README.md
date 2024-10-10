@@ -207,7 +207,7 @@ Your application should be working correctly when accessing the GitHub URL.
 - File: task_4/
 
 ### 9. Create a project using Webpack
-mandatory
+
 Without reusing create-react-app or the code from the previous exercise, start a brand new npm project
 
 Reusing what you learned during the Webpack module:
