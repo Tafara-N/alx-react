@@ -103,19 +103,20 @@ When running, there should not be any lint error in the console
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js
-3. Modify the App
-mandatory
-using your code from the previous task, in task_2/dashboard/src/App.js under the paragraph that says Login to access the full dashboard:
 
-add a label and input for email
-add a label and input for password
-when the user clicks on a label, it should select the corresponding input
-add one button element with the text “OK”
+### 3. Modify the App
+
+**using your code from the previous task, in `task_2/dashboard/src/App.js` under the paragraph that says `Login to access the full dashboard`:**
+
+- add a label and input for email
+- add a label and input for password
+- when the user clicks on a label, it should select the corresponding input
+- add one button element with the text “OK”
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_2/dashboard/src/, task_2/dashboard/src/App.js
+- File: `task_2/dashboard/src/, task_2/dashboard/src/App.js`
 
 ### 4. Modify the Notifications
 
