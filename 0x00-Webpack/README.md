@@ -71,11 +71,13 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
     - Button element with the text `Click here to get started`
     - Add a paragraph element as so `<p id='count'></p>`
     - Add another paragraph: `Copyright - Holberton School`
-Prevent spammers
 
-Write a function called updateCounter() that tracks the number of times the button element has been clicked.
-Each time it’s called, update the count by 1 and set the content of the paragraph element with id=‘count’ to {count} clicks on the button
-Bind the debounce function in Lodash to the click event on the button you created previously.
+**Prevent spammers**
+
+- Write a function called `updateCounter()` that tracks the number of times the button element has been clicked.
+- Each time it’s called, update the count by 1 and set the content of the paragraph element with id=‘count’ to `{count} clicks on the button`
+- Bind the debounce function in Lodash to the click event on the button you created previously.
+
 Requirements:
 
 When running Webpack, your javascript should be generated in a public folder. You should also place your index.html in this folder.
