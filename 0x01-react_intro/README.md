@@ -241,15 +241,15 @@ At this point, running webpack-dev-server should correctly execute your code, an
 - File: task_5/dashboard/.babelrc, task_5/dashboard/config/webpack.config.js
 
 ### 11. Reorganize the files
-mandatory
+
 Let’s reorganize the files in our project:
 
-Every file related to the App, should be within a App folder
-Every file related to the Notifications, should be within a Notifications folder
-Every file related to the utils functions, should be within a utils folder
-Every asset file should be within the assets folder
-Set up the favicon.ico in the dist folder
-Webpack config file should be within a config folder if it isn’t already
+- Every file related to the App, should be within a `App` folder
+- Every file related to the Notifications, should be within a `Notifications` folder
+- Every file related to the utils functions, should be within a `utils` folder
+- Every asset file should be within the `assets` folder
+- Set up the `favicon.ico` in the `dist` folder
+- Webpack config file should be within a `config` folder if it isn’t already
 
 **Repo:**
 - GitHub repository: `alx-react`
