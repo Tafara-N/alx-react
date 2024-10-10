@@ -136,6 +136,7 @@ add one button element with the text “OK”
         - The second one has a urgent priority and says `New resume available`
         - Add the priority to the first and second items of the list using a `data` attribute
         - The last item correctly displays the content of `getLatestNotification` using `dangerouslySetInnerHTML`
+
 **in `task_2/dashboard/src/Notifications.css`:**
 
 - style the notification priorities using their data attribute: set the color of default items to blue, and the color of urgent items to red.
