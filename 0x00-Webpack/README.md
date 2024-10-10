@@ -154,7 +154,7 @@ Using the folder named `task_3`. **Set up a development server:**
 
 **Improve bundles size:**
 
-- You can see that the current modules generated with `npm run build` are quite large. They all contain jQuery and/or Lodash. Modify the Webpack configuration to split the modules in chunks.
+- You can see that the current modules generated with `npm run build` are quite large. They all contain `jQuery` and/or `Lodash`. Modify the `Webpack` configuration to split the modules in chunks.
 
 **Requirements:**
 
