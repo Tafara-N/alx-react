@@ -263,9 +263,13 @@ move the `setupTests.js` file to `config` folder if you have not already
 
 **Requirements:**
 
-- Your package.json should have the two following scripts:
+- Your `package.json` should have the two following scripts:
+
+```json
     "start": "webpack-dev-server --mode development --config config/webpack.config.js",
     "test": "jest"
+```
+
 Running the first script should start your dev server and build without any error
 Running the second script should start your test suites and pass for each test
 Repo:
