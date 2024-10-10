@@ -60,7 +60,7 @@ Modify the App.css to make the project looks like the following screenshot:
 Requirements:
 
 When running, there should not be any lint error in the console
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -68,7 +68,7 @@ File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src
 
 1. Basic Application
 mandatory
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x00-react_introduction
@@ -98,7 +98,7 @@ Check that you can see the two elements on the browser, and using the React brow
 Requirements:
 
 When running, there should not be any lint error in the console
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -111,7 +111,7 @@ add a label and input for email
 add a label and input for password
 when the user clicks on a label, it should select the corresponding input
 add one button element with the text “OK”
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -143,7 +143,7 @@ When running, there should not be any lint error in the console
 Your app should look like the following screenshot:
 
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -155,7 +155,7 @@ in task_3/dashboard/src/utils.test.js:
 Write a test to check that the function getFullYear returns the correct year (be careful to not create a time bomb)
 Write a test to check that getFooterCopy returns the correct string when the argument is true or false
 Write a test checking the returned string for getLatestNotification
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -164,7 +164,7 @@ File: task_3/dashboard/src/utils.test.js
 mandatory
 Install Enzyme with npm
 Create a file named setupTests.js and configure the adapter for Enzyme
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -189,7 +189,7 @@ When running the test suites, you should see the following result
 You must use shallow rendering to write the React tests
 Test Suites: 3 passed, 3 total
 Tests: 11 passed, 11 total
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -200,7 +200,7 @@ Deploy your application to GitHub Pages using gh-pages branch and create-react-a
 
 Your application should be working correctly when accessing the GitHub URL.
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -221,7 +221,7 @@ inline source map
 style loader
 css loader
 image webpack loader
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -234,7 +234,7 @@ Add a babel-loader to the Webpack configuration so you can support js and jsx fi
 Import the files that you wrote in the previous task. All the Javascript and React code should be within the src folder
 At this point, running webpack-dev-server should correctly execute your code, and you should be able to see the dashboard like in the last task
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -249,7 +249,7 @@ Every file related to the utils functions, should be within a utils folder
 Every asset file should be within the assets folder
 Set up the favicon.ico in the dist folder
 Webpack config file should be within a config folder if it isn’t already
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x01-react_intro
@@ -273,7 +273,7 @@ move the `setupTests.js` file to `config` folder if you have not already
 - Running the second script should start your test suites and pass for each test
 - Running the first script should start your dev server and build without any error
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x01-react_intro
 File: `task_5/dashboard/config/setupTests.js, task_5/dashboard/package.json`
