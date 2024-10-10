@@ -24,7 +24,7 @@ _____
 
 - [React]()
 
-![I will render you](images/render_you.jpg)
+![I will render you](https://github.com/Tafara-N/alx-react/blob/845fde70707611c921feaee363dbb227137db7ce/0x01-react_intro/images/render_you.jpg)
 
 ## Resources
 
