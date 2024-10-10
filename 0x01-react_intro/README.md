@@ -196,16 +196,15 @@ Tests: 11 passed, 11 total
 - File: task_3/dashboard/src/App.test.js, task_3/dashboard/src/Notifications.test.js
 
 ### 8. Deploy to a GitHub page
-mandatory
-Deploy your application to GitHub Pages using gh-pages branch and create-react-app
+
+Deploy your application to GitHub Pages using `gh-pages` branch and `create-react-app`
 
 Your application should be working correctly when accessing the GitHub URL.
 
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_4/
+- File: `task_4/`
 
 ### 9. Create a project using Webpack
 
