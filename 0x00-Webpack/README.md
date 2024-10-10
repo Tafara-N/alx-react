@@ -151,16 +151,18 @@ Using the folder named `task_3`. **Set up a development server:**
 Modify the webpack config to support inline source mapping.
 Check that the console.log in the header.js now takes you to your javascript file instead of the main bundle.
 Add a plugin to Webpack to clean your build folder on each build.
-Improve bundles size:
 
-You can see that the current modules generated with npm run build are quite large. They all contain jQuery and/or Lodash. Modify the Webpack configuration to split the modules in chunks.
-Requirements:
+**Improve bundles size:**
 
-When running the dev server, your code should work on http://localhost:8564/.
-When running Webpack, your javascript and html files should be generated in a public folder.
-Opening your main file should not generate any error in the console.
+- You can see that the current modules generated with `npm run build` are quite large. They all contain jQuery and/or Lodash. Modify the Webpack configuration to split the modules in chunks.
+
+**Requirements:**
+
+- When running the dev server, your code should work on `http://localhost:8564/`.
+- When running Webpack, your javascript and html files should be generated in a `public` folder.
+- Opening your main file should not generate any error in the console.
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x00-Webpack`
 - File: `task_3/modules/body/body.css, task_3/modules/body/body.js, task_3/modules/footer/footer.css, task_3/modules/footer/footer.js, task_3/modules/header/header.css, task_3/modules/header/header.js, task_3/package.json, task_3/webpack.config.js`
