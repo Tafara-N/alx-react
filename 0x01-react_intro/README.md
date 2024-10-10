@@ -57,7 +57,7 @@ Favicon
 
 **Modify the `App.css` to make the project looks like the following screenshot:**
 
-
+![Modify the App.css to make the project looks like](images/dashboard.png)
 
 **Requirements:**
 
