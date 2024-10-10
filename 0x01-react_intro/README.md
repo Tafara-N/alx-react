@@ -183,7 +183,8 @@ in task_3/dashboard/src/Notifications.test.js create three tests
 test that Notifications renders without crashing
 verify that Notifications renders three list items
 verify that Notifications renders the text Here is the list of notifications
-Requirements:
+
+**Requirements:**
 
 - When running the test suites, you should see the following result
 - You must use shallow rendering to write the React tests
