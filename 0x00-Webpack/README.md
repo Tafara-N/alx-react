@@ -93,7 +93,7 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 Repo:
 GitHub repository: alx-react
 Directory: 0x00-Webpack
-File: task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html
+File: `task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html`
 
 2. Adding CSS & Images
 mandatory
