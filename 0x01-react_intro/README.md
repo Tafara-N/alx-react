@@ -28,12 +28,14 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
-Tasks
-0. Basic application
-mandatory
-Create a basic app named dashboard using create-react-app in your task_0 directory
 
-You will need a favicon and the Holberton logo. Download them and add them to the src/ directory under dashboard/
+## Tasks
+
+### 0. Basic application
+
+**Create a basic app named `dashboard` using `create-react-app` in your `task_0` directory**
+
+You will need a favicon and the Holberton logo. Download them and add them to the `src/` directory under `dashboard/`
 
 **Holberton Logo**
 
