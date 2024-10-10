@@ -257,7 +257,7 @@ File: task_5/dashboard/src/App/App.css, task_5/dashboard/src/App/App.js, task_5/
 
 ### 12. Testing
 
-Install Jest and Enzyme to run your test suites
+Install `Jest` and `Enzyme` to run your test suites
 
 move the setupTests.js file to config folder if you have not already
 
