@@ -144,7 +144,7 @@ Using the folder named `task_3`. **Set up a development server:**
 - Add the needed style to the `footer.css` file.
 - Modify the `Webpack` configuration to support three different entry points (`header`, `body`, `footer`). Each entry point should generate a filename with the following format `name_of_the_file.bundle.js`.
 - Do NOT have a `task_3/public/` directory pushed to your repository.
-- Add a plugin to Webpack to automatically create an `index.html` HTML file
+- Add a plugin to` Webpack` to automatically create an `index.html` HTML file
 
 **Improve development speed**
 
