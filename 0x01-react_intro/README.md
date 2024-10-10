@@ -18,12 +18,12 @@ Enzyme
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
-How to create a basic Javascript application using React
-How to use the package create-react-app to start developing quickly with React
-What JSX is and how to use it
-How to use the React Developer Tools to debug your code
-How to use Enzyme’s Shadow rendering to test your application
-How to use React with Webpack & Babel
+- How to create a basic Javascript application using React
+- How to use the package `create-react-app` to start developing quickly with React
+- What JSX is and how to use it
+- How to use the React Developer Tools to debug your code
+- How to use Enzyme’s Shadow rendering to test your application
+- How to use React with Webpack & Babel
 
 # Requirements
 - All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node `12.x.x` and `npm 6.x.x`
