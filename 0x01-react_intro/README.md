@@ -185,12 +185,15 @@ verify that Notifications renders three list items
 verify that Notifications renders the text Here is the list of notifications
 Requirements:
 
-When running the test suites, you should see the following result
-You must use shallow rendering to write the React tests
+- When running the test suites, you should see the following result
+- You must use shallow rendering to write the React tests
+
+```
 Test Suites: 3 passed, 3 total
 Tests: 11 passed, 11 total
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: `task_3/dashboard/src/App.test.js, task_3/dashboard/src/Notifications.test.js`
