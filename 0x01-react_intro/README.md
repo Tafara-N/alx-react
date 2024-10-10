@@ -239,7 +239,8 @@ At this point, running webpack-dev-server should correctly execute your code, an
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: task_5/dashboard/.babelrc, task_5/dashboard/config/webpack.config.js
-11. Reorganize the files
+
+### 11. Reorganize the files
 mandatory
 Let’s reorganize the files in our project:
 
