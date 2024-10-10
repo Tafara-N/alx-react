@@ -7,8 +7,9 @@
 Webpack documentation
 Webpack beginner guide
 npm-package.json
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 How to setup Webpack for a basic project
 Entry points, output, and loaders
