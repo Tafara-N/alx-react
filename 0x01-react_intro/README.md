@@ -59,19 +59,18 @@ Modify the App.css to make the project looks like the following screenshot:
 
 Requirements:
 
-When running, there should not be any lint error in the console
-**Repo:**
+- When running, there should not be any lint error in the console
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
+- File: `task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js`
 
-1. Basic Application
-mandatory
+### 1. Basic Application
+
 **Repo:**
-
 - GitHub repository: `alx-react`
-Directory: 0x00-react_introduction
+- Directory: `0x01-react_intro`
 - File: `task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js`
 
 ### 2. Embedding expressions, functions
