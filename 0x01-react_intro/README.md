@@ -170,19 +170,20 @@ Create a file named setupTests.js and configure the adapter for Enzyme
 - Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/setupTests.js
 
-7. Create React tests
-mandatory
-in task_3/dashboard/src/App.test.js create four tests:
+### 7. Create React tests
 
-test that App renders without crashing
-verify that App renders a div with the class App-header
-verify that App renders a div with the class App-body
-verify that App renders a div with the class App-footer
-in task_3/dashboard/src/Notifications.test.js create three tests
+**in `task_3/dashboard/src/App.test.js` create four tests:**
 
-test that Notifications renders without crashing
-verify that Notifications renders three list items
-verify that Notifications renders the text Here is the list of notifications
+- test that App renders without crashing
+- verify that App renders a div with the class `App-header`
+- verify that App renders a div with the class `App-body`
+- verify that App renders a div with the class `App-footer`
+
+**in `task_3/dashboard/src/Notifications.test.js` create three tests**
+
+- test that Notifications renders without crashing
+- verify that Notifications renders three list items
+- verify that Notifications renders the text `Here is the list of notifications`
 
 **Requirements:**
 
