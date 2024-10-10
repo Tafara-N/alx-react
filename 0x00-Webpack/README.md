@@ -95,8 +95,8 @@ GitHub repository: alx-react
 Directory: 0x00-Webpack
 File: `task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html`
 
-2. Adding CSS & Images
-mandatory
+### 2. Adding CSS & Images
+
 Create a specific configuration for Webpack.
 
 Using the folder named task_2.
