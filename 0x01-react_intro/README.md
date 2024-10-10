@@ -102,7 +102,7 @@ When running, there should not be any lint error in the console
 
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js
+- File: `task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js`
 
 ### 3. Modify the App
 
