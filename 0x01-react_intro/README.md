@@ -91,15 +91,17 @@ import the file Notifications.css.
 in task_1/dashboard/src/Notifications.css, style the Notifications class:
 
 Add a border and some padding around the div
-Render the Notifications element:
 
-Modify task_1/dashboard/src/index.js to render the new element (Notifications) in a div named root-notifications
-Check that you can see the two elements on the browser, and using the React browser extension
-Requirements:
+**Render the Notifications element:**
 
-When running, there should not be any lint error in the console
+- Modify `task_1/dashboard/src/index.js` to render the new element (`Notifications`) in a `div` named `root-notifications`
+- Check that you can see the two elements on the browser, and using the React browser extension
+
+**Requirements:**
+
+- When running, there should not be any lint error in the console
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: `task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js`
