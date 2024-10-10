@@ -261,9 +261,9 @@ Install `Jest` and `Enzyme` to run your test suites
 
 move the `setupTests.js` file to `config` folder if you have not already
 
-Requirements:
+**Requirements:**
 
-Your package.json should have the two following scripts:
+- Your package.json should have the two following scripts:
     "start": "webpack-dev-server --mode development --config config/webpack.config.js",
     "test": "jest"
 Running the first script should start your dev server and build without any error
