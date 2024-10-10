@@ -57,12 +57,13 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 
 ### 1. Learning how to use Webpack with a config file
 
-Installing packages
+**Installing packages**
 
-Create a folder named task_1, cd into it, and create a package.json using npm init -y
-Install webpack (dev dependency), jQuery (dependency), and Lodash (dependency) within the folder using npm.
-Modify your package.json to add a build script that runs webpack to create a production build. This lets you execute npm run build on the command line.
-Using jQuery
+- Create a folder named `task_1`, cd into it, and create a `package.json` using `npm init -y`
+- Install webpack (dev dependency), jQuery (dependency), and Lodash (dependency) within the folder using `npm`.
+- Modify your `package.json` to add a `build` script that runs `webpack` to create a production build. This lets you execute `npm run build` on the command line.
+
+**Using jQuery**
 
 Create a js directory with a javascript file named dashboard_main.js in it. The file should import jquery and add the below elements in the following order:
 Paragraph element: Holberton Dashboard
