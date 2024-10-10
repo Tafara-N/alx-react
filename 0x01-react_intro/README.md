@@ -146,7 +146,7 @@ add one button element with the text “OK”
 - When running, there should not be any lint error in the console
 - Your app should look like the following screenshot:
 
-![](8d639e2671ebe15575ad.png)
+![Dashboard](images/task_4.png)
 
 **Repo:**
 - GitHub repository: `alx-react`
