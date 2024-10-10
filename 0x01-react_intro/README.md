@@ -270,10 +270,10 @@ move the `setupTests.js` file to `config` folder if you have not already
     "test": "jest"
 ```
 
-Running the first script should start your dev server and build without any error
-Running the second script should start your test suites and pass for each test
-Repo:
+- Running the second script should start your test suites and pass for each test
+- Running the first script should start your dev server and build without any error
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x01-react_intro
 File: `task_5/dashboard/config/setupTests.js, task_5/dashboard/package.json`
