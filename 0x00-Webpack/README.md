@@ -119,7 +119,7 @@ Create a specific configuration for Webpack.
 Repo:
 GitHub repository: alx-react
 Directory: 0x00-Webpack
-File: task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html
+File: `task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html`
 
 3. Dev servers, modules, and tree shaking
 mandatory
