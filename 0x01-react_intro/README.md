@@ -58,7 +58,7 @@ in task_0/dashboard/src/App.js, create a function App that returns:
 
 
 
-Requirements:
+**Requirements:**
 
 - When running, there should not be any lint error in the console
 
