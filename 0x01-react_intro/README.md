@@ -73,15 +73,17 @@ mandatory
 - GitHub repository: `alx-react`
 Directory: 0x00-react_introduction
 - File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
-2. Embedding expressions, functions
-mandatory
-Using your code from the previous task, in task_1/dashboard/src/utils.js:
 
-Create a function named getFullYear that will return the current year
-Create a function named getFooterCopy:
-It accepts one argument isIndex(boolean). When true, the function should return Holberton School. When false, the function should return Holberton School main dashboard
-Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
-in task_1/dashboard/src/Notifications.js, create a Notifications element:
+### 2. Embedding expressions, functions
+
+**Using your code from the previous task, in `task_1/dashboard/src/utils.js`:**
+
+- Create a function named `getFullYear` that will return the current year
+- Create a function named `getFooterCopy`:
+    - It accepts one argument `isIndex`(boolean). When true, the function should return `Holberton School`. When false, the function should return `Holberton School main dashboard`
+- Modify the footer returned in `task_1/dashboard/src/App.js` to use these two functions
+
+**in `task_1/dashboard/src/Notifications.js`, create a Notifications element:**
 
 - It should import React
 - It should export a function
