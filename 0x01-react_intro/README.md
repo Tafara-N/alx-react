@@ -6,16 +6,17 @@
 
 ![I will render you](images/render_you.jpg)
 
-Resources
-Read or watch:
+# Resources
 
-React Official Website
-Getting started with React
-Quick Start with React
-create-react-app
-React Developer Tools
-What is Babel?
-Enzyme
+**Read or watch:**
+
+- [React Official Website]()
+- [Getting started with React]()
+- [Quick Start with React]()
+- [create-react-app]()
+- [React Developer Tools]()
+- [What is Babel?]()
+- [Enzyme]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
