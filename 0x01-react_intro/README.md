@@ -194,7 +194,8 @@ Tests: 11 passed, 11 total
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/App.test.js, task_3/dashboard/src/Notifications.test.js
-8. Deploy to a GitHub page
+
+### 8. Deploy to a GitHub page
 mandatory
 Deploy your application to GitHub Pages using gh-pages branch and create-react-app
 
