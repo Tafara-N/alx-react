@@ -83,14 +83,15 @@ It accepts one argument isIndex(boolean). When true, the function should return 
 Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
 in task_1/dashboard/src/Notifications.js, create a Notifications element:
 
-It should import React
-It should export a function
-The function should return a div with the class Notifications
-The div should contain a paragraph with the text Here is the list of notifications
-import the file Notifications.css.
-in task_1/dashboard/src/Notifications.css, style the Notifications class:
+- It should import React
+- It should export a function
+- The function should return a `div` with the class `Notifications`
+- The div should contain a paragraph with the text `Here is the list of notifications`
+- import the file `Notifications.css`.
 
-Add a border and some padding around the div
+**in `task_1/dashboard/src/Notifications.css`, style the Notifications class:**
+
+- Add a border and some padding around the `div`
 
 **Render the Notifications element:**
 
