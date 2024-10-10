@@ -1,7 +1,8 @@
-Concepts
-For this project, we expect you to look at this concept:
+# Concepts
 
-React
+*For this project, we expect you to look at this concept:*
+
+- [React](Coming Soon)
 
 
 Resources
