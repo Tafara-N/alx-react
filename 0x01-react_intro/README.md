@@ -205,7 +205,8 @@ Your application should be working correctly when accessing the GitHub URL.
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: task_4/
-9. Create a project using Webpack
+
+### 9. Create a project using Webpack
 mandatory
 Without reusing create-react-app or the code from the previous exercise, start a brand new npm project
 
