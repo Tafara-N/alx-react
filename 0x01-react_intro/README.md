@@ -160,15 +160,16 @@ Write a test checking the returned string for getLatestNotification
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/utils.test.js
-6. Install Enzyme
-mandatory
-Install Enzyme with npm
-Create a file named setupTests.js and configure the adapter for Enzyme
-**Repo:**
 
+### 6. Install Enzyme
+
+- Install Enzyme with `npm`
+- Create a file named `setupTests.js` and configure the adapter for Enzyme
+
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_3/dashboard/src/setupTests.js
+- File: `task_3/dashboard/src/setupTests.js`
 
 ### 7. Create React tests
 
