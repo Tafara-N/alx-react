@@ -75,7 +75,7 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 **Prevent spammers**
 
 - Write a function called `updateCounter()` that tracks the number of times the button element has been clicked.
-- Each time it’s called, update the count by 1 and set the content of the paragraph element with id=‘count’ to `{count} clicks on the button`
+- Each time it’s called, update the count by 1 and set the content of the paragraph element with `id=‘count’` to `{count} clicks on the button`
 - Bind the debounce function in Lodash to the click event on the button you created previously.
 
 Requirements:
