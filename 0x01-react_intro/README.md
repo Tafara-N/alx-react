@@ -2,7 +2,7 @@
 
 *For this project, we expect you to look at this concept:*
 
-- [React](Coming Soon)
+- [React]()
 
 ![I will render you](images/render_you.jpg)
 
