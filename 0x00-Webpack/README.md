@@ -30,7 +30,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Create a folder named `task_0`.
 - Install `webpack` and `webpack-cli` as developer dependencies within the folder using `npm`.
 - Install `jQuery` as a regular dependency using `npm`.
-- Make sure that `webpack` and `webpack-cli` are listed under the devDependencies key along with `jQuery` being listed under the dependencies key within the package.json
+- Make sure that `webpack` and `webpack-cli` are listed under the devDependencies key along with `jQuery` being listed under the dependencies key within the `package.json`
 - Create a `src` directory with a `index.js` in it.
 - The file should import `jquery` and add three different paragraphs to the page body: (refer to this [link](https://www.npmjs.com/package/jquery#including-jquery) under the Babel section for importing jQuery)
 
@@ -53,10 +53,10 @@ Copyright - Holberton School
 Repo:
 GitHub repository: alx-react
 Directory: 0x00-Webpack
-File: task_0/package.json, task_0/src/index.js, task_0/dist/index.html
+File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 
 1. Learning how to use Webpack with a config file
-mandatory
+
 Installing packages
 
 Create a folder named task_1, cd into it, and create a package.json using npm init -y
