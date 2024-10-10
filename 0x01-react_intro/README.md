@@ -4,6 +4,7 @@
 
 - [React](Coming Soon)
 
+![I will render you](images/render_you.jpg)
 
 Resources
 Read or watch:
