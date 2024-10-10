@@ -121,15 +121,16 @@ Create a specific configuration for Webpack.
 - Directory: `0x00-Webpack`
 - File: `task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html`
 
-3. Dev servers, modules, and tree shaking
-mandatory
-Using the folder named task_3. Set up a development server:
+### 3. Dev servers, modules, and tree shaking
 
-Reuse the code from task_2.
-Modify the Webpack config to setup a development server running on the port 8564.
-Modify the Webpack config to set its mode to development.
-Add a script in the package.json to start the server and open the browser with npm run start-dev.
-Divide the code into modules:
+Using the folder named `task_3`. **Set up a development server:**
+
+- Reuse the code from `task_2`.
+- Modify the Webpack config to setup a development server running on the port 8564.
+- Modify the Webpack config to set its `mode` to `development`.
+- Add a script in the `package.json` to start the server and open the browser with npm `run start-dev`.
+
+**Divide the code into modules:**
 
 Divide the main bundle into three modules.
 header should contain a header.css and header.js files.
