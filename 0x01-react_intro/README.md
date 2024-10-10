@@ -227,8 +227,8 @@ image webpack loader
 - Directory: `0x01-react_intro`
 - File: task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js
 
-10. Install Babel
-mandatory
+### 10. Install Babel
+
 Install Babel, and in task_5/dashboard/.babelrc, add the presets for preset-env and preset-react
 Add a babel-loader to the Webpack configuration so you can support js and jsx files
 Import the files that you wrote in the previous task. All the Javascript and React code should be within the src folder
