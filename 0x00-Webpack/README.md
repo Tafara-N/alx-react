@@ -148,9 +148,9 @@ Using the folder named `task_3`. **Set up a development server:**
 
 **Improve development speed**
 
-Modify the webpack config to support inline source mapping.
-Check that the console.log in the header.js now takes you to your javascript file instead of the main bundle.
-Add a plugin to Webpack to clean your build folder on each build.
+- Modify the webpack config to support inline source mapping.
+- Check that the `console.log` in the `header.js` now takes you to your javascript file instead of the main bundle.
+- Add a plugin to `Webpack` to clean your build folder on each build.
 
 **Improve bundles size:**
 
