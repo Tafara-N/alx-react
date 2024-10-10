@@ -255,8 +255,8 @@ GitHub repository: alx-react
 Directory: 0x01-react_intro
 File: task_5/dashboard/src/App/App.css, task_5/dashboard/src/App/App.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.css, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/utils/utils.js, task_5/dashboard/src/utils/utils.test.js, task_5/dashboard/config/webpack.config.js, task_5/dashboard/src/assets/holberton-logo.jpg, task_5/dashboard/dist/favicon.ico
 
-12. Testing
-mandatory
+### 12. Testing
+
 Install Jest and Enzyme to run your test suites
 
 move the setupTests.js file to config folder if you have not already
