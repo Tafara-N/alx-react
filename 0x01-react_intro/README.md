@@ -55,7 +55,7 @@ Favicon
 - a body div with a class named `App-body` containing at least one paragraph with the text `Login to access the full dashboard`
 - a footer div with a class named `App-footer` containing at least one paragraph with the text `Copyright 2020 - holberton School`
 
-**Modify the App.css to make the project looks like the following screenshot:**
+**Modify the `App.css` to make the project looks like the following screenshot:**
 
 
 
