@@ -51,7 +51,7 @@ Copyright - Holberton School
 - Do NOT push your `dist/main.js` if you have one.
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x00-Webpack
 File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 
@@ -91,7 +91,7 @@ File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 - [Debounce documentation on Lodash](https://lodash.com/docs/#debounce)
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x00-Webpack
 File: `task_1/js/dashboard_main.js, task_1/package.json, task_1/webpack.config.js, task_1/public/index.html`
 
@@ -117,7 +117,7 @@ Create a specific configuration for Webpack.
 - When running Webpack, you should not see the warning `WARNING in asset size limit: The following asset(s) exceed the recommended size limit`
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x00-Webpack
 File: `task_2/package.json, task_2/css/main.css, task_2/webpack.config.js, task_2/js/dashboard_main.js, task_2/public/index.html`
 
@@ -159,6 +159,6 @@ When running Webpack, your javascript and html files should be generated in a pu
 Opening your main file should not generate any error in the console.
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x00-Webpack
 File: `task_3/modules/body/body.css, task_3/modules/body/body.js, task_3/modules/footer/footer.css, task_3/modules/footer/footer.js, task_3/modules/header/header.css, task_3/modules/header/header.js, task_3/package.json, task_3/webpack.config.js`
