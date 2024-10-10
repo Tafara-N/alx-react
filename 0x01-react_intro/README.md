@@ -72,7 +72,7 @@ mandatory
 
 - GitHub repository: `alx-react`
 Directory: 0x00-react_introduction
-- File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
+- File: `task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js`
 
 ### 2. Embedding expressions, functions
 
