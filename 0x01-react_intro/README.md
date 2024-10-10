@@ -223,11 +223,11 @@ Install and configure the various plugins to support:
 - style loader
 - css loader
 - image webpack loader
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x01-react_intro`
-- File: task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js
+- File: `task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js`
 
 ### 10. Install Babel
 
