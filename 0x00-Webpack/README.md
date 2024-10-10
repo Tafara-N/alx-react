@@ -55,7 +55,7 @@ GitHub repository: alx-react
 Directory: 0x00-Webpack
 File: `task_0/package.json, task_0/src/index.js, task_0/dist/index.html`
 
-1. Learning how to use Webpack with a config file
+### 1. Learning how to use Webpack with a config file
 
 Installing packages
 
