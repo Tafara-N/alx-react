@@ -63,7 +63,7 @@ When running, there should not be any lint error in the console
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_0/dashboards/src/, task_0/dashboard/src/App.css, task_0/dashboard/src/App.js
 
 1. Basic Application
@@ -101,7 +101,7 @@ When running, there should not be any lint error in the console
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_1/dashboard/src/, task_1/dashboard/src/utils.js, task_1/dashboard/src/App.js, task_1/dashboard/src/Notifications.css, task_1/dashboard/src/Notifications.js, task_1/dashboard/src/index.js
 3. Modify the App
 mandatory
@@ -114,7 +114,7 @@ add one button element with the text “OK”
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_2/dashboard/src/, task_2/dashboard/src/App.js
 4. Modify the Notifications
 mandatory
@@ -146,7 +146,7 @@ Your app should look like the following screenshot:
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_2/dashboard/src/, task_2/dashboard/src/utils.js, task_2/dashboard/src/Notifications.js, task_2/dashboard/src/Notifications.css
 5. Create basic tests with four tests
 mandatory
@@ -158,7 +158,7 @@ Write a test checking the returned string for getLatestNotification
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/utils.test.js
 6. Install Enzyme
 mandatory
@@ -167,7 +167,7 @@ Create a file named setupTests.js and configure the adapter for Enzyme
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/setupTests.js
 
 7. Create React tests
@@ -192,7 +192,7 @@ Tests: 11 passed, 11 total
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_3/dashboard/src/App.test.js, task_3/dashboard/src/Notifications.test.js
 8. Deploy to a GitHub page
 mandatory
@@ -203,7 +203,7 @@ Your application should be working correctly when accessing the GitHub URL.
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_4/
 9. Create a project using Webpack
 mandatory
@@ -224,7 +224,7 @@ image webpack loader
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_5/dashboard/config/webpack.config.js, task_5/dashboard/dist/index.html, task_5/dashboard/src/index.js
 
 10. Install Babel
@@ -237,7 +237,7 @@ At this point, running webpack-dev-server should correctly execute your code, an
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_5/dashboard/.babelrc, task_5/dashboard/config/webpack.config.js
 11. Reorganize the files
 mandatory
@@ -252,7 +252,7 @@ Webpack config file should be within a config folder if it isn’t already
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: task_5/dashboard/src/App/App.css, task_5/dashboard/src/App/App.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.css, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/utils/utils.js, task_5/dashboard/src/utils/utils.test.js, task_5/dashboard/config/webpack.config.js, task_5/dashboard/src/assets/holberton-logo.jpg, task_5/dashboard/dist/favicon.ico
 
 ### 12. Testing
@@ -275,5 +275,5 @@ move the `setupTests.js` file to `config` folder if you have not already
 
 **Repo:**
 - GitHub repository: `alx-react`
-Directory: 0x01-react_intro
+- Directory: `0x01-react_intro`
 - File: `task_5/dashboard/config/setupTests.js, task_5/dashboard/package.json`
