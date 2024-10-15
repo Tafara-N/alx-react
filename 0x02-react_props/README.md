@@ -98,11 +98,13 @@ To develop your tests faster, you can watch them. The test suite will run for ev
 
 **Header.test.js**
 
-Import your new Header component within the test, and write two checks:
+Import your new `Header` component within the test, and write two checks:
 
-Shallow render the Header component to verify it renders without crashing
-Verify that the components render img and h1 tags
-Login.test.js
+- Shallow render the `Header` component to verify it renders without crashing
+- Verify that the components render `img` and `h1` tags
+
+**Login.test.js**
+
 Import your new Login component within the test, and write two checks:
 
 Shallow render the Login component to verify it renders without crashing
