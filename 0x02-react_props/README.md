@@ -303,7 +303,8 @@ Notifications:
 - Modify the CSS to make the UI looks like the image below when `displayDrawer` is `true`
 
 
-Modify the CSS to make the UI looks like the image below when displayDrawer is false
+
+- Modify the CSS to make the UI looks like the image below when `displayDrawer` is `false`
 
 
 App:
