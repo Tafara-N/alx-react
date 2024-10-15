@@ -119,19 +119,23 @@ Import your new `Footer` component within the test, and write two checks:
 
 **App.test.js**
 
-Modify the App.test.js file, and add four checks:
+Modify the `App.test.js` file, and add four checks:
 
-It should contain the Notifications component
-It should contain the Header component
-It should contain the Login component
-It should contain the Footer component
+It should contain the `Notifications` component
+It should contain the `Header` component
+It should contain the `Login` component
+It should contain the `Footer` component
+
 Requirements:
 
-At this point, running the test suites, should show:
+- At this point, running the test suites, should show:
+
+```
 Test Suites: 6 passed, 6 total
 Tests: 18 passed, 18 total
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_1/package.json, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Footer/Footer.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/App/App.test.js
