@@ -2,11 +2,11 @@
 
 **Read or watch:**
 
-React Official Website
-Getting started with React
-React Developer Tools
-Enzyme
-React Fragments
+- [React Official Website]()
+- [Getting started with React]()
+- [React Developer Tools]()
+- [Enzyme]()
+- [React Fragments]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
