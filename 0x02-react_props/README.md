@@ -273,15 +273,17 @@ Define the prop types for the NotificationItem component:
 
 **Modify the Notifications component**
 
-Add a new div element with the class menuItem:
+Add a new `div` element with the class `menuItem`:
 
-it contains the text Your notifications
-it should be display right before div.Notifications
-Add a prop to the Notifications component named displayDrawer:
+- it contains the text `Your notifications`
+- it should be display right before `div.Notifications`
 
-it should be a boolean
-by default it should be false
-Modify the div.Notifications tag:
+Add a prop to the Notifications component named `displayDrawer`:
+
+- it should be a boolean
+- by default it should be `false`
+
+Modify the `div.Notifications` tag:
 
 it should only be visible when displayDrawer is true
 Modify the Notifications.test.js:
