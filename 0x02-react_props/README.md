@@ -1,6 +1,6 @@
 # Resources
 
-Read or watch:
+**Read or watch:**
 
 React Official Website
 Getting started with React
