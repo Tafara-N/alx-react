@@ -54,10 +54,10 @@ Create a new folder `Footer`:
 
 Create a new folder `Login`:
 
-Move the code of the login section from the `App.js` to a new file `Login.js`
-The code should be wrapped in a React Fragment
-Move the css code, related to the login, of the `App.css` to a new file named `Login.css`
-Create a `Login.test.js`, we will add the tests later
+- Move the code of the login section from the `App.js` to a new file `Login.js`
+- The code should be wrapped in a React Fragment
+- Move the css code, related to the login, of the `App.css` to a new file named `Login.css`
+- Create a `Login.test.js`, we will add the tests later
 
 **Modify the shell**
 
