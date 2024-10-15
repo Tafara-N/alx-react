@@ -158,9 +158,9 @@ Create a new component named `NotificationItem`:
 
 Every component should be tested. Create a new `NotificationItem.test.js` file, and add the following checks:
 
-Verify that the basic rendering of the component works without crashing
-Verify that by passing dummy `type` and `value` props, it renders the correct html (for example: type=“default” and value=“test”)
-Verify that by passing a dummy `html` prop, it renders the correct html (for example: `html={{ __html: '<u>test</u>' }}`)
+- Verify that the basic rendering of the component works without crashing
+- Verify that by passing dummy `type` and `value` props, it renders the correct html (for example: type=“default” and value=“test”)
+- Verify that by passing a dummy `html` prop, it renders the correct html (for example: `html={{ __html: '<u>test</u>' }}`)
 
 **Modify Notifications.js**
 
