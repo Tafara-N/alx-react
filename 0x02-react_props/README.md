@@ -393,8 +393,8 @@ Modify `Notifications.test.js`:
 
 Modify `CourseList.test.js`:
 
-Add a new test to verify that CourseList renders correctly if you pass an empty array or if you don’t pass the listCourses property
-Add a new test to verify that when you pass a list of courses, the component renders it correctly
+- Add a new test to verify that `CourseList` renders correctly if you pass an empty array or if you don’t pass the `listCourses` property
+- Add a new test to verify that when you pass a list of courses, the component renders it correctly
 
 **Requirements:**
 
