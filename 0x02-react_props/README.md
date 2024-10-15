@@ -84,7 +84,7 @@ Requirements:
 - At this point, reloading the App should display the exact same page as the last task
 - The console in your browser should not show any error or warning
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x02-react_props
 File: `task_0/dashboard/dist/index.html, task_0/dashboard/src/App/App.js, task_0/dashboard/src/Footer/Footer.css, task_0/dashboard/src/Footer/Footer.js, task_0/dashboard/src/Footer/Footer.test.js, task_0/dashboard/src/Header/Header.css, task_0/dashboard/src/Header/Header.js, task_0/dashboard/src/Header/Header.test.js, task_0/dashboard/src/Login/Login.css, task_0/dashboard/src/Login/Login.js, task_0/dashboard/src/Login/Login.test.js`
@@ -122,7 +122,7 @@ Requirements:
 At this point, running the test suites, should show:
 Test Suites: 6 passed, 6 total
 Tests: 18 passed, 18 total
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x02-react_props
@@ -160,7 +160,7 @@ The console in your browser should not show any error or warning
 Running the test suites, should show:
 Test Suites: 7 passed, 7 total
 Tests: 22 passed, 22 total
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x02-react_props
@@ -171,7 +171,7 @@ Using the React extension in Chrome:
 
 Modify the type of the first NotificationItem to change from “default” to “urgent”. The first notification should change color to red, take a screenshot
 Profile the load of the application and note which Component is the longest to render after App, take a screenshot
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x02-react_props
@@ -278,7 +278,7 @@ The console in your browser should not show any error or warning
 Running the test suites, should show:
 Test Suites: 5 passed, 5 total
 Tests: 24 passed, 24 total
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x02-react_props
@@ -347,7 +347,7 @@ Test Suites: 9 passed, 9 total
 Tests: 37 passed, 37 total
 ```
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x02-react_props
 File: `task_5/dashboard/src/CourseList/CourseShape.js, task_5/dashboard/src/CourseList/CourseList.js, task_5/dashboard/src/CourseList/CourseListRow.js, task_5/dashboard/src/App/App.js, task_5/dashboard/src/Notifications/NotificationItemShape.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/NotificationItem.test.js, task_5/dashboard/src/CourseList/CourseList.test.js`
