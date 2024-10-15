@@ -215,8 +215,8 @@ Create a new folder `CourseList` and a new component with the name `CourseListRo
 
 The component returns a `tr` html element, and within that element:
 
-if isHeader is true
-if textSecondCell is null, it returns a th element containing textFirstCell with a colSpan = 2
+- if `isHeader` is `true`
+    - if `textSecondCell` is `null`, it returns a `th` element containing `textFirstCell` with a `colSpan = 2`
 if textSecondCell is not null, it returns two th elements containing textFirstCell and textSecondCell
 if isHeader is false
 it returns two td elements containing textFirstCell and textSecondCell
