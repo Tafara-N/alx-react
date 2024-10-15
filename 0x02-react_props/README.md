@@ -260,8 +260,8 @@ Modify the App component to display either the Login, or the CourseList componen
 
 **Modify the App test suite:**
 
-Add a test to check that CourseList is not displayed
-Describe a new case, when isLoggedIn is true, and add two checks. The first one should verify that the Login component is not included. The second one should verify that the CourseList component is included
+- Add a test to check that `CourseList` is not displayed
+- Describe a new case, when `isLoggedIn` is `true`, and add two checks. The first one should verify that the `Login` component is not included. The second one should verify that the `CourseList` component is included
 
 **Modify the NotificationItem component**
 
