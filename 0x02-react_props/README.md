@@ -366,17 +366,19 @@ Add a `listCourses` property to the `CourseList` component in `App`
 
 **Create the notifications array**
 
-Inside the Notifications directory, create a new Shape named NotificationItemShape containing:
+Inside the `Notifications` directory, create a new Shape named `NotificationItemShape` containing:
 
-an id (number, required)
-a html (object of { \_\_html: string })
-a type (string, required)
-a value (string)
+- an id (number, required)
+- a html (object of { `\_\_html`: string })
+- a type (string, required)
+- a value (string)
+
 Modify Notifications:
 
-Add a proptype listNotifications that will take an array of the shape you just created
-When listNotifications is empty, display a row showing No new notification for now
-When listNotifications contains at least one element, display a NotificationItem for each element of the array
+Add a proptype `listNotifications` that will take an array of the shape you just created
+When listNotifications is empty, display a row showing `No new notification for now`
+When listNotifications contains at least one element, display a `NotificationItem` for each element of the array
+
 Modify the App to create a new array named listNotifications. It should contains all the previous elements we used to have in Notifications elements. Add an id for each element.
 
 Add the property listNotifications to the Notifications component in App
