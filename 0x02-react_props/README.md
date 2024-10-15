@@ -144,22 +144,26 @@ Tests: 18 passed, 18 total
 
 **2.1. Create a NotificationItem.js**
 
-The Notifications component is repeating the same tags a lot. It will be hard to maintain and reuse. Let’s create a component to support the li generation.
+The Notifications component is repeating the same tags a lot. It will be hard to maintain and reuse. Let’s create a component to support the `li` generation.
 
-Create a new component named NotificationItem:
+Create a new component named `NotificationItem`:
 
-it should render a li tag
-the component accept three properties (type, html, and value)
-type should be rendered with the data-notification-type attribute
-value should be rendered within the tag
-html should be rendered with the dangerouslySetInnerHTML attribute
-Create a NotificationItem.test.js
-Every component should be tested. Create a new NotificationItem.test.js file, and add the following checks:
+it should render a `li` tag
+the component accept three properties (`type`, `html`, and `value`)
+`type` should be rendered with the `data-notification-type` attribute
+`value` should be rendered within the tag
+`html` should be rendered with the `dangerouslySetInnerHTML` attribute
+
+**Create a NotificationItem.test.js**
+
+Every component should be tested. Create a new `NotificationItem.test.js` file, and add the following checks:
 
 Verify that the basic rendering of the component works without crashing
-Verify that by passing dummy type and value props, it renders the correct html (for example: type=“default” and value=“test”)
-Verify that by passing a dummy html prop, it renders the correct html (for example: html={{ __html: '<u>test</u>' }})
-Modify Notifications.js
+Verify that by passing dummy `type` and `value` props, it renders the correct html (for example: type=“default” and value=“test”)
+Verify that by passing a dummy `html` prop, it renders the correct html (for example: `html={{ __html: '<u>test</u>' }}`)
+
+**Modify Notifications.js**
+
 Import the new NotificationItem component in the Notifications.js file and replace the <li> tags with NotificationItem components.
 
 Modify Notifications.test.js
