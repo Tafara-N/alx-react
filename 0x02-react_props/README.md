@@ -30,18 +30,21 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ### 0. Basic components
 
-Start with your files from the last task of the 0x01. React intro project
+Start with your files from the last task of the `0x01. React intro` project
 
-Instead of creating new elements, we’re going to create components to split the project. The App.js is going to become the main entry point, the shell, for every component in the app.
+Instead of creating new elements, we’re going to create components to split the project. The `App.js` is going to become the main entry point, the shell, for every component in the app.
 
-Create a Header component
-Create a new folder Header:
+**Create a Header component**
+
+Create a new folder `Header`:
 
 Move the code of the header from the App.js to a new file Header.js
 Move the css code, related to the header, of the App.css to a new file named Header.css
 Create an empty Header.test.js. We’ll add tests for it later.
-Create a Footer component
-Create a new folder Footer:
+
+**Create a Footer component**
+
+Create a new folder `Footer`:
 
 Move the code of the footer from the App.js to a new file Footer.js
 Move the css code, related to the footer, of the App.css to a new file named Footer.css
