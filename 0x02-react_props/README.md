@@ -253,10 +253,11 @@ Create a `CourseList.test.js` with two checks:
 
 Modify the App component to display either the Login, or the CourseList component:
 
-Import Proptypes
-Create a property isLoggedIn. It should be false by default
-When isLoggedIn is false, display the Login screen
-When isLoggedIn is true, display the CourseList screen
+- Import Proptypes
+- Create a property `isLoggedIn`. It should be `false` by default
+- When `isLoggedIn` is `false`, display the `Login` screen
+- When `isLoggedIn` is `true`, display the `CourseList` screen
+
 Modify the App test suite:
 
 Add a test to check that CourseList is not displayed
