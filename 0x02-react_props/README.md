@@ -148,11 +148,11 @@ The Notifications component is repeating the same tags a lot. It will be hard to
 
 Create a new component named `NotificationItem`:
 
-it should render a `li` tag
-the component accept three properties (`type`, `html`, and `value`)
-`type` should be rendered with the `data-notification-type` attribute
-`value` should be rendered within the tag
-`html` should be rendered with the `dangerouslySetInnerHTML` attribute
+- it should render a `li` tag
+- the component accept three properties (`type`, `html`, and `value`)
+- `type` should be rendered with the `data-notification-type` attribute
+- `value` should be rendered within the tag
+- `html` should be rendered with the `dangerouslySetInnerHTML` attribute
 
 **Create a NotificationItem.test.js**
 
