@@ -68,12 +68,12 @@ In the `index.js`:
 
 In the `App.js`:
 
-Import Notifications, Login, Footer, and Header
-Add the new Notifications component before the div.App element
-Wrap Notifications and the rest of the div.App within a React Fragment
-In the div.App, replace the header code by the new Header component
-In the div.App-body, replace the login code by the new Login component
-In the div.App-footer, replace the footer code by the new Footer component
+- Import Notifications, Login, Footer, and Header
+- Add the new Notifications component before the `div.App` element
+- Wrap Notifications and the rest of the `div.App` within a React Fragment
+- In the `div.App`, replace the header code by the new Header component
+- In the `div.App-body`, replace the login code by the new Login component
+- In the `div.App-footer`, replace the footer code by the new Footer component
 
 In the `App.test.js`:
 
