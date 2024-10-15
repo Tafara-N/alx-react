@@ -302,28 +302,34 @@ Notifications:
 
 - Modify the CSS to make the UI looks like the image below when `displayDrawer` is `true`
 
-
+![Update the UI](images/ui_1.png)
 
 - Modify the CSS to make the UI looks like the image below when `displayDrawer` is `false`
 
+![Update the UI](images/ui_2.png)
 
 App:
 
 - Modify the CSS to make the UI looks like the image below when `isLoggedIn` is `false`
 
+![Update the UI](images/ui_3.png)
 
 - Modify the CSS to make the UI looks like the image below when `isLoggedIn` is `true`
 
+![Update tye UI](images/ui_4.png)
 
 Requirements:
 
-You should define a default property for every prop that is not required
-The console in your browser should not show any error or warning
-Running the test suites, should show:
+- You should define a default property for every prop that is not required
+- The console in your browser should not show any error or warning
+- Running the test suites, should show:
+
+```
 Test Suites: 5 passed, 5 total
 Tests: 24 passed, 24 total
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_4/dashboard/src/CourseList/CourseListRow.js, task_4/dashboard/src/CourseList/CourseListRow.test.js, task_4/dashboard/src/CourseList/CourseList.js, task_4/dashboard/src/CourseList/CourseList.css, task_4/dashboard/src/CourseList/CourseList.test.js, task_4/dashboard/src/App/App.js, task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/Notifications/NotificationItem.js, task_4/dashboard/src/Notifications/Notifications.js, task_4/dashboard/src/Notifications/Notifications.test.js
