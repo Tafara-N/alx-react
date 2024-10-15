@@ -289,10 +289,10 @@ Modify the `div.Notifications` tag:
 
 Modify the `Notifications.test.js`:
 
-- Add a check that the menu item is being displayed when displayDrawer is false
-- Add a check that the div.Notifications is not being displayed when displayDrawer is false
-- Add a check that the menu item is being displayed when displayDrawer is true
-- Add a check that the div.Notifications is being displayed when displayDrawer is true
+- Add a check that the menu item is being displayed when `displayDrawer` is `false`
+- Add a check that the `div.Notifications` is not being displayed when `displayDrawer` is `false`
+- Add a check that the menu item is being displayed when `displayDrawer` is `true`
+- Add a check that the `div.Notifications` is being displayed when `displayDrawer` is `true`
 
 **Update the UI**
 
