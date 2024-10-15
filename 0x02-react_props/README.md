@@ -296,11 +296,11 @@ Modify the `Notifications.test.js`:
 
 **Update the UI**
 
-You can use the React extension in Chrome, to toggle the two booleans displayDrawer and isLoggedIn
+You can use the React extension in Chrome, to toggle the two booleans `displayDrawer` and `isLoggedIn`
 
 Notifications:
 
-Modify the CSS to make the UI looks like the image below when displayDrawer is true
+- Modify the CSS to make the UI looks like the image below when `displayDrawer` is `true`
 
 
 Modify the CSS to make the UI looks like the image below when displayDrawer is false
