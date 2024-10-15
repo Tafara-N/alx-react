@@ -346,23 +346,26 @@ Create a new Shape named `CourseShape` containing:
 
 Modify `CourseList.js`:
 
-Add a propType `listCourses` that will take an array of the shape you created
-Make sure that if `listCourses` is not passed by the parent component the propType defaults to an empty array
-When listCourses is empty, display a row showing `No course available yet`
-When listCourses contains at least one element, display a row for each element showing the name of the course and the number of credits
-Make sure to add a key to help React optimize rendering
+- Add a propType `listCourses` that will take an array of the shape you created
+- Make sure that if `listCourses` is not passed by the parent component the propType defaults to an empty array
+- When listCourses is empty, display a row showing `No course available yet`
+- When listCourses contains at least one element, display a row for each element showing the name of the course and the number of credits
+- Make sure to add a key to help React optimize rendering
 
 Modify `CourseListRow.js`:
 
-Make sure the property textSecondCell can accept either a string or number
-Modify the App.js to create a new array named listCourses. It should contains three elements:
+Make sure the property `textSecondCell` can accept either a `string` or `number`
 
-id: 1, name: ‘ES6’, credit: 60
-id: 2, name: ‘Webpack’, credit: 20
-id: 3, name: ‘React’, credit: 40
-Add a listCourses property to the CourseList component in App
+Modify the `App.js` to create a new array named `listCourses`. It should contains three elements:
 
-Create the notifications array
+- id: 1, name: ‘ES6’, credit: 60
+- id: 2, name: ‘Webpack’, credit: 20
+- id: 3, name: ‘React’, credit: 40
+
+Add a `listCourses` property to the `CourseList` component in `App`
+
+**Create the notifications array**
+
 Inside the Notifications directory, create a new Shape named NotificationItemShape containing:
 
 an id (number, required)
