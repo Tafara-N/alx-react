@@ -188,17 +188,19 @@ Tests: 22 passed, 22 total
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: `task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js`
-3. Checking the application using the React extension
-mandatory
+
+### 3. Checking the application using the React extension
+
 Using the React extension in Chrome:
 
 Modify the type of the first NotificationItem to change from “default” to “urgent”. The first notification should change color to red, take a screenshot
 Profile the load of the application and note which Component is the longest to render after App, take a screenshot
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
-- File: task_3/change_property.png, task_3/profiler.png
+- File: `task_3/change_property.png, task_3/profiler.png`
+
 4. Props types & Default props & Shapes
 mandatory
 To work on this task, install prop-types with npm first
