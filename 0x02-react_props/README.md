@@ -309,10 +309,10 @@ Notifications:
 
 App:
 
-Modify the CSS to make the UI looks like the image below when isLoggedIn is false
+- Modify the CSS to make the UI looks like the image below when `isLoggedIn` is `false`
 
 
-Modify the CSS to make the UI looks like the image below when isLoggedIn is true
+- Modify the CSS to make the UI looks like the image below when `isLoggedIn` is `true`
 
 
 Requirements:
