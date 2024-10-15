@@ -93,9 +93,11 @@ Requirements:
 
 To develop your tests faster, you can watch them. The test suite will run for every change you make:
 
-Add the following script to task_1/package.json: "test-watch": "jest --watch"
-Run your suite using npm run test-watch
-Header.test.js
+- Add the following script to `task_1/package.json: "test-watch": "jest --watch"`
+- Run your suite using `npm run test-watch`
+
+**Header.test.js**
+
 Import your new Header component within the test, and write two checks:
 
 Shallow render the Header component to verify it renders without crashing
