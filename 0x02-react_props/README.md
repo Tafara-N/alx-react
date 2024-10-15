@@ -285,8 +285,9 @@ Add a prop to the Notifications component named `displayDrawer`:
 
 Modify the `div.Notifications` tag:
 
-it should only be visible when displayDrawer is true
-Modify the Notifications.test.js:
+- it should only be visible when `displayDrawer` is true
+
+Modify the `Notifications.test.js`:
 
 Add a check that the menu item is being displayed when displayDrawer is false
 Add a check that the div.Notifications is not being displayed when displayDrawer is false
