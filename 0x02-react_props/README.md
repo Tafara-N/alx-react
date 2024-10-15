@@ -28,8 +28,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Tasks
 
-0. Basic components
-mandatory
+### 0. Basic components
+
 Start with your files from the last task of the 0x01. React intro project
 
 Instead of creating new elements, we’re going to create components to split the project. The App.js is going to become the main entry point, the shell, for every component in the app.
