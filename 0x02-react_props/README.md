@@ -221,13 +221,14 @@ The component returns a `tr` html element, and within that element:
 - if `isHeader` is `false`
 - it returns two `td` elements containing `textFirstCell` and `textSecondCell`
 
-Create a CourseListRow.test.js file:
+Create a `CourseListRow.test.js` file:
 
-When isHeader is true
-Add a check to test the component renders one cell with colspan = 2 when textSecondCell does not exist
-Add a check to test the component renders two cells when textSecondCell is present
-When isHeader is false
-Add a check to test the component renders correctly two td elements within a tr element
+- When `isHeader` is `true`
+    - Add a check to test the component renders one cell with `colspan = 2` when `textSecondCell` does not exist
+    - Add a check to test the component renders two cells when `textSecondCell` is present
+- When `isHeader` is `false`
+    - Add a check to test the component renders correctly two `td` elements within a `tr` element
+
 Create a CourseList component
 In the folder CourseList, create a new component named CourseList:
 
