@@ -38,9 +38,9 @@ Instead of creating new elements, we’re going to create components to split th
 
 Create a new folder `Header`:
 
-Move the code of the header from the App.js to a new file Header.js
-Move the css code, related to the header, of the App.css to a new file named Header.css
-Create an empty Header.test.js. We’ll add tests for it later.
+- Move the code of the header from the `App.js` to a new file `Header.js`
+- Move the css code, related to the header, of the `App.css` to a new file named `Header.css`
+- Create an empty `Header.test.js`. We’ll add tests for it later.
 
 **Create a Footer component**
 
