@@ -233,14 +233,14 @@ Create a `CourseListRow.test.js` file:
 
 In the folder `CourseList`, create a new component named `CourseList`:
 
-it returns a `table` element with an id `CourseList`
-it contains a `thead` element
-it includes a `CourseListRow` with the props `textFirstCell="Available courses"` and `isHeader=true`
-it includes a `CourseListRow with the props textFirstCell="Course name", textSecondCell="Credit"`, and `isHeader=true`
-it contains a `tbody` element
-it includes a `CourseListRow with the props textFirstCell="ES6", textSecondCell="60", and isHeader=false
-it includes a CourseListRow with the props textFirstCell="Webpack", textSecondCell="20", and isHeader=false
-it includes a CourseListRow with the props textFirstCell="React", textSecondCell="40", and isHeader=false
+- it returns a `table` element with an id `CourseList`
+- it contains a `thead` element
+- it includes a `CourseListRow` with the props `textFirstCell="Available courses"` and `isHeader=true`
+- it includes a `CourseListRow with the props textFirstCell="Course name", textSecondCell="Credit"`, and `isHeader=true`
+- it contains a `tbody` element
+- it includes a `CourseListRow with the props textFirstCell="ES6", textSecondCell="60", and isHeader=false
+- it includes a CourseListRow with the props textFirstCell="Webpack", textSecondCell="20", and isHeader=false
+- it includes a CourseListRow with the props textFirstCell="React", textSecondCell="40", and isHeader=false
 
 Create and import a file `CourseList.css` where you will be able to add the styling for the component
 
