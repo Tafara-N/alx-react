@@ -209,9 +209,9 @@ To work on this task, install `prop-types` with npm first
 
 Create a new folder `CourseList` and a new component with the name `CourseListRow`. The component accepts three props:
 
-isHeader` (bool, default: false)
-textFirstCell` (string, required)
-textSecondCell` (string, default: null)
+- `isHeader` (bool, default: false)
+- `textFirstCell` (string, required)
+- `textSecondCell` (string, default: null)
 
 The component returns a `tr` html element, and within that element:
 
