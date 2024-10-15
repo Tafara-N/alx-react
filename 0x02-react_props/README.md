@@ -175,16 +175,19 @@ Modify the `Notifications.test.js` file to change one of the check:
 
 **Requirements:**
 
-At this point, reloading the App should display the exact same page as the last task
-The console in your browser should not show any error or warning
-Running the test suites, should show:
+- At this point, reloading the App should display the exact same page as the last task
+- The console in your browser should not show any error or warning
+- Running the test suites, should show:
+
+```
 Test Suites: 7 passed, 7 total
 Tests: 22 passed, 22 total
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
-- File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
+- File: `task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js`
 3. Checking the application using the React extension
 mandatory
 Using the React extension in Chrome:
