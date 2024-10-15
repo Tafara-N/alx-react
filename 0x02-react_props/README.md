@@ -324,6 +324,11 @@ Requirements:
 - The console in your browser should not show any error or warning
 - Running the test suites, should show:
 
+
+
+
+
+
 ```
 Test Suites: 5 passed, 5 total
 Tests: 24 passed, 24 total
