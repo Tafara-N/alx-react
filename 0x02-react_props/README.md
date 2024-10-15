@@ -4,7 +4,7 @@
 
 **Read or watch:**
 
-- [React Official Website]()
+- [React Official Website](https://react.dev/)
 - [Getting started with React]()
 - [React Developer Tools]()
 - [Enzyme]()
