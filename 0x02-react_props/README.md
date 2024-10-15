@@ -164,14 +164,16 @@ Every component should be tested. Create a new `NotificationItem.test.js` file, 
 
 **Modify Notifications.js**
 
-Import the new NotificationItem component in the Notifications.js file and replace the <li> tags with NotificationItem components.
+Import the new `NotificationItem` component in the `Notifications.js` file and replace the `<li>` tags with `NotificationItem` components.
 
-Modify Notifications.test.js
-Modify the Notifications.test.js file to change one of the check:
+**Modify Notifications.test.js**
 
-Instead of testing if the component renders li, check that the component renders NotificationItem elements
-Add a test to verify that the first NotificationItem element renders the right html (note: this is usually not the best way to write tests, but sometimes necessary when you don’t control the child component)
-Requirements:
+Modify the `Notifications.test.js` file to change one of the check:
+
+- Instead of testing if the component renders `li`, check that the component renders `NotificationItem` elements
+- Add a test to verify that the first `NotificationItem` element renders the right `html` (note: this is usually not the best way to write tests, but sometimes necessary when you don’t control the child component)
+
+**Requirements:**
 
 At this point, reloading the App should display the exact same page as the last task
 The console in your browser should not show any error or warning
