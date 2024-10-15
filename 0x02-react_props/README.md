@@ -354,7 +354,7 @@ Modify `CourseList.js`:
 
 Modify `CourseListRow.js`:
 
-Make sure the property `textSecondCell` can accept either a `string` or `number`
+- Make sure the property `textSecondCell` can accept either a `string` or `number`
 
 Modify the `App.js` to create a new array named `listCourses`. It should contains three elements:
 
