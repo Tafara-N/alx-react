@@ -334,7 +334,7 @@ Tests: 24 passed, 24 total
 - Directory: `0x02-react_props`
 - File: `task_4/dashboard/src/CourseList/CourseListRow.js, task_4/dashboard/src/CourseList/CourseListRow.test.js, task_4/dashboard/src/CourseList/CourseList.js, task_4/dashboard/src/CourseList/CourseList.css, task_4/dashboard/src/CourseList/CourseList.test.js, task_4/dashboard/src/App/App.js, task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/Notifications/NotificationItem.js, task_4/dashboard/src/Notifications/Notifications.js, task_4/dashboard/src/Notifications/Notifications.test.js`
 
-###5. Shapes, Loops, and Keys
+### 5. Shapes, Loops, and Keys
 
 Create the courses array
 Create a new Shape named CourseShape containing:
