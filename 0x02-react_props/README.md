@@ -138,10 +138,12 @@ Tests: 18 passed, 18 total
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
-- File: task_1/package.json, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Footer/Footer.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/App/App.test.js
-2. Split the Notifications component
-mandatory
-2.1. Create a NotificationItem.js
+- File: `task_1/package.json, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Footer/Footer.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/App/App.test.js`
+
+### 2. Split the Notifications component
+
+**2.1. Create a NotificationItem.js**
+
 The Notifications component is repeating the same tags a lot. It will be hard to maintain and reuse. Let’s create a component to support the li generation.
 
 Create a new component named NotificationItem:
