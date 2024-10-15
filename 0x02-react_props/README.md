@@ -229,8 +229,9 @@ Create a `CourseListRow.test.js` file:
 - When `isHeader` is `false`
     - Add a check to test the component renders correctly two `td` elements within a `tr` element
 
-Create a CourseList component
-In the folder CourseList, create a new component named CourseList:
+**Create a CourseList component**
+
+In the folder `CourseList`, create a new component named `CourseList`:
 
 it returns a table element with an id CourseList
 it contains a thead element
