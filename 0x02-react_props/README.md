@@ -1,3 +1,5 @@
+![Render Props Everywhere](render_props.jpg)
+
 # Resources
 
 **Read or watch:**
