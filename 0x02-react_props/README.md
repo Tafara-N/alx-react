@@ -20,8 +20,10 @@ Requirements
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.x and npm 6.x.x
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Tasks
+A `README.md` file, at the root of the folder of the project, is mandatory
+
+## Tasks
+
 0. Basic components
 mandatory
 Start with your files from the last task of the 0x01. React intro project
