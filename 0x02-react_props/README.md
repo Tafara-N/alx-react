@@ -105,11 +105,13 @@ Import your new `Header` component within the test, and write two checks:
 
 **Login.test.js**
 
-Import your new Login component within the test, and write two checks:
+Import your new `Login` component within the test, and write two checks:
 
-Shallow render the Login component to verify it renders without crashing
-Verify that the components renders 2 input tags and 2 label tags
-Footer.test.js
+- Shallow render the `Login` component to verify it renders without crashing
+- Verify that the components renders 2 `input` tags and 2 `label` tags
+
+**Footer.test.js**
+
 Import your new Footer component within the test, and write two checks:
 
 Shallow render the Footer component to verify it renders without crashing
