@@ -112,11 +112,13 @@ Import your new `Login` component within the test, and write two checks:
 
 **Footer.test.js**
 
-Import your new Footer component within the test, and write two checks:
+Import your new `Footer` component within the test, and write two checks:
 
-Shallow render the Footer component to verify it renders without crashing
-Verify that the components at the very least render the text “Copyright”
-App.test.js
+- Shallow render the `Footer` component to verify it renders without crashing
+- Verify that the components at the very least render the text “Copyright”
+
+**App.test.js**
+
 Modify the App.test.js file, and add four checks:
 
 It should contain the Notifications component
