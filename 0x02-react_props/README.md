@@ -85,7 +85,7 @@ Requirements:
 - The console in your browser should not show any error or warning
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: `task_0/dashboard/dist/index.html, task_0/dashboard/src/App/App.js, task_0/dashboard/src/Footer/Footer.css, task_0/dashboard/src/Footer/Footer.js, task_0/dashboard/src/Footer/Footer.test.js, task_0/dashboard/src/Header/Header.css, task_0/dashboard/src/Header/Header.js, task_0/dashboard/src/Header/Header.test.js, task_0/dashboard/src/Login/Login.css, task_0/dashboard/src/Login/Login.js, task_0/dashboard/src/Login/Login.test.js`
 
@@ -124,7 +124,7 @@ Test Suites: 6 passed, 6 total
 Tests: 18 passed, 18 total
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_1/package.json, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Footer/Footer.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/App/App.test.js
 2. Split the Notifications component
@@ -162,7 +162,7 @@ Test Suites: 7 passed, 7 total
 Tests: 22 passed, 22 total
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 3. Checking the application using the React extension
@@ -173,7 +173,7 @@ Modify the type of the first NotificationItem to change from “default” to �
 Profile the load of the application and note which Component is the longest to render after App, take a screenshot
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_3/change_property.png, task_3/profiler.png
 4. Props types & Default props & Shapes
@@ -280,7 +280,7 @@ Test Suites: 5 passed, 5 total
 Tests: 24 passed, 24 total
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: task_4/dashboard/src/CourseList/CourseListRow.js, task_4/dashboard/src/CourseList/CourseListRow.test.js, task_4/dashboard/src/CourseList/CourseList.js, task_4/dashboard/src/CourseList/CourseList.css, task_4/dashboard/src/CourseList/CourseList.test.js, task_4/dashboard/src/App/App.js, task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/Notifications/NotificationItem.js, task_4/dashboard/src/Notifications/Notifications.js, task_4/dashboard/src/Notifications/Notifications.test.js
 5. Shapes, Loops, and Keys
@@ -348,6 +348,6 @@ Tests: 37 passed, 37 total
 ```
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x02-react_props`
 - File: `task_5/dashboard/src/CourseList/CourseShape.js, task_5/dashboard/src/CourseList/CourseList.js, task_5/dashboard/src/CourseList/CourseListRow.js, task_5/dashboard/src/App/App.js, task_5/dashboard/src/Notifications/NotificationItemShape.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/NotificationItem.test.js, task_5/dashboard/src/CourseList/CourseList.test.js`
