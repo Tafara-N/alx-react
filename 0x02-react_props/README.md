@@ -121,10 +121,10 @@ Import your new `Footer` component within the test, and write two checks:
 
 Modify the `App.test.js` file, and add four checks:
 
-It should contain the `Notifications` component
-It should contain the `Header` component
-It should contain the `Login` component
-It should contain the `Footer` component
+- It should contain the `Notifications` component
+- It should contain the `Header` component
+- It should contain the `Login` component
+- It should contain the `Footer` component
 
 Requirements:
 
