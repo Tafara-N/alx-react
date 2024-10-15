@@ -246,7 +246,7 @@ Create and import a file `CourseList.css` where you will be able to add the styl
 
 Create a `CourseList.test.js` with two checks:
 
-- Check that it renders CourseList component without crashing
+- Check that it renders `CourseList` component without crashing
 - Check that it renders the 5 different rows
 
 **Modify the App component**
