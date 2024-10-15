@@ -258,17 +258,21 @@ Modify the App component to display either the Login, or the CourseList componen
 - When `isLoggedIn` is `false`, display the `Login` screen
 - When `isLoggedIn` is `true`, display the `CourseList` screen
 
-Modify the App test suite:
+**Modify the App test suite:**
 
 Add a test to check that CourseList is not displayed
 Describe a new case, when isLoggedIn is true, and add two checks. The first one should verify that the Login component is not included. The second one should verify that the CourseList component is included
-Modify the NotificationItem component
+
+**Modify the NotificationItem component**
+
 Define the prop types for the NotificationItem component:
 
-Verify that html is an object with the key __html, and that the value is a string
-Require type to be a defined prop and a string. It should default to default if type is not passed by the parent component
-Verify that value is a string
-Modify the Notifications component
+- Verify that `html` is an object with the key `__html`, and that the value is a string
+- Require `type` to be a defined prop and a string. It should default to `default` if `type` is not passed by the parent component
+- Verify that `value` is a string
+
+**Modify the Notifications component**
+
 Add a new div element with the class menuItem:
 
 it contains the text Your notifications
