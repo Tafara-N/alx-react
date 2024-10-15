@@ -201,17 +201,19 @@ Using the React extension in Chrome:
 - Directory: `0x02-react_props`
 - File: `task_3/change_property.png, task_3/profiler.png`
 
-4. Props types & Default props & Shapes
-mandatory
-To work on this task, install prop-types with npm first
+### 4. Props types & Default props & Shapes
 
-Create a CourseListRow component
-Create a new folder CourseList and a new component with the name CourseListRow. The component accepts three props:
+To work on this task, install `prop-types` with npm first
 
-isHeader (bool, default: false)
-textFirstCell (string, required)
-textSecondCell (string, default: null)
-The component returns a tr html element, and within that element:
+**Create a CourseListRow component**
+
+Create a new folder `CourseList` and a new component with the name `CourseListRow`. The component accepts three props:
+
+isHeader` (bool, default: false)
+textFirstCell` (string, required)
+textSecondCell` (string, default: null)
+
+The component returns a `tr` html element, and within that element:
 
 if isHeader is true
 if textSecondCell is null, it returns a th element containing textFirstCell with a colSpan = 2
