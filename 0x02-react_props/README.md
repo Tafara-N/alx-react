@@ -385,12 +385,13 @@ Add the property `listNotifications` to the `Notifications` component in App
 
 **Update the tests**
 
-Modify Notifications.test.js:
+Modify `Notifications.test.js`:
 
-Add a new test to verify that Notifications renders correctly if you pass an empty array or if you don’t pass the listNotifications property
-Add a new test to verify that when you pass a list of notifications, the component renders it correctly and with the right number of NotificationItem
-Add a new test to verify that when listNotifications is empty the message Here is the list of notifications is not displayed, but No new notification for now is
-Modify CourseList.test.js:
+- Add a new test to verify that `Notifications` renders correctly if you pass an empty array or if you don’t pass the `listNotifications` property
+- Add a new test to verify that when you pass a list of notifications, the component renders it correctly and with the right number of `NotificationItem`
+- Add a new test to verify that when `listNotifications` is empty the message `Here is the list of notifications` is not displayed, but `No new notification for now` is
+
+Modify `CourseList.test.js`:
 
 Add a new test to verify that CourseList renders correctly if you pass an empty array or if you don’t pass the listCourses property
 Add a new test to verify that when you pass a list of courses, the component renders it correctly
