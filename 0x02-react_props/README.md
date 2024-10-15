@@ -336,13 +336,15 @@ Tests: 24 passed, 24 total
 
 ### 5. Shapes, Loops, and Keys
 
-Create the courses array
-Create a new Shape named CourseShape containing:
+**Create the courses array**
 
-id (number, required)
-name (string, required)
-credit (number, required)
-Modify CourseList.js:
+Create a new Shape named `CourseShape` containing:
+
+- `id` (number, required)
+- `name` (string, required)
+- `credit` (number, required)
+
+Modify `CourseList.js`:
 
 Add a propType listCourses that will take an array of the shape you created
 Make sure that if listCourses is not passed by the parent component the propType defaults to an empty array
