@@ -49,8 +49,10 @@ Create a new folder `Footer`:
 Move the code of the footer from the App.js to a new file Footer.js
 Move the css code, related to the footer, of the App.css to a new file named Footer.css
 Create a Footer.test.js, we will add the tests later
-Create a Login component
-Create a new folder Login:
+
+**Create a Login component**
+
+Create a new folder `Login`:
 
 Move the code of the login section from the App.js to a new file Login.js
 The code should be wrapped in a React Fragment
