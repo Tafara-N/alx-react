@@ -196,18 +196,19 @@ The console in your browser should not show any error or warning
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
 - File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
-7. Create WithLogging HOC
-mandatory
+
+### 7. Create WithLogging HOC
+
 We would like to add a way to log to the console every time a component has been mounted and every time it is about to unmount.
 
-To not repeat the same code everywhere, create a HOC component in task_4/dashboard/src/HOC/WithLogging.js:
+**To not repeat the same code everywhere, create a HOC component in `task_4/dashboard/src/HOC/WithLogging.js`**:
 
-The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT is mounted on componentDidMount()
-The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT is going to unmount on componentWillUnmount()
-Modify the displayName of the HOC to always display WithLogging(NAME_OF_THE_WRAPPED_COMPONENT) in the React Chrome Extension or for debugging
-NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or class. If the wrapped element has no name it should default to Component
+- The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT is mounted on componentDidMount()
+- The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT is going to unmount on componentWillUnmount()
+- Modify the displayName of the HOC to always display WithLogging(NAME_OF_THE_WRAPPED_COMPONENT) in the React Chrome Extension or for debugging
+- NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or class. If the wrapped element has no name it should default to Component
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
 - File: `task_4/dashboard/src/HOC/WithLogging.js`
