@@ -55,10 +55,10 @@ Start this project with files from the the last task of the `0x03. React Props` 
 
 In the `App` Class:
 
-Add a props named `logOut` with the props type being `function`
-The default value for this property, should be an empty function
-Add an event listener when the component is mounted to listen to when the user is pressing down the keyboard keys
-When the user is pressing down the `control` and the `h` keys simultaneously, display the alert `Logging you out` and call the function `logOut`
+- Add a props named `logOut` with the props type being `function`
+- The default value for this property, should be an empty function
+- Add an event listener when the component is mounted to listen to when the user is pressing down the keyboard keys
+- When the user is pressing down the `control` and the `h` keys simultaneously, display the alert `Logging you out` and call the function `logOut`
 
 **Add the tests**
 
