@@ -12,8 +12,9 @@ Enzyme Unmount
 React Pure components
 React Higher Order Components
 Jest mock function
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 When to use a Class or a function to create a component
 The lifecycle of a Class component
