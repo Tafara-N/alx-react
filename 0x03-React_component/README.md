@@ -229,14 +229,15 @@ The console in your browser should not show any error or warning
 
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
-- File: task_4/dashboard/src/HOC/WithLogging.test.js
-9. Declare a pure component
-mandatory
-In task_5/dashboard/src/Notifications/NotificationItem.js:
+- File: `task_4/dashboard/src/HOC/WithLogging.test.js`
 
-Modify the component to make it “pure”. Which means that it will only update when its props and state are different
+### 9. Declare a pure component
+
+**In `task_5/dashboard/src/Notifications/NotificationItem.js`**:
+
+- Modify the component to make it “pure”. Which means that it will only update when its props and state are different
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
 - File: `task_5/dashboard/src/Notifications/NotificationItem.js`
