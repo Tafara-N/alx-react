@@ -111,7 +111,8 @@ The console in your browser should not show any error or warning
 
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
-- File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
+- File: ``task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js`
+
 ### 3. Reusable comments & specialization
 
 **Containment**
