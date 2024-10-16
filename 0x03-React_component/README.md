@@ -174,7 +174,7 @@ Do not repeat each props manually and use the spread operator
 
 ### 6. Test the new components
 
-in `task_3/dashboard/src/BodySection/BodySection.test.js`:
+**in `task_3/dashboard/src/BodySection/BodySection.test.js`**:
 
 - Add one test checking that shallowing the component should render correctly the children and one `h2` element
 
@@ -191,7 +191,7 @@ You should check that:
 - There is one `h2` element and it includes the text `test title`
 - There is one `p` element and it includes the text `test children node`
 
-in `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js`:
+**in `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js`**:
 
 - Add one test checking that shallowing the component should render correctly a `BodySection` component and that the props are passed correctly to the child component
 
