@@ -47,7 +47,7 @@ Start this project with files from the the last task of the `0x03. React Props` 
 **Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: `task_0/dashboard/src/App/App.js`
+- File: `task_0/dashboard/src/App/App.js`
 
 1. Lifecycles
 mandatory
@@ -74,7 +74,7 @@ The console in your browser should not show any error or warning
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
+- File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
 
 2. Handling Events
 mandatory
@@ -111,7 +111,7 @@ The console in your browser should not show any error or warning
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
+- File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 3. Reusable comments & specialization
 mandatory
 Containment
@@ -138,7 +138,7 @@ Should generate:
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_3/dashboard/src/BodySection/BodySection.js
+- File: task_3/dashboard/src/BodySection/BodySection.js
 4. Specialization
 mandatory
 in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, create a new component named BodySectionWithMarginBottom. The component does not know its children. It should output the following:
@@ -157,7 +157,7 @@ Do not repeat each props manually and use the spread operator
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
+- File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
 5. Use the new components
 mandatory
 in task_3/dashboard/src/App/App.js, modify the App component:
@@ -169,7 +169,7 @@ Using the BodySection component, add a new block with the title News from the Sc
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_3/dashboard/src/App/App.js
+- File: task_3/dashboard/src/App/App.js
 6. Test the new components
 mandatory
 in task_3/dashboard/src/BodySection/BodySection.test.js:
@@ -195,7 +195,7 @@ The console in your browser should not show any error or warning
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
+- File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
 7. Create WithLogging HOC
 mandatory
 We would like to add a way to log to the console every time a component has been mounted and every time it is about to unmount.
@@ -210,7 +210,7 @@ NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or cla
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_4/dashboard/src/HOC/WithLogging.js
+- File: task_4/dashboard/src/HOC/WithLogging.js
 8. Write a test for the HOC
 mandatory
 in task_4/dashboard/src/HOC/WithLogging.test.js, write some tests for the HOC component:
@@ -229,7 +229,7 @@ The console in your browser should not show any error or warning
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_4/dashboard/src/HOC/WithLogging.test.js
+- File: task_4/dashboard/src/HOC/WithLogging.test.js
 9. Declare a pure component
 mandatory
 In task_5/dashboard/src/Notifications/NotificationItem.js:
@@ -239,7 +239,7 @@ Modify the component to make it “pure”. Which means that it will only update
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: `task_5/dashboard/src/Notifications/NotificationItem.js`
+- File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 
 ### 10. Make your own pure component
 
@@ -251,7 +251,7 @@ File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 **Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: `task_5/dashboard/src/Notifications/Notifications.js`
+- File: `task_5/dashboard/src/Notifications/Notifications.js`
 
 ### 11. Add a test
 
@@ -273,4 +273,4 @@ File: `task_5/dashboard/src/Notifications/Notifications.js`
 **Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: `task_5/dashboard/src/Notifications/Notifications.test.js`
+- File: `task_5/dashboard/src/Notifications/Notifications.test.js`
