@@ -91,12 +91,13 @@ In the NotificationItem Class:
 
 Modify the li element to call the new function markAsRead on click. It should send the id of the notification
 Define the new property type and the default property for the new properties
-Add the tests
 
-In the Notifications test file:
+**Add the tests**
 
-Create a test, that will mockup the console.log function
-Check that when calling the function markAsRead on an instance of the component, the spy is being called with the right message
+In the `Notifications` test file:
+
+- Create a test, that will mockup the console.log function
+- Check that when calling the function `markAsRead` on an instance of the component, the spy is being called with the right message
 
 In the `NotificationItem` test file:
 
