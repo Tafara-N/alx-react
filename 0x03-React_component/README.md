@@ -180,22 +180,26 @@ E.g. with the following code:
 <BodySection title="test title">
   <p>test children node</p>
 </BodySection>
+```
+
 You should check that:
 
-There is one h2 element and it includes the text test title
-There is one p element and it includes the text test children node
-in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js:
+- There is one `h2` element and it includes the text `test title`
+- There is one `p` element and it includes the text `test children node`
 
-Add one test checking that shallowing the component should render correctly a BodySection component and that the props are passed correctly to the child component
-Requirements:
+in `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js`:
 
-Make sure that the CSS is correctly applied to your component
-The console in your browser should not show any error or warning
+- Add one test checking that shallowing the component should render correctly a `BodySection` component and that the props are passed correctly to the child component
+
+**Requirements**:
+
+- Make sure that the CSS is correctly applied to your component
+- The console in your browser should not show any error or warning
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
-- File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
+- File: `task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js`
 
 ### 7. Create WithLogging HOC
 
