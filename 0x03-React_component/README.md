@@ -239,18 +239,19 @@ Repo:
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_5/dashboard/src/Notifications/NotificationItem.js
-10. Make your own pure component
-mandatory
-In task_5/dashboard/src/Notifications/Notifications.js:
+File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 
-Modify the file so it only updates itself when the new property listNotifications has a longer list of elements than the previously
-You must implement the function shouldComponentUpdate to add this performance optimization
+### 10. Make your own pure component
+
+**In `task_5/dashboard/src/Notifications/Notifications.js`**:
+
+- Modify the file so it only updates itself when the new property `listNotifications` has a longer list of elements than the previously
+- You must implement the function `shouldComponentUpdate` to add this performance optimization
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_5/dashboard/src/Notifications/Notifications.js
+File: `task_5/dashboard/src/Notifications/Notifications.js`
 
 ### 11. Add a test
 
