@@ -45,7 +45,7 @@ Start this project with files from the the last task of the `0x03. React Props` 
 - The console in your browser should not show any error or warning
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: `task_0/dashboard/src/App/App.js`
 
@@ -72,7 +72,7 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
 
@@ -109,7 +109,7 @@ At this point, reloading the App should display the exact same page as the last 
 The console in your browser should not show any error or warning
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 3. Reusable comments & specialization
@@ -136,7 +136,7 @@ Should generate:
 </div>
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_3/dashboard/src/BodySection/BodySection.js
 4. Specialization
@@ -155,7 +155,7 @@ Make sure to define the propTypes for both props
 Do not repeat each props manually and use the spread operator
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
 5. Use the new components
@@ -167,7 +167,7 @@ Wrap the Login component with the newly created BodySectionWithMarginBottom comp
 Using the BodySection component, add a new block with the title News from the School. The component should contain a paragraph with some random text
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_3/dashboard/src/App/App.js
 6. Test the new components
@@ -193,7 +193,7 @@ Make sure that the CSS is correctly applied to your component
 The console in your browser should not show any error or warning
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
 7. Create WithLogging HOC
@@ -208,7 +208,7 @@ Modify the displayName of the HOC to always display WithLogging(NAME_OF_THE_WRAP
 NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or class. If the wrapped element has no name it should default to Component
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_4/dashboard/src/HOC/WithLogging.js
 8. Write a test for the HOC
@@ -227,7 +227,7 @@ In the test file, make sure to restore the console function you mocked
 The console in your browser should not show any error or warning
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: task_4/dashboard/src/HOC/WithLogging.test.js
 9. Declare a pure component
@@ -237,7 +237,7 @@ In task_5/dashboard/src/Notifications/NotificationItem.js:
 Modify the component to make it “pure”. Which means that it will only update when its props and state are different
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 
@@ -249,7 +249,7 @@ Directory: 0x03-React_component
 - You must implement the function `shouldComponentUpdate` to add this performance optimization
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: `task_5/dashboard/src/Notifications/Notifications.js`
 
@@ -271,6 +271,6 @@ Directory: 0x03-React_component
 - The console in your browser should not show any error or warning
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x03-React_component
 - File: `task_5/dashboard/src/Notifications/Notifications.test.js`
