@@ -76,21 +76,22 @@ The console in your browser should not show any error or warning
 - Directory: `0x03-React_component`
 - File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
 
-2. Handling Events
-mandatory
-Create a new handing event
+### 2. Handling Events
 
-In the Notifications component:
+**Create a new handing event**
 
-Convert the function into a React Class
-Make sure that the tests are still passing
-Create a new markAsRead function within the Notifications class. It accepts one argument: id(number)
-When the function is called, it logs to the console the message “Notification $id has been marked as read
-Pass the function markAsRead to the NotificationItem component as a property
-In the NotificationItem Class:
+In the `Notifications` component:
 
-Modify the li element to call the new function markAsRead on click. It should send the id of the notification
-Define the new property type and the default property for the new properties
+- Convert the function into a React Class
+- Make sure that the tests are still passing
+- Create a new `markAsRead` function within the Notifications class. It accepts one argument: id(number)
+- When the function is called, it logs to the console the message “Notification $id has been marked as read
+- Pass the function `markAsRead` to the `NotificationItem` component as a property
+
+In the `NotificationItem` Class:
+
+- Modify the `li` element to call the new function `markAsRead` on click. It should send the id of the notification
+- Define the new property type and the default property for the new properties
 
 **Add the tests**
 
