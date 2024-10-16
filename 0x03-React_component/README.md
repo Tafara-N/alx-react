@@ -3,15 +3,14 @@
 # Resources
 
 **Read or watch:**
-
-React components
-React Developer Tools
-Enzyme Shallow
-Enzyme Mount
-Enzyme Unmount
-React Pure components
-React Higher Order Components
-Jest mock function
+- [React components]()
+- [React Developer Tools]()
+- [Enzyme Shallow]()
+- [Enzyme Mount]()
+- [Enzyme Unmount]()
+- [React Pure components]()
+- [React Higher Order Components]()
+- [Jest mock function]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
