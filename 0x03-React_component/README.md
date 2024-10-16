@@ -1,5 +1,8 @@
-Resources
-Read or watch:
+![React component](component.jpg)
+
+# Resources
+
+**Read or watch:**
 
 React components
 React Developer Tools
