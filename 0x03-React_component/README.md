@@ -8,9 +8,9 @@
 - [Enzyme Shallow]()
 - [Enzyme Mount]()
 - [Enzyme Unmount]()
-- [React Pure components]()
-- [React Higher Order Components]()
-- [Jest mock function]()
+- [React Pure components](https://legacy.reactjs.org/docs/react-api.html)
+- [React Higher Order Components](https://legacy.reactjs.org/docs/higher-order-components.html)
+- [Jest mock function](https://jestjs.io/docs/jest-object)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
