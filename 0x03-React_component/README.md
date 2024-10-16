@@ -134,30 +134,34 @@ Should generate:
   <h2>test</h2>
   <p>test</p>
 </div>
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
-- File: task_3/dashboard/src/BodySection/BodySection.js
-4. Specialization
-mandatory
-in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, create a new component named BodySectionWithMarginBottom. The component does not know its children. It should output the following:
+- File: `task_3/dashboard/src/BodySection/BodySection.js`
 
-A div with the class bodySectionWithMargin
-Within the div, a BodySection element with the same props passed to bodySectionWithMargin
-in task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.css
+### 4. Specialization
 
-Set the style for the class bodySectionWithMargin with a margin bottom of 40px
-Import the styling into the BodySectionWithMarginBottom component
-Requirements:
+in `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js`, create a new component named `BodySectionWithMarginBottom`. The component does not know its children. It should output the following:
 
-Make sure to define the propTypes for both props
-Do not repeat each props manually and use the spread operator
+- A div with the class `bodySectionWithMargin`
+- Within the div, a `BodySection` element with the same props passed to `bodySectionWithMargin`
+
+**in `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.css`**
+
+- Set the style for the class `bodySectionWithMargin` with a margin bottom of 40px
+- Import the styling into the `BodySectionWithMarginBottom` component
+
+**Requirements**:
+
+- Make sure to define the propTypes for both props
+- Do not repeat each props manually and use the spread operator
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
-- File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
+- File: `task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css`
 
 ### 5. Use the new components
 
@@ -180,7 +184,7 @@ Do not repeat each props manually and use the spread operator
 
 E.g. with the following code:
 
-```react
+```html
 <BodySection title="test title">
   <p>test children node</p>
 </BodySection>
