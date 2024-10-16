@@ -101,14 +101,15 @@ In the NotificationItem test file:
 
 Create a test, that will pass a spy as the markAsRead property
 Check that when simulating a click on the component, the spy is called with the right ID argument
-Requirements:
 
-Make sure to bind the function markAsRead in your constructor to avoid unecessary re-rendering
-In the test file, make sure to restore the console function you mocked
-At this point, reloading the App should display the exact same page as the last task. Use the React Chrome Extension to make sure the Notifications component displays correctly
-The console in your browser should not show any error or warning
+**Requirements**:
+
+- Make sure to bind the function `markAsRead` in your constructor to avoid unecessary re-rendering
+- In the test file, make sure to restore the console function you mocked
+- At this point, reloading the App should display the exact same page as the last task. Use the React Chrome Extension to make sure the Notifications component displays correctly
+- The console in your browser should not show any error or warning
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
 - File: ``task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js`
