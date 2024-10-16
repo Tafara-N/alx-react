@@ -46,7 +46,7 @@ Start this project with files from the the last task of the `0x03. React Props` 
 
 **Repo:**
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: `task_0/dashboard/src/App/App.js`
 
 1. Lifecycles
@@ -73,7 +73,7 @@ The console in your browser should not show any error or warning
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/App/App.test.js
 
 2. Handling Events
@@ -110,7 +110,7 @@ The console in your browser should not show any error or warning
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
 3. Reusable comments & specialization
 mandatory
@@ -137,7 +137,7 @@ Should generate:
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_3/dashboard/src/BodySection/BodySection.js
 4. Specialization
 mandatory
@@ -156,7 +156,7 @@ Do not repeat each props manually and use the spread operator
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_3/dashboard/src/BodySection/BodySection.css
 5. Use the new components
 mandatory
@@ -168,7 +168,7 @@ Using the BodySection component, add a new block with the title News from the Sc
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_3/dashboard/src/App/App.js
 6. Test the new components
 mandatory
@@ -194,7 +194,7 @@ The console in your browser should not show any error or warning
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_3/dashboard/src/BodySection/BodySection.test.js, task_3/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js
 7. Create WithLogging HOC
 mandatory
@@ -209,7 +209,7 @@ NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or cla
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_4/dashboard/src/HOC/WithLogging.js
 8. Write a test for the HOC
 mandatory
@@ -228,7 +228,7 @@ The console in your browser should not show any error or warning
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: task_4/dashboard/src/HOC/WithLogging.test.js
 9. Declare a pure component
 mandatory
@@ -238,7 +238,7 @@ Modify the component to make it “pure”. Which means that it will only update
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 
 ### 10. Make your own pure component
@@ -250,7 +250,7 @@ Directory: 0x03-React_component
 
 **Repo:**
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: `task_5/dashboard/src/Notifications/Notifications.js`
 
 ### 11. Add a test
@@ -272,5 +272,5 @@ Directory: 0x03-React_component
 
 **Repo:**
 - GitHub repository: `alx-react`
-Directory: 0x03-React_component
+- Directory: `0x03-React_component`
 - File: `task_5/dashboard/src/Notifications/Notifications.test.js`
