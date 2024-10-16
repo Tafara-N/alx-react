@@ -97,10 +97,11 @@ In the Notifications test file:
 
 Create a test, that will mockup the console.log function
 Check that when calling the function markAsRead on an instance of the component, the spy is being called with the right message
-In the NotificationItem test file:
 
-Create a test, that will pass a spy as the markAsRead property
-Check that when simulating a click on the component, the spy is called with the right ID argument
+In the `NotificationItem` test file:
+
+- Create a test, that will pass a spy as the `markAsRead` property
+- Check that when simulating a click on the component, the spy is called with the right ID argument
 
 **Requirements**:
 
