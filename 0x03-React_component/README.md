@@ -221,13 +221,13 @@ The second test should make sure console.log was called on mount and on unmount 
 
 **Tips**:
 
-Writing a unit test for HOC can be difficult. Create a variable with the HOC wrapping a function rendering the React component or html. e.g. WithLogging(() => <p />)
+- Writing a unit test for HOC can be difficult. Create a variable with the HOC wrapping a function rendering the React component or html. e.g. `WithLogging(() => <p />)`
 
 **Requirements**:
 
-Make sure that the messages Component Login is mounted and Component Login is going to unmount are sent when loading the app
-In the test file, make sure to restore the console function you mocked
-The console in your browser should not show any error or warning
+- Make sure that the messages `Component Login is mounted` and `Component Login is going to unmount` are sent when loading the app
+- In the test file, make sure to restore the console function you mocked
+- The console in your browser should not show any error or warning
 
 **Repo:**
 - GitHub repository: `alx-react`
