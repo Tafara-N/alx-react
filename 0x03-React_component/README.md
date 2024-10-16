@@ -161,7 +161,7 @@ Do not repeat each props manually and use the spread operator
 
 ### 5. Use the new components
 
-**in `task_3/dashboard/src/App/App.js`, modify the App component**:
+**in `task_3/dashboard/src/App/App.js`, modify the `App` component**:
 
 - Wrap the `CourseList` component with the newly created `BodySectionWithMarginBottom` component. The title should be `Course list`
 - Wrap the `Login` component with the newly created `BodySectionWithMarginBottom` component. The title should be `Log in to continue`
