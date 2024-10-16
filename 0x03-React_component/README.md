@@ -44,7 +44,7 @@ Start this project with files from the the last task of the `0x03. React Props` 
 - At this point, reloading the App should display the exact same page as the last task
 - The console in your browser should not show any error or warning
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
 File: `task_0/dashboard/src/App/App.js`
@@ -70,7 +70,7 @@ Make sure to remove the event listener when the component is unmounted
 In the test file, make sure to restore the alert function you mocked
 At this point, reloading the App should display the exact same page as the last task
 The console in your browser should not show any error or warning
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -107,7 +107,7 @@ Make sure to bind the function markAsRead in your constructor to avoid unecessar
 In the test file, make sure to restore the console function you mocked
 At this point, reloading the App should display the exact same page as the last task. Use the React Chrome Extension to make sure the Notifications component displays correctly
 The console in your browser should not show any error or warning
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -134,7 +134,7 @@ Should generate:
   <h2>test</h2>
   <p>test</p>
 </div>
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -153,7 +153,7 @@ Requirements:
 
 Make sure to define the propTypes for both props
 Do not repeat each props manually and use the spread operator
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -165,7 +165,7 @@ in task_3/dashboard/src/App/App.js, modify the App component:
 Wrap the CourseList component with the newly created BodySectionWithMarginBottom component. The title should be Course list
 Wrap the Login component with the newly created BodySectionWithMarginBottom component. The title should be Log in to continue
 Using the BodySection component, add a new block with the title News from the School. The component should contain a paragraph with some random text
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -191,7 +191,7 @@ Requirements:
 
 Make sure that the CSS is correctly applied to your component
 The console in your browser should not show any error or warning
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -206,7 +206,7 @@ The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT 
 The component should log to the console Component NAME_OF_THE_WRAPPED_COMPONENT is going to unmount on componentWillUnmount()
 Modify the displayName of the HOC to always display WithLogging(NAME_OF_THE_WRAPPED_COMPONENT) in the React Chrome Extension or for debugging
 NAME_OF_THE_WRAPPED_COMPONENT should be the name of the wrapped component or class. If the wrapped element has no name it should default to Component
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -225,7 +225,7 @@ Requirements:
 Make sure that the messages Component Login is mounted and Component Login is going to unmount are sent when loading the app
 In the test file, make sure to restore the console function you mocked
 The console in your browser should not show any error or warning
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -235,7 +235,7 @@ mandatory
 In task_5/dashboard/src/Notifications/NotificationItem.js:
 
 Modify the component to make it “pure”. Which means that it will only update when its props and state are different
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
@@ -248,7 +248,7 @@ File: `task_5/dashboard/src/Notifications/NotificationItem.js`
 - Modify the file so it only updates itself when the new property `listNotifications` has a longer list of elements than the previously
 - You must implement the function `shouldComponentUpdate` to add this performance optimization
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
 File: `task_5/dashboard/src/Notifications/Notifications.js`
@@ -270,7 +270,7 @@ File: `task_5/dashboard/src/Notifications/Notifications.js`
 
 - The console in your browser should not show any error or warning
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x03-React_component
 File: `task_5/dashboard/src/Notifications/Notifications.test.js`
