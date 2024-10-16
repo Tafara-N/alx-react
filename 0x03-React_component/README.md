@@ -112,24 +112,29 @@ The console in your browser should not show any error or warning
 - GitHub repository: `alx-react`
 - Directory: `0x03-React_component`
 - File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/Notifications/Notifications.js, task_2/dashboard/src/Notifications/Notifications.test.js
-3. Reusable comments & specialization
-mandatory
-Containment
+### 3. Reusable comments & specialization
 
-Create a new component named BodySection. The component does not know its children. It should output the following:
+**Containment**
 
-A div with the class bodySection
-Within the div, a h2 element containing a title passed as a prop
-Under the h2 the children of BodySection
-Tips:
+Create a new component named `BodySection`. The component does not know its children. It should output the following:
+
+A div with the class `bodySection`
+Within the div, a `h2` element containing a title passed as a prop
+Under the `h2` the children of BodySection
+
+**Tips**:
 
 Rendering the following
 
+```html
 <BodySection title="test">
   <p>test</p>
 </BodySection>
+```
+
 Should generate:
 
+```html
 <div className="bodySection">
   <h2>test</h2>
   <p>test</p>
