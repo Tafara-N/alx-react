@@ -30,23 +30,24 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Tasks
 
-0. Commence with class components
-mandatory
-Start this project with files from the the last task of the 0x03. React Props project:
+### 0. Commence with class components
 
-Convert the App function into a React Class:
+Start this project with files from the the last task of the `0x03. React Props` project:
 
-Modify the function within App.js to convert the App function into a React class
-Make sure that the tests are still passing
-Requirements:
+**Convert the App function into a React Class**:
 
-At this point, reloading the App should display the exact same page as the last task
-The console in your browser should not show any error or warning
+- Modify the function within `App.js` to convert the App function into a React class
+- Make sure that the tests are still passing
+
+**Requirements**:
+
+- At this point, reloading the App should display the exact same page as the last task
+- The console in your browser should not show any error or warning
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_0/dashboard/src/App/App.js
+File: `task_0/dashboard/src/App/App.js`
 
 1. Lifecycles
 mandatory
