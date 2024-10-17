@@ -5,7 +5,7 @@
 **Read or watch:**
 
 - [Aphrodite](https://github.com/khan/aphrodite)
-- [Inline styling]()
+- [Inline styling](https://legacy.reactjs.org/docs/dom-elements.html)
 - [Enzyme Render]()
 - [Enzyme Prop]()
 - [CSS Viewport]()
