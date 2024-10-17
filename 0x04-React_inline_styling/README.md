@@ -10,7 +10,7 @@
 - [Enzyme Prop](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/prop.html)
 - [CSS Viewport](https://www.w3schools.com/css/css_rwd_viewport.asp)
 - [CSS Media queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-- [CSS Animations]()
+- [CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
