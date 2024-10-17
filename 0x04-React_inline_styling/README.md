@@ -95,15 +95,16 @@ At this point, the UI should look exactly the same with the inline styling as it
 - Directory: `0x04-React_inline_styling`
 - File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
 
-2. Conditionally applying style
-mandatory
-Modify the NotificationItem component in task_2/dashboard/src/Notifications/NotificationItem.js:
+### 2. Conditionally applying style
 
-Modify the component to use Aphrodite within the js file
-Define the styling for the urgent and default items
-Using condition, apply the styling to the li element
-Delete the Notifications.css file and remove any import
-Modify the NotificationItem.test suite in task_2/dashboard/src/Notifications/NotificationItem.test.js:
+**Modify the `NotificationItem` component in `task_2/dashboard/src/Notifications/NotificationItem.js`:**
+
+- Modify the component to use Aphrodite within the js file
+- Define the styling for the urgent and default items
+- Using condition, apply the styling to the `li` element
+- Delete the `Notifications.css` file and remove any import
+
+**Modify the `NotificationItem.test` suite in `task_2/dashboard/src/Notifications/NotificationItem.test.js`:**
 
 Make sure that tests are still passing
 Modify the CourseListRow component in task_2/dashboard/src/CourseList/CourseListRow.js:
