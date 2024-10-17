@@ -45,17 +45,18 @@ Even if the modification is small, make sure that your test suites are still pas
 - Directory: `0x04-React_inline_styling`
 - File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
 
-1. install Aphrodite
-mandatory
+### 1. install Aphrodite
+
 Install Aphrodite using npm with:
 
-npm install --save aphrodite
+`npm install --save aphrodite`
 
-Modify the App component in task_1/dashboard/src/App/App.js:
+**Modify the `App` component in task_1/dashboard/src/App/App.js`:**
 
-Modify the component to use Aphrodite within the js file
-Define the styling for the body and the footer within the file
-Delete the file App.css and the import
+- Modify the component to use Aphrodite within the js file
+- Define the styling for the body and the footer within the file
+- Delete the file `App.css` and the import
+
 Modify the BodySectionWithMarginBottom component in task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js:
 
 Modify the component to use Aphrodite within the js file
