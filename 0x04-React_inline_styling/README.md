@@ -43,7 +43,7 @@ Even if the modification is small, make sure that your test suites are still pas
 
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
+- File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
 
 1. install Aphrodite
 mandatory
@@ -93,7 +93,7 @@ At this point, the UI should look exactly the same with the inline styling as it
 
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
+- File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
 
 2. Conditionally applying style
 mandatory
@@ -128,7 +128,7 @@ Testing might become difficult with the different variations. Look into the Enzy
 
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js
+- File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js
 
 3. Responsive design
 mandatory
@@ -162,7 +162,7 @@ The padding for the item should be 10px 8px
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js`
+- File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js`
 
 ### 4. Animation
 
@@ -188,4 +188,4 @@ Modify the styling for the menu item to:
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-File: `task_4/dashboard/src/Notifications/Notifications.js`
+- File: `task_4/dashboard/src/Notifications/Notifications.js`
