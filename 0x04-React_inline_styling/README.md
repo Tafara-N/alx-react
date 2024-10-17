@@ -83,14 +83,15 @@ Define the styling for the notifications panel within the file
 Remove the styling for the notifications panel from the Notifications.css
 Make sure the test suites are still passing!
 
-Tips:
+**Tips:**
 
-Look into using StyleSheetTestUtils.suppressStyleInjection at the top of your test file, to prevent issues with style injections
-Requirements:
+- Look into using `StyleSheetTestUtils.suppressStyleInjection` at the top of your test file, to prevent issues with style injections
 
-At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
+**Requirements:**
+
+- At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 - File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
