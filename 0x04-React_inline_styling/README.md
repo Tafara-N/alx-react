@@ -44,7 +44,7 @@ how to create small animations within the app
 
 **Requirement:**
 
-Even if the modification is small, make sure that your test suites are still passing. Especially the file `CourseListRow.test.js`
+- Even if the modification is small, make sure that your test suites are still passing. Especially the file `CourseListRow.test.js`
 
 **Repo:**
 - GitHub repository: `alx-react`
