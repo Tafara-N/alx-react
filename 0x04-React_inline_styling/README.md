@@ -7,7 +7,7 @@
 - [Aphrodite](https://github.com/khan/aphrodite)
 - [Inline styling](https://legacy.reactjs.org/docs/dom-elements.html)
 - [Enzyme Render](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/render.html)
-- [Enzyme Prop]()
+- [Enzyme Prop](https://enzymejs.github.io/enzyme/docs/api/ShallowWrapper/prop.html)
 - [CSS Viewport]()
 - [CSS Media queries]()
 - [CSS Animations]()
