@@ -106,14 +106,16 @@ At this point, the UI should look exactly the same with the inline styling as it
 
 **Modify the `NotificationItem.test` suite in `task_2/dashboard/src/Notifications/NotificationItem.test.js`:**
 
-Make sure that tests are still passing
-Modify the CourseListRow component in task_2/dashboard/src/CourseList/CourseListRow.js:
+- Make sure that tests are still passing
+
+**Modify the `CourseListRow` component in `task_2/dashboard/src/CourseList/CourseListRow.js`:**
 
 Modify the component to use Aphrodite within the js file
 Define the styling for the different type of rows (default rows, header rows)
 Define the styling for the different type of th elements
 Delete the CourseList.css file and remove any import
-Modify the CourseListRow.test suite in task_2/dashboard/src/CourseList/CourseListRow.test.js:
+
+**Modify the `CourseListRow.test` suite in `task_2/dashboard/src/CourseList/CourseListRow.test.js`:**
 
 Make sure that tests are still passing
 Test properties one by one if easier
