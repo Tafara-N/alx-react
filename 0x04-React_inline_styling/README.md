@@ -124,8 +124,8 @@ Tips:
 
 You can either use conditions or use an array to apply the different styling. Conditions are usually more robust
 Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 - File: `task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js`
@@ -140,6 +140,7 @@ Let’s make the application responsive to the screen size using media queries. 
 - Make sure that the button is on a new line
 - The screen should look like the image below:
 
+![Responsive design](images/notifications_dashboard.png)
 
 **Modify the component `Notifications` in `task_3/dashboard/src/Notifications/Notifications.js`:**
 
