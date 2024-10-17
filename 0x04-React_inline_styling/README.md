@@ -75,7 +75,7 @@ Install Aphrodite using npm with:
 - Define the styling for the logo and the header within the file
 - Delete the file `Header.css` and the import
 
-Modify the Login component in task_1/dashboard/src/Login/Login.js:
+**Modify the `Login` component in `task_1/dashboard/src/Login/Login.js`:**
 
 Modify the component to use Aphrodite within the js file
 Define the styling for the margin within the file
