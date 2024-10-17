@@ -1,14 +1,16 @@
+![React inline styling](images/inline_styling.jpg)
 
-Resources
-Read or watch:
+# Resources
 
-Aphrodite
-Inline styling
-Enzyme Render
-Enzyme Prop
-CSS Viewport
-CSS Media queries
-CSS Animations
+**Read or watch:**
+
+- [Aphrodite]()
+- [Inline styling]()
+- [Enzyme Render]()
+- [Enzyme Prop]()
+- [CSS Viewport]()
+- [CSS Media queries]()
+- [CSS Animations]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
