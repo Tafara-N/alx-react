@@ -152,13 +152,14 @@ The item should take the entire screen width
 A black border should be displayed at the bottom
 The font size of the text should be 20px
 The padding for the item should be 10px 8px
-Requirements:
 
-When the notifications panel is open, the screen should look like the image below:
+**Requirements**:
 
+- When the notifications panel is open, the screen should look like the image below:
+
+![Responsive design](images/notifications_panel.png)
 
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
 File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js`
@@ -182,7 +183,7 @@ Modify the styling for the menu item to:
 
 - When the notifications panel is hovered or opened, the UI should look like the image below:
 
-
+![Notifications](images/notifications.gif)
 
 Repo:
 GitHub repository: alx-react
