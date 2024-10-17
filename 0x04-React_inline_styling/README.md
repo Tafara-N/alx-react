@@ -81,12 +81,13 @@ Install Aphrodite using npm with:
 - Define the styling for the margin within the file
 - Delete the file `Login.css` and the import
 
-Modify the Notifications component in task_1/dashboard/src/Notifications/Notifications.js:
+**Modify the `Notifications` component in `task_1/dashboard/src/Notifications/Notifications.js`:**
 
-Modify the component to use Aphrodite within the js file
-Define the styling for the notifications panel within the file
-Remove the styling for the notifications panel from the Notifications.css
-Make sure the test suites are still passing!
+- Modify the component to use Aphrodite within the js file
+- Define the styling for the notifications panel within the file
+- Remove the styling for the notifications panel from the `Notifications.css`
+
+**Make sure the test suites are still passing!**
 
 **Tips:**
 
