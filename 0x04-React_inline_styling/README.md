@@ -128,7 +128,7 @@ At this point, the UI should look exactly the same with the inline styling as it
 **Tips:**
 
 - You can either use conditions or use an array to apply the different styling. Conditions are usually more robust
-- Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
+- Testing might become difficult with the different variations. Look into the Enzyme documentation for `render`, `contains`, `prop`, and `html`
 
 **Repo:**
 - GitHub repository: `alx-react`
