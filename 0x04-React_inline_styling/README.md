@@ -165,7 +165,7 @@ File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/N
 
 ### 4. Animation
 
-Let’s create an animation that we can display when the user hovers on the Notifications menu or when there is a new notification. In task_4/dashboard/Notifications/Notifications.js:
+Let’s create an animation that we can display when the user hovers on the `Notifications` menu or when there is a new notification. In `task_4/dashboard/Notifications/Notifications.js`:
 
 Create one object containing the CSS frames to make the opacity change from 0.5 to 1
 Create one object containing the CSS frames to make the element bounce. You can play with translateY and alternate from 0px to -5px and 5px
