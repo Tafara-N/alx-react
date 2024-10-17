@@ -41,7 +41,7 @@ Requirement:
 Even if the modification is small, make sure that your test suites are still passing. Especially the file CourseListRow.test.js
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
 
@@ -91,7 +91,7 @@ Requirements:
 At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 File: task_1/dashboard/src/App/App.js, task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js, task_1/dashboard/src/CourseList/CourseList.js, task_1/dashboard/src/Header/Header.js, task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Notifications/Notifications.js, task_1/dashboard/src/App/App.test.js,task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.test.js, task_1/dashboard/src/CourseList/CourseList.test.js, task_1/dashboard/src/Header/Header.test.js, task_1/dashboard/src/Login/Login.test.js, task_1/dashboard/src/Notifications/Notifications.test.js
 
@@ -126,7 +126,7 @@ You can either use conditions or use an array to apply the different styling. Co
 Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js
 
@@ -160,7 +160,7 @@ The padding for the item should be 10px 8px
 ![Responsive design](images/notifications_panel.png)
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js`
 
@@ -186,6 +186,6 @@ Modify the styling for the menu item to:
 ![Notifications](images/notifications.gif)
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
 File: `task_4/dashboard/src/Notifications/Notifications.js`
