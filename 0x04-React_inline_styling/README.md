@@ -128,10 +128,10 @@ Testing might become difficult with the different variations. Look into the Enzy
 
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-- File: task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js
+- File: `task_2/dashboard/src/Notifications/NotificationItem.js, task_2/dashboard/src/Notifications/NotificationItem.test.js, task_2/dashboard/src/CourseList/CourseListRow.js, task_2/dashboard/src/CourseList/CourseListRow.test.js`
 
-3. Responsive design
-mandatory
+### 3. Responsive design
+
 Let’s make the application responsive to the screen size using media queries. We are going to only focus on large screen and screens with a width under 900px
 
 Modify the component Login in task_3/dashboard/src/Login/Login.js:
