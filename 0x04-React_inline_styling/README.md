@@ -62,7 +62,8 @@ Install Aphrodite using npm with:
 Modify the component to use Aphrodite within the js file
 Define the styling for the margin within the file
 Delete the file BodySection.css and the import
-Modify the CourseList component in task_1/dashboard/src/CourseList/CourseList.js:
+
+**Modify the `CourseList` component in `task_1/dashboard/src/CourseList/CourseList.js`:**
 
 Modify the component to use Aphrodite within the js file
 Define the styling for the list within the file
