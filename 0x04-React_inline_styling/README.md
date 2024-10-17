@@ -39,7 +39,7 @@ Use the isHeader prop to easily pick the style you want to apply to the tr tag
 Requirement:
 
 Even if the modification is small, make sure that your test suites are still passing. Especially the file CourseListRow.test.js
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
@@ -89,7 +89,7 @@ Look into using StyleSheetTestUtils.suppressStyleInjection at the top of your te
 Requirements:
 
 At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
@@ -124,7 +124,7 @@ Tips:
 
 You can either use conditions or use an array to apply the different styling. Conditions are usually more robust
 Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
@@ -159,7 +159,7 @@ The padding for the item should be 10px 8px
 
 ![Responsive design](images/notifications_panel.png)
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
 File: `task_3/dashboard/src/Login/Login.js, task_3/dashboard/src/Notifications/Notifications.js, task_3/dashboard/src/Notifications/NotificationItem.js`
@@ -185,7 +185,7 @@ Modify the styling for the menu item to:
 
 ![Notifications](images/notifications.gif)
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
 File: `task_4/dashboard/src/Notifications/Notifications.js`
