@@ -22,7 +22,9 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
-Tasks
+
+## Tasks
+
 0. Inline styling
 mandatory
 Copy over the task_5 directory from the 0x04. React components project (We’ll be using it as the base for this project)
