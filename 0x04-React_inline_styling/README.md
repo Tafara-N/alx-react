@@ -175,9 +175,10 @@ The background color should be #fff8f8
 Show the pointer cursor when hovering the element
 On hover, animate the element with the two new animations. The duration for the opacity change should be 1s, and the duration for the bouncing effect should be 0.5s. The animation should repeat 3 times only
 When the list of notifications is visible, hide the menu item
-Requirements:
 
-When the notifications panel is hovered or opened, the UI should look like the image below:
+**Requirements**:
+
+- When the notifications panel is hovered or opened, the UI should look like the image below:
 
 
 
