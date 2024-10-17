@@ -36,7 +36,7 @@ If needed, modify the test file so every test pass
 **Tips:**
 
 - For better performances, never create and pass an object to an element directly. Use a constant instead
-- Use the `isHeader` prop to easily pick the style you want to apply to the tr tag
+- Use the `isHeader` prop to easily pick the style you want to apply to the `tr` tag
 
 **Requirement:**
 
