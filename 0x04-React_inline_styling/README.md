@@ -65,9 +65,9 @@ Install Aphrodite using npm with:
 
 **Modify the `CourseList` component in `task_1/dashboard/src/CourseList/CourseList.js`:**
 
-Modify the component to use Aphrodite within the js file
-Define the styling for the list within the file
-Remove the styling for the list within the `CourseList.css` file
+- Modify the component to use Aphrodite within the js file
+- Define the styling for the list within the file
+- Remove the styling for the list within the `CourseList.css` file
 
 **Modify the `Header` component in `task_1/dashboard/src/Header/Header.js`:**
 
