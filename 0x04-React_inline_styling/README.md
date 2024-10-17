@@ -122,8 +122,8 @@ Test properties one by one if easier
 
 **Requirements:**
 
-Use conditions as much as you can, do not repeat elements
-At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
+- Use conditions as much as you can, do not repeat elements
+- At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
 
 **Tips:**
 
