@@ -43,7 +43,7 @@ Even if the modification is small, make sure that your test suites are still pas
 
 - GitHub repository: `alx-react`
 - Directory: `0x04-React_inline_styling`
-- File: task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js
+- File: `task_0/dashboard/src/CourseList/CourseListRow.js, task_0/dashboard/src/CourseList/CourseListRow.test.js`
 
 ### 1. install Aphrodite
 
