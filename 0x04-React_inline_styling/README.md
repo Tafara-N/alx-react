@@ -77,9 +77,10 @@ Install Aphrodite using npm with:
 
 **Modify the `Login` component in `task_1/dashboard/src/Login/Login.js`:**
 
-Modify the component to use Aphrodite within the js file
-Define the styling for the margin within the file
-Delete the file Login.css and the import
+- Modify the component to use Aphrodite within the js file
+- Define the styling for the margin within the file
+- Delete the file `Login.css` and the import
+
 Modify the Notifications component in task_1/dashboard/src/Notifications/Notifications.js:
 
 Modify the component to use Aphrodite within the js file
