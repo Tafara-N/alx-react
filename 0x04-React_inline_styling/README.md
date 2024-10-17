@@ -119,11 +119,13 @@ At this point, the UI should look exactly the same with the inline styling as it
 
 Make sure that tests are still passing
 Test properties one by one if easier
-Requirements:
+
+**Requirements:**
 
 Use conditions as much as you can, do not repeat elements
 At this point, the UI should look exactly the same with the inline styling as it was with the CSS files
-Tips:
+
+**Tips:**
 
 You can either use conditions or use an array to apply the different styling. Conditions are usually more robust
 Testing might become difficult with the different variations. Look into the Enzyme documentation for render, contains, prop, and html
