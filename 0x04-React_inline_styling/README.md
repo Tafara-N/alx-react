@@ -25,8 +25,8 @@ A README.md file, at the root of the folder of the project, is mandatory
 
 ## Tasks
 
-0. Inline styling
-mandatory
+### 0. Inline styling
+
 Copy over the task_5 directory from the 0x04. React components project (We’ll be using it as the base for this project)
 Rename the task_5 directory to task_0
 Modify the CourseListRow component in task_0/dashboard/src/CourseList/CourseListRow.js:
