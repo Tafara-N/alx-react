@@ -180,8 +180,8 @@ Requirements:
 When the notifications panel is hovered or opened, the UI should look like the image below:
 
 
-Repo:
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x04-React_inline_styling
-File: task_4/dashboard/src/Notifications/Notifications.js
+File: `task_4/dashboard/src/Notifications/Notifications.js`
