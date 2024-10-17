@@ -9,8 +9,9 @@ Enzyme Prop
 CSS Viewport
 CSS Media queries
 CSS Animations
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+# Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 the differences between using a CSS file and inline styling
 how to use a CSS-in-JS tool like Aphrodite
