@@ -141,12 +141,13 @@ Make sure that the button is on a new line
 The screen should look like the image below:
 
 
-Modify the component Notifications in task_3/dashboard/src/Notifications/Notifications.js:
+**Modify the component `Notifications` in `task_3/dashboard/src/Notifications/Notifications.js`:**
 
-When the panel is open, it should take over the entire screen
-There should be no padding because of the ul element
-The font size of the text should be 20px
-Modify the component NotificationItem in task_3/dashboard/src/Notifications/NotificationItem.js:
+- When the panel is open, it should take over the entire screen
+- There should be no padding because of the `ul` element
+- The font size of the text should be 20px
+
+**Modify the component `NotificationItem` in `task_3/dashboard/src/Notifications/NotificationItem.js`:**
 
 The item should take the entire screen width
 A black border should be displayed at the bottom
