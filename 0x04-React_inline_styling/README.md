@@ -149,10 +149,10 @@ The screen should look like the image below:
 
 **Modify the component `NotificationItem` in `task_3/dashboard/src/Notifications/NotificationItem.js`:**
 
-The item should take the entire screen width
-A black border should be displayed at the bottom
-The font size of the text should be 20px
-The padding for the item should be 10px 8px
+- The item should take the entire screen width
+- A black border should be displayed at the bottom
+- The font size of the text should be 20px
+- The padding for the item should be `10px 8px`
 
 **Requirements**:
 
