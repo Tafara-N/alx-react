@@ -4,7 +4,7 @@
 
 **Read or watch:**
 
-- [Aphrodite]()
+- [Aphrodite](https://github.com/khan/aphrodite)
 - [Inline styling]()
 - [Enzyme Render]()
 - [Enzyme Prop]()
