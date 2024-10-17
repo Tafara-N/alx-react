@@ -57,7 +57,7 @@ Install Aphrodite using npm with:
 - Define the styling for the body and the footer within the file
 - Delete the file `App.css` and the import
 
-Modify the BodySectionWithMarginBottom component in task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js:
+**Modify the `BodySectionWithMarginBottom` component in `task_1/dashboard/src/BodySection/BodySectionWithMarginBottom.js`:**
 
 Modify the component to use Aphrodite within the js file
 Define the styling for the margin within the file
