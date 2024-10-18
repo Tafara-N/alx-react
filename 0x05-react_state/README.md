@@ -229,8 +229,8 @@ Take a moment to test your application. At this point:
 
 **Requirements:**
 
-Don’t forget to clean unused state and props after refactoring
-Don’t forget to set the propTypes and defaultProps for any new prop
+- Don’t forget to clean unused state and props after refactoring
+- Don’t forget to set the `propTypes` and `defaultProps` for any new prop
 
 **Repo:**
 - GitHub repository: `alx-react`
