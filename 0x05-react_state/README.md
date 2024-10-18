@@ -68,7 +68,7 @@ Requirements:
 
 Do not forget to bind the functions you are passing to the children to improve performances
 When running, there should not be any lint error in the console
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
@@ -107,7 +107,7 @@ Do not forget to bind the functions you are passing to the children to improve p
 When submitting the form, the page should not reload
 Make sure that the button is always enabled when the two inputs are not empty. And make sure that the button is always disabled when one of the input’s value is empty
 When running, there should not be any lint error in the console
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
@@ -175,7 +175,7 @@ Be careful that Context is using reference identity to determine when to re-rend
 Don’t forget to export elements that are going to be reused through the app (e.g default user)
 Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
@@ -222,7 +222,7 @@ Requirements:
 
 Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
@@ -242,7 +242,7 @@ File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.
 - React Hooks are new in React and the number of resources can be limited. Refer to the official documentation of React. The exercise is simple enough that should not need anything else
 - Do not modify the component to a Class. You need to use the React Hook
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x05-react_state
 File: `task_4/dashboard/src/CourseList/CourseListRow.js`
