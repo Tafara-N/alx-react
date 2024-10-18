@@ -129,7 +129,8 @@ Modify the logOut function to reset the value of the user object in the local st
 Remove the two props isLoggedIn and logOut from the App, they will now be used through the state
 Refactor the render method to use the objects from the state to display the CourseList or the Login components
 Pass the new logIn function to the Login component
-in task_2/dashboard/src/Login/Login.js
+
+**in `task_2/dashboard/src/Login/Login.js`**
 
 - Remove from the state the `isLoggedIn` property, since we don’t use it anymore
 - Modify the `handleLoginSubmit` to call the newly created `logIn` function
