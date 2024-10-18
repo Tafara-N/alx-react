@@ -28,12 +28,14 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
-Tasks
-0. Adding a local state for notifications
-mandatory
-Using the previous project (0x05. React inline styling), we have modularized our React application without worrying about interactions and state, which is usually a recommended process of development. Now, our application is in a good place to start adding logic and state.
 
-Modify the App component in task_0/dashboard/src/App.App.js:
+## Tasks
+
+### 0. Adding a local state for notifications
+
+Using the previous project (`0x05. React inline styling`), we have modularized our React application without worrying about interactions and state, which is usually a recommended process of development. Now, our application is in a good place to start adding logic and state.
+
+**Modify the App component in `task_0/dashboard/src/App.App.js`:**
 
 Create a local state to store a `displayDrawer` element:
 
