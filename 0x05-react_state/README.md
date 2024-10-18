@@ -151,9 +151,9 @@ Add the id logoutSection to the section
 Clicking on the logout link, should call the logOut function included within the context
 At this point, you should be able to login (remove Login component and show CourseList component) and logout within the map (remove CourseList component, show Login component, show new header section)
 
-Create the tests!
+**Create the tests!**
 
-in task_2/dashboard/src/Header/Header.test.js
+**in `task_2/dashboard/src/Header/Header.test.js`**
 
 Make sure the current tests pass correctly
 Add a test that mounts the Header component with a default context value. Verify that the logoutSection is not created
