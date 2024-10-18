@@ -133,12 +133,13 @@ in task_2/dashboard/src/Login/Login.js
 
 Remove from the state the isLoggedIn property, since we don’t use it anymore
 Modify the handleLoginSubmit to call the newly created logIn function
-Checkpoint
+
+**Checkpoint**
 
 Take a moment to test your application. At this point, you should be able to login inside the app:
 
-Enter a few letters to the email and the password inputs, and click on the submit button. You should see the list of courses and the login component should be unmounted.
-Verify that the Notifications panel is still working correctly. You should be able to show/hide the panel by clicking on the top right link and the close button.
+- Enter a few letters to the email and the password inputs, and click on the submit button. You should see the list of courses and the login component should be unmounted.
+- Verify that the Notifications panel is still working correctly. You should be able to show/hide the panel by clicking on the top right link and the close button.
 
 **Setting the context in `task_2/dashboard/src/App/App.js`:**
 
