@@ -72,7 +72,7 @@ When running, there should not be any lint error in the console
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
-File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
+- File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
 
 1. Controlled components and state callback
 mandatory
@@ -111,7 +111,7 @@ When running, there should not be any lint error in the console
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
-File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
+- File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
 2. Context
 mandatory
 Create a simple React Context in task_2/dashboard/src/App/AppContext.js
@@ -179,7 +179,7 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
-File: task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js
+- File: task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js
 3. Context consumer & advanced state
 mandatory
 Context consumer: modify the Footer component in task_3/dashboard/src/Footer/Footer.js
@@ -226,7 +226,7 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 GitHub repository: alx-react
 Directory: 0x05-react_state
-File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
+- File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
 
 ### 4. Introduction to react hook
 
@@ -245,4 +245,4 @@ File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.
 **Repo:**
 GitHub repository: alx-react
 Directory: 0x05-react_state
-File: `task_4/dashboard/src/CourseList/CourseListRow.js`
+- File: `task_4/dashboard/src/CourseList/CourseListRow.js`
