@@ -196,10 +196,10 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 **Advanced state: modify the `App` container in `task_3/dashboard/src/App/App.js`:**
 
-Set the `listNotifications` within the state
-Create a function `markNotificationAsRead`. It accepts an `id` (number) in argument. When the function is called, it remove the notification with that id from the list of notifications within the state
-Pass the list of notifications to the `Notifications` component using the state
-Pass the newly created function to the `Notifications` component
+- Set the `listNotifications` within the state
+- Create a function `markNotificationAsRead`. It accepts an `id` (number) in argument. When the function is called, it remove the notification with that id from the list of notifications within the state
+- Pass the list of notifications to the `Notifications` component using the state
+- Pass the newly created function to the `Notifications` component
 
 **Modify the test suite in `task_3/dashboard/src/App/App.test.js`:**
 
