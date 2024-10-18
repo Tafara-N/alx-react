@@ -181,12 +181,13 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 - Directory: `0x05-react_state`
 - File: `task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js`
 
-3. Context consumer & advanced state
-mandatory
-Context consumer: modify the Footer component in task_3/dashboard/src/Footer/Footer.js
+### 3. Context consumer & advanced state
 
-Without making the component a Class, make the component subscribe to the context changes
-When the user is logged in, display a new paragraph containing a link with the text Contact us
+**Context consumer: modify the Footer component in `task_3/dashboard/src/Footer/Footer.js`**
+
+- Without making the component a Class, make the component subscribe to the context changes
+- When the user is logged in, display a new paragraph containing a link with the text `Contact us`
+
 Modify the test suite in task_3/dashboard/src/Footer/Footer.test.js:
 
 Refactor the test to make them work correctly with the changes
