@@ -5,7 +5,7 @@
 **Read or watch:**
 
 - [State and lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
-- [SetState and State callback]()
+- [SetState and State callback](https://legacy.reactjs.org/docs/react-component.html)
 - [Context]()
 - [Forms and Controlled components]()
 - [Lifting State Up]()
