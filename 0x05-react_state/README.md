@@ -71,7 +71,7 @@ When running, there should not be any lint error in the console
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x05-react_state
+- Directory: `0x05-react_state`
 - File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
 
 1. Controlled components and state callback
@@ -110,7 +110,7 @@ When running, there should not be any lint error in the console
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x05-react_state
+- Directory: `0x05-react_state`
 - File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
 2. Context
 mandatory
@@ -178,7 +178,7 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x05-react_state
+- Directory: `0x05-react_state`
 - File: task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js
 3. Context consumer & advanced state
 mandatory
@@ -225,7 +225,7 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 **Repo:**
 
 - GitHub repository: `alx-react`
-Directory: 0x05-react_state
+- Directory: `0x05-react_state`
 - File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
 
 ### 4. Introduction to react hook
@@ -244,5 +244,5 @@ Directory: 0x05-react_state
 
 **Repo:**
 - GitHub repository: `alx-react`
-Directory: 0x05-react_state
+- Directory: `0x05-react_state`
 - File: `task_4/dashboard/src/CourseList/CourseListRow.js`
