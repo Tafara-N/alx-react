@@ -63,9 +63,10 @@ At this point, after reloading the app, you should be able to show / hide the no
 
 **Tips:**
 
-Remember that you implemented shouldComponentUpdate. You will need to modify the logic to allow the component to rerender when the prop displayDrawer changes
-Use setState and instance when creating tests with Enzyme
-Remember to use spies to verify if a function is being called. You can pass a spy as a property
+- Remember that you implemented `shouldComponentUpdate`. You will need to modify the logic to allow the component to rerender when the prop `displayDrawer` changes
+- Use `setState` and `instance` when creating tests with Enzyme
+- Remember to use spies to verify if a function is being called. You can pass a spy as a property
+
 Requirements:
 
 Do not forget to bind the functions you are passing to the children to improve performances
