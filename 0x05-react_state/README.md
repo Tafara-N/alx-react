@@ -214,7 +214,8 @@ Define the prop type and the default for markNotificationAsRead
 
 **Modify the test suite in `task_3/dashboard/src/Notifications/Notifications.test.js`:**
 
-Refactor the tests to match the new container
+- Refactor the tests to match the new container
+
 Checkpoint
 
 Take a moment to test your application. At this point:
