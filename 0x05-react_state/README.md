@@ -156,9 +156,9 @@ At this point, you should be able to login (remove Login component and show Cour
 **in `task_2/dashboard/src/Header/Header.test.js`**
 
 - Make sure the current tests pass correctly
-- Add a test that mounts the Header component with a default context value. Verify that the logoutSection is not created
-- Add a test that mounts the Header component with a user defined (isLoggedIn is true and an email is set). Verify that the logoutSection is created
-- Add a test that mounts the Header component with a user defined (isLoggedIn is true and an email is set) and the logOut is linked to a spy. Verify that clicking on the link is calling the spy
+- Add a test that mounts the `Header` component with a default context value. Verify that the `logoutSection` is not created
+- Add a test that mounts the `Header` component with a user defined (`isLoggedIn` is `true` and an email is set). Verify that the `logoutSection` is created
+- Add a test that mounts the `Header` component with a user defined (`isLoggedIn` is `true` and an email is set) and the `logOut` is linked to a spy. Verify that clicking on the link is calling the spy
 
 **in `task_2/dashboard/src/App/App.test.js`**
 
