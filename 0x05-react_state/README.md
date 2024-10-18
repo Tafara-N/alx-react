@@ -188,12 +188,13 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 - Without making the component a Class, make the component subscribe to the context changes
 - When the user is logged in, display a new paragraph containing a link with the text `Contact us`
 
-Modify the test suite in task_3/dashboard/src/Footer/Footer.test.js:
+**Modify the test suite in `task_3/dashboard/src/Footer/Footer.test.js`:**
 
 Refactor the test to make them work correctly with the changes
 Add a test to verify that the link is not displayed when the user is logged out within the context
 Add a test to verify that the link is displayed when the user is logged in within the context
-Advanced state: modify the App container in task_3/dashboard/src/App/App.js:
+
+**Advanced state: modify the `App` container in `task_3/dashboard/src/App/App.js`:**
 
 Set the listNotifications within the state
 Create a function markNotificationAsRead. It accepts an id (number) in argument. When the function is called, it remove the notification with that id from the list of notifications within the state
