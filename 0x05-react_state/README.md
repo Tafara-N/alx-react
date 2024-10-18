@@ -40,10 +40,11 @@ Create a local state to store a displayDrawer element:
 Define the default state for the state in the constructor of the Class
 Create a function named handleDisplayDrawer that will change the value of displayDrawer to true
 Create a function named handleHideDrawer that will change the value of displayDrawer to false
-Modify the Notifications import in task_0/dashboard/src/App/App.js:
 
-Pass to the component the prop displayDrawer using the local state
-Pass the new functions handleDisplayDrawer and handleHideDrawer
+**Modify the `Notifications` import in `task_0/dashboard/src/App/App.js`:**
+
+- Pass to the component the prop `displayDrawer` using the local state
+- Pass the new functions `handleDisplayDrawer` and `handleHideDrawer`
 
 **Modify the App test suite in `task_0/dashboard/src/App/App.test.js`:**
 
