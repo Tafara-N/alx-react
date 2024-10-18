@@ -74,15 +74,15 @@ When running, there should not be any lint error in the console
 - Directory: `0x05-react_state`
 - File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
 
-1. Controlled components and state callback
-mandatory
-create a form within the Login component & handle login submit in task_1/dashboard/src/Login/Login.js:
+### 1. Controlled components and state callback
 
-Create a local state with the value isLoggedIn set to false
-Wrap the inputs within a form element
-Replace the button by an input element with type submit
-Create a function named handleLoginSubmit that will update the local state by setting isLoggedIn to true
-When the form is submitted call the newly created login submission handling function
+**create a form within the Login component & handle login submit in `task_1/dashboard/src/Login/Login.js`:**
+
+- Create a local state with the value `isLoggedIn` set to `false`
+- Wrap the inputs within a `form` element
+- Replace the button by an `input` element with type `submit`
+- Create a function named `handleLoginSubmit` that will update the local state by setting `isLoggedIn` to `true`
+- When the form is submitted call the newly created login submission handling function
 
 **create controlled components in the `Login` component in `task_1/dashboard/src/Login/Login.js`**
 
