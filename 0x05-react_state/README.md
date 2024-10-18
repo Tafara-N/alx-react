@@ -88,11 +88,12 @@ create controlled components in the Login component intask_1/dashboard/src/Login
 Modify the local state to add two new values email and password. By default these values are empty but not null
 Modify the two inputs elements in the form and set their values to use the local state
 Create two function handleChangeEmail and handleChangePassword that the two inputs will call when the value in the input field is changed. The local state should update with what the user is typing
-modify state callback in task_1/dashboard/src/Login/Login.js
 
-Modify the local state to add one value enableSubmit. It should be set to false by default
-Modify the Submit button to only be enabled when the enableSubmit value of the local state is true
-Every time the user changes the value of the email or password field, verify that both fields are not empty. If they are not empty, you can enable the submit button
+**modify state callback in `task_1/dashboard/src/Login/Login.js`**
+
+- Modify the local state to add one value `enableSubmit`. It should be set to `false` by default
+- Modify the Submit button to only be enabled when the `enableSubmit` value of the local state is `true`
+- Every time the user changes the value of the `email` or `password` field, verify that both fields are not empty. If they are not empty, you can enable the submit button
 
 **add tests in the `task_1/dashboard/src/Login/Login.js` suite**
 
