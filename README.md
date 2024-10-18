@@ -8,7 +8,7 @@ ___
 - [React Introduction](0x01-react_intro/README.md)
 ___
 
-- [React Component](0x01-react_intro/README.md)
+- [React Component](0x03-React_component/README.md)
 - [React Inline Styling](0x01-react_intro/README.md)
 - [React Props](0x01-react_intro/README.md)
 - [React State](0x01-react_intro/README.md)
