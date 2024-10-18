@@ -139,17 +139,19 @@ Take a moment to test your application. At this point, you should be able to log
 
 Enter a few letters to the email and the password inputs, and click on the submit button. You should see the list of courses and the login component should be unmounted.
 Verify that the Notifications panel is still working correctly. You should be able to show/hide the panel by clicking on the top right link and the close button.
-Setting the context in task_2/dashboard/src/App/App.js:
 
-In the App container, wrap the entire app with the AppContext created earlier using the provider element. Set the value to the user and logOut function using the local state
-Modify the Header component in task_2/dashboard/src/Header/Header.js:
+**Setting the context in `task_2/dashboard/src/App/App.js`:**
 
-Modify the Header to inherit the context using the ContextType API
-Add a new line under the header, that is only displayed when the value isLoggedIn in the user object within the context is true
-This section should display “Welcome email (logout)”
-Add the id logoutSection to the section
-Clicking on the logout link, should call the logOut function included within the context
-At this point, you should be able to login (remove Login component and show CourseList component) and logout within the map (remove CourseList component, show Login component, show new header section)
+- In the `App` container, wrap the entire app with the `AppContext` created earlier using the `provider` element. Set the value to the `user` and `logOut` function using the local state
+
+**Modify the `Header` component in `task_2/dashboard/src/Header/Header.js`:**
+
+- Modify the `Header` to inherit the context using the `ContextType` API
+- Add a new line under the header, that is only displayed when the value isLoggedIn in the user object within the context is true
+- This section should display “Welcome email (logout)”
+- Add the id logoutSection to the section
+- Clicking on the logout link, should call the logOut function included within the context
+- At this point, you should be able to login (remove Login component and show CourseList component) and logout within the map (remove CourseList component, show Login component, show new header section)
 
 **Create the tests!**
 
