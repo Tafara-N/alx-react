@@ -44,10 +44,11 @@ Modify the Notifications import in task_0/dashboard/src/App/App.js:
 
 Pass to the component the prop displayDrawer using the local state
 Pass the new functions handleDisplayDrawer and handleHideDrawer
-Modify the App test suite in task_0/dashboard/src/App/App.test.js:
 
-Add a test to verify that the default state for displayDrawer is false. Verify that after calling handleDisplayDrawer, the state should now be true
-Add a test to verify that after calling handleHideDrawer, the state is updated to be false
+**Modify the App test suite in `task_0/dashboard/src/App/App.test.js`:**
+
+- Add a test to verify that the default state for `displayDrawer` is `false`. Verify that after calling `handleDisplayDrawer`, the state should now be `true`
+- Add a test to verify that after calling `handleHideDrawer`, the state is updated to be `false`
 
 **Modify the Notifications component in `task_0/dashboard/src/Notifications/Notifications.js`:**
 
