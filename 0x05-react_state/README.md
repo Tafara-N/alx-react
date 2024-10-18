@@ -148,9 +148,9 @@ Verify that the Notifications panel is still working correctly. You should be ab
 
 - Modify the `Header` to inherit the context using the `ContextType` API
 - Add a new line under the header, that is only displayed when the value `isLoggedIn` in the `user` object within the context is `true`
-- This section should display “Welcome **email** (logout)”
-- Add the id `logoutSection` to the section
-- Clicking on the `logout` link, should call the logOut function included within the context
+    - This section should display “Welcome **email** (logout)”
+    - Add the id `logoutSection` to the section
+    - Clicking on the `logout` link, should call the logOut function included within the context
 
 At this point, you should be able to login (remove Login component and show CourseList component) and logout within the map (remove CourseList component, show Login component, show new header section)
 
