@@ -67,12 +67,12 @@ At this point, after reloading the app, you should be able to show / hide the no
 - Use `setState` and `instance` when creating tests with Enzyme
 - Remember to use spies to verify if a function is being called. You can pass a spy as a property
 
-Requirements:
+**Requirements:**
 
-Do not forget to bind the functions you are passing to the children to improve performances
-When running, there should not be any lint error in the console
+- Do not forget to bind the functions you are passing to the children to improve performances
+- When running, there should not be any lint error in the console
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
 - File: `task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js`
