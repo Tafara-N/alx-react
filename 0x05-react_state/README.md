@@ -234,7 +234,8 @@ Using React Hooks, modify the CourseListRow component in task_4/dashboard/src/Co
 Add a new style named rowChecked with the background color #e6e4e4
 When the row is a simple row, add a checkbox within the first cell
 When the user checks the box, the styling of the row should use rowChecked
-Tips & Requirements:
+
+**Tips & Requirements:**
 
 Make sure that the checkbox of each row is correctly checked or unchecked after the user interaction
 React Hooks are new in React and the number of resources can be limited. Refer to the official documentation of React. The exercise is simple enough that should not need anything else
