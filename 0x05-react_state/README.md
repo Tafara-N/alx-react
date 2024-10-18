@@ -175,8 +175,8 @@ Be careful that Context is using reference identity to determine when to re-rend
 Don’t forget to export elements that are going to be reused through the app (e.g default user)
 Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
 - File: `task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js`
