@@ -203,8 +203,9 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 **Modify the test suite in `task_3/dashboard/src/App/App.test.js`:**
 
-Add a test to verify that markNotificationAsRead works as intended. You can for example set the state with a mock list of notifications, then call the function and verify that the state of the container has been updated correctly
-Modify the Notifications container in task_3/dashboard/src/Notifications/Notifications.js:
+Add a test to verify that `markNotificationAsRead` works as intended. You can for example set the state with a mock list of notifications, then call the function and verify that the state of the container has been updated correctly
+
+**Modify the `Notifications` container in `task_3/dashboard/src/Notifications/Notifications.js`:**
 
 Refactor the code to delete the function markAsRead, we can now use the real one
 Refactor the code to delete the shouldComponentUpdate, the component is only using prop and state, and you should be able to optimize the performance with PureComponent
