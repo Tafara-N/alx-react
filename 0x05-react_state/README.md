@@ -225,8 +225,9 @@ Take a moment to test your application. At this point:
 
 **Tips:**
 
-If you end up having to reuse mock data a lot, feel free to export and import the same mockup from the same file
-Requirements:
+- If you end up having to reuse mock data a lot, feel free to export and import the same mockup from the same file
+
+**Requirements:**
 
 Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
