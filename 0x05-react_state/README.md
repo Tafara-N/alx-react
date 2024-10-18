@@ -190,9 +190,9 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 **Modify the test suite in `task_3/dashboard/src/Footer/Footer.test.js`:**
 
-Refactor the test to make them work correctly with the changes
-Add a test to verify that the link is not displayed when the user is logged out within the context
-Add a test to verify that the link is displayed when the user is logged in within the context
+- Refactor the test to make them work correctly with the changes
+- Add a test to verify that the link is not displayed when the user is logged out within the context
+- Add a test to verify that the link is displayed when the user is logged in within the context
 
 **Advanced state: modify the `App` container in `task_3/dashboard/src/App/App.js`:**
 
