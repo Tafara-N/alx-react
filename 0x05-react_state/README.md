@@ -7,7 +7,7 @@
 - [State and lifecycle](https://legacy.reactjs.org/docs/state-and-lifecycle.html)
 - [SetState and State callback](https://legacy.reactjs.org/docs/react-component.html)
 - [Context](https://legacy.reactjs.org/docs/context.html)
-- [Forms and Controlled components]()
+- [Forms and Controlled components](https://legacy.reactjs.org/docs/forms.html)
 - [Lifting State Up]()
 - [React Hooks]()
 - [Enzyme State]()
