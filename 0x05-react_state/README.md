@@ -159,12 +159,13 @@ Make sure the current tests pass correctly
 Add a test that mounts the Header component with a default context value. Verify that the logoutSection is not created
 Add a test that mounts the Header component with a user defined (isLoggedIn is true and an email is set). Verify that the logoutSection is created
 Add a test that mounts the Header component with a user defined (isLoggedIn is true and an email is set) and the logOut is linked to a spy. Verify that clicking on the link is calling the spy
-in task_2/dashboard/src/App/App.test.js
 
-Refactor the previous tests to not use props but state instead
-Refactor the test checking if logOut is being called by verifying if the state is updated correctly instead
-Create a test to verify that the logIn function updates the state correctly
-Create a test to verify that the logOut function updates the state correctly
+**in `task_2/dashboard/src/App/App.test.js`**
+
+- Refactor the previous tests to not use props but state instead
+- Refactor the test checking if `logOut` is being called by verifying if the state is updated correctly instead
+- Create a test to verify that the `logIn` function updates the state correctly
+- Create a test to verify that the `logOut` function updates the state correctly
 Tips:
 
 Remember that function components can not use the context, you might need to convert the Header function component to a Class
