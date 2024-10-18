@@ -227,9 +227,10 @@ Repo:
 GitHub repository: alx-react
 Directory: 0x05-react_state
 File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
-4. Introduction to react hook
-mandatory
-Using React Hooks, modify the CourseListRow component in task_4/dashboard/src/CourseList/CourseListRow.js:
+
+### 4. Introduction to react hook
+
+**Using React Hooks, modify the `CourseListRow` component in `task_4/dashboard/src/CourseList/CourseListRow.js`:**
 
 Add a new style named rowChecked with the background color #e6e4e4
 When the row is a simple row, add a checkbox within the first cell
