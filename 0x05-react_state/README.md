@@ -53,13 +53,15 @@ Modify the Notifications component in task_0/dashboard/src/Notifications/Notific
 Define the propTypes and the defaultProps for the new props
 When clicking on Your notifications, call handleDisplayDrawer
 When clicking on the close button, call handleHideDrawer
+
 At this point, after reloading the app, you should be able to show / hide the notifications panel
 
-Modify the Notifications test suite in task_0/dashboard/src/Notifications/Notifications.test.js:
+**Modify the Notifications test suite in `task_0/dashboard/src/Notifications/Notifications.test.js`:**
 
-Add a test to verify that clicking on the menu item calls handleDisplayDrawer
-Add a test to verify that clicking on the button calls handleHideDrawer
-Tips:
+- Add a test to verify that clicking on the menu item calls `handleDisplayDrawer`
+- Add a test to verify that clicking on the button calls `handleHideDrawer`
+
+**Tips:**
 
 Remember that you implemented shouldComponentUpdate. You will need to modify the logic to allow the component to rerender when the prop displayDrawer changes
 Use setState and instance when creating tests with Enzyme
