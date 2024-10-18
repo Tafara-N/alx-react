@@ -166,16 +166,18 @@ Add a test that mounts the Header component with a user defined (isLoggedIn is t
 - Refactor the test checking if `logOut` is being called by verifying if the state is updated correctly instead
 - Create a test to verify that the `logIn` function updates the state correctly
 - Create a test to verify that the `logOut` function updates the state correctly
-Tips:
 
-Remember that function components can not use the context, you might need to convert the Header function component to a Class
-Unfortunately, Enzyme does not fully support the newly created Static Context API of React. Therefore do not use the setContext API of Enzyme since it is not compatible. Instead wrap the component using the Context.Provider to pass different context values
-Requirements:
+**Tips:**
 
-Be careful that Context is using reference identity to determine when to re-render. Don’t create directly an object within the Provider value
-Don’t forget to export elements that are going to be reused through the app (e.g default user)
-Don’t forget to clean unused state and props after refactoring
-Don’t forget to set the propTypes and defaultProps for any new prop
+Remember that function components can not use the context, you might need to convert the `Header` function component to a Class
+Unfortunately, Enzyme does not fully support the newly created Static Context API of React. Therefore do not use the `setContext` API of Enzyme since it is not compatible. Instead wrap the component using the `Context.Provider` to pass different context values
+
+**Requirements:**
+
+- Be careful that Context is using reference identity to determine when to re-render. Don’t create directly an object within the Provider value
+- Don’t forget to export elements that are going to be reused through the app (e.g default user)
+- Don’t forget to clean unused state and props after refactoring
+- Don’t forget to set the `propTypes` and `defaultProps` for any new prop
 
 **Repo:**
 - GitHub repository: `alx-react`
