@@ -122,13 +122,14 @@ Create a React context containing a user object and a logOut function. Set both 
 Create the local state for the App in task_2/dashboard/src/App/App.js
 
 Modify the local state of the App container by adding a user object and logOut function. Set the default (or empty) values using the ones you previously created for the context
-Create the login and logout functions in the App container in task_2/dashboard/src/App/App.js and use them
 
-Create a logIn function that takes as argument email and password. When the function is called, update the user object in the local state. Set the email and password. Set the isLoggedIn value to true
-Modify the logOut function to reset the value of the user object in the local state
-Remove the two props isLoggedIn and logOut from the App, they will now be used through the state
-Refactor the render method to use the objects from the state to display the CourseList or the Login components
-Pass the new logIn function to the Login component
+**Create the login and logout functions in the `App` container in `task_2/dashboard/src/App/App.js` and use them**
+
+- Create a `logIn` function that takes as argument `email` and `password`. When the function is called, update the user object in the local state. Set the `email` and `password`. Set the `isLoggedIn` value to `true`
+- Modify the `logOut` function to reset the value of the `user` object in the local state
+- Remove the two props `isLoggedIn` and `logOut` from the App, they will now be used through the state
+- Refactor the render method to use the objects from the state to display the `CourseList` or the `Login` components
+- Pass the new `logIn` function to the `Login` component
 
 **in `task_2/dashboard/src/Login/Login.js`**
 
