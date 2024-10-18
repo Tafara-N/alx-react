@@ -207,10 +207,10 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 **Modify the `Notifications` container in `task_3/dashboard/src/Notifications/Notifications.js`:**
 
-Refactor the code to delete the function markAsRead, we can now use the real one
-Refactor the code to delete the shouldComponentUpdate, the component is only using prop and state, and you should be able to optimize the performance with PureComponent
-Use the newly created function markNotificationAsRead to mark a notification as read
-Define the prop type and the default for markNotificationAsRead
+- Refactor the code to delete the function `markAsRead`, we can now use the real one
+- Refactor the code to delete the `shouldComponentUpdate`, the component is only using prop and state, and you should be able to optimize the performance with `PureComponent`
+- Use the newly created function `markNotificationAsRead` to mark a notification as read
+- Define the prop type and the default for `markNotificationAsRead`
 
 **Modify the test suite in `task_3/dashboard/src/Notifications/Notifications.test.js`:**
 
