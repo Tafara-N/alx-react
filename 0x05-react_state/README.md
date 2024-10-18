@@ -216,13 +216,14 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 - Refactor the tests to match the new container
 
-Checkpoint
+**Checkpoint**
 
 Take a moment to test your application. At this point:
 
-When you log in, you should be able to see a new footer
-When you display the panel of notifications, you should each of them disappear on click
-Tips:
+- When you log in, you should be able to see a new footer
+- When you display the panel of notifications, you should each of them disappear on click
+
+**Tips:**
 
 If you end up having to reuse mock data a lot, feel free to export and import the same mockup from the same file
 Requirements:
