@@ -70,7 +70,7 @@ Do not forget to bind the functions you are passing to the children to improve p
 When running, there should not be any lint error in the console
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x05-react_state
 - File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
 
@@ -109,7 +109,7 @@ Make sure that the button is always enabled when the two inputs are not empty. A
 When running, there should not be any lint error in the console
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x05-react_state
 - File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
 2. Context
@@ -177,7 +177,7 @@ Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x05-react_state
 - File: task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js
 3. Context consumer & advanced state
@@ -224,7 +224,7 @@ Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x05-react_state
 - File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
 
@@ -243,6 +243,6 @@ Directory: 0x05-react_state
 - Do not modify the component to a Class. You need to use the React Hook
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x05-react_state
 - File: `task_4/dashboard/src/CourseList/CourseListRow.js`
