@@ -222,11 +222,11 @@ Requirements:
 
 Don’t forget to clean unused state and props after refactoring
 Don’t forget to set the propTypes and defaultProps for any new prop
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
-- File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js
+- File: `task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.test.js, task_3/dashboard/src/App/App.js, task_3/dashboard/src/App/App.test.js, task_3/dashboard/src/Notifications/Notifications.test.js`
 
 ### 4. Introduction to react hook
 
