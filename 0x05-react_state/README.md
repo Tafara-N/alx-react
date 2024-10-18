@@ -169,8 +169,8 @@ Add a test that mounts the Header component with a user defined (isLoggedIn is t
 
 **Tips:**
 
-Remember that function components can not use the context, you might need to convert the `Header` function component to a Class
-Unfortunately, Enzyme does not fully support the newly created Static Context API of React. Therefore do not use the `setContext` API of Enzyme since it is not compatible. Instead wrap the component using the `Context.Provider` to pass different context values
+- Remember that function components can not use the context, you might need to convert the `Header` function component to a Class
+- Unfortunately, Enzyme does not fully support the newly created Static Context API of React. Therefore do not use the `setContext` API of Enzyme since it is not compatible. Instead wrap the component using the `Context.Provider` to pass different context values
 
 **Requirements:**
 
