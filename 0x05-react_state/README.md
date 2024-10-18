@@ -119,9 +119,10 @@ Create a simple React Context in task_2/dashboard/src/App/AppContext.js
 Define a default user object, containing email, password, and isLoggedIn
 Define a default logOut function
 Create a React context containing a user object and a logOut function. Set both default values using the previously created elements
-Create the local state for the App in task_2/dashboard/src/App/App.js
 
-Modify the local state of the App container by adding a user object and logOut function. Set the default (or empty) values using the ones you previously created for the context
+**Create the local state for the App in `task_2/dashboard/src/App/App.js`**
+
+- Modify the local state of the App container by adding a `user` object and `logOut` function. Set the default (or empty) values using the ones you previously created for the context
 
 **Create the login and logout functions in the `App` container in `task_2/dashboard/src/App/App.js` and use them**
 
