@@ -83,11 +83,12 @@ Wrap the inputs within a form element
 Replace the button by an input element with type submit
 Create a function named handleLoginSubmit that will update the local state by setting isLoggedIn to true
 When the form is submitted call the newly created login submission handling function
-create controlled components in the Login component intask_1/dashboard/src/Login/Login.js
 
-Modify the local state to add two new values email and password. By default these values are empty but not null
-Modify the two inputs elements in the form and set their values to use the local state
-Create two function handleChangeEmail and handleChangePassword that the two inputs will call when the value in the input field is changed. The local state should update with what the user is typing
+**create controlled components in the `Login` component in `task_1/dashboard/src/Login/Login.js`**
+
+- Modify the local state to add two new values `email` and `password`. By default these values are empty but not `null`
+- Modify the two inputs elements in the form and set their values to use the local state
+- Create two function `handleChangeEmail` and `handleChangePassword` that the two inputs will call when the value in the input field is changed. The local state should update with what the user is typing
 
 **modify state callback in `task_1/dashboard/src/Login/Login.js`**
 
