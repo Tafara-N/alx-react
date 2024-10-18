@@ -232,9 +232,9 @@ File: task_3/dashboard/src/Footer/Footer.js, task_3/dashboard/src/Footer/Footer.
 
 **Using React Hooks, modify the `CourseListRow` component in `task_4/dashboard/src/CourseList/CourseListRow.js`:**
 
-Add a new style named rowChecked with the background color #e6e4e4
-When the row is a simple row, add a checkbox within the first cell
-When the user checks the box, the styling of the row should use rowChecked
+- Add a new style named `rowChecked` with the background color `#e6e4e4`
+- When the row is a simple row, add a checkbox within the first cell
+- When the user checks the box, the styling of the row should use `rowChecked`
 
 **Tips & Requirements:**
 
