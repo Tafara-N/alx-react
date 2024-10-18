@@ -179,7 +179,8 @@ Don’t forget to set the propTypes and defaultProps for any new prop
 
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
-- File: task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js
+- File: `task_2/dashboard/src/App/AppContext.js, task_2/dashboard/src/App/App.js, task_2/dashboard/src/Login/Login.js, task_2/dashboard/src/Header/Header.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/App/App.test.js`
+
 3. Context consumer & advanced state
 mandatory
 Context consumer: modify the Footer component in task_3/dashboard/src/Footer/Footer.js
