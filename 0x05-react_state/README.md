@@ -93,10 +93,11 @@ modify state callback in task_1/dashboard/src/Login/Login.js
 Modify the local state to add one value enableSubmit. It should be set to false by default
 Modify the Submit button to only be enabled when the enableSubmit value of the local state is true
 Every time the user changes the value of the email or password field, verify that both fields are not empty. If they are not empty, you can enable the submit button
-add tests in the task_1/dashboard/src/Login/Login.js suite
 
-Add a test to verify that the submit button is disabled by default
-Add a test to verify that after changing the value of the two inputs, the button is enabled
+**add tests in the `task_1/dashboard/src/Login/Login.js` suite**
+
+- Add a test to verify that the submit button is disabled by default
+- Add a test to verify that after changing the value of the two inputs, the button is enabled
 
 **Tips:**
 
