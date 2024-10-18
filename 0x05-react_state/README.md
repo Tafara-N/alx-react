@@ -72,7 +72,7 @@ When running, there should not be any lint error in the console
 
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
-- File: task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js
+- File: `task_0/dashboard/src/App/App.js, task_0/dashboard/src/App/App.test.js, task_0/dashboard/src/Notifications/Notifications.js, task_0/dashboard/src/Notifications/Notifications.test.js`
 
 ### 1. Controlled components and state callback
 
