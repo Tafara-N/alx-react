@@ -10,7 +10,7 @@ ___
 
 - [React Component](0x03-React_component/README.md)
 - [React Inline Styling](0x04-React_inline_styling/README.md)
-- [React Props](0x01-react_intro/README.md)
+- [React Props](0x02-react_props/README.md)
 - [React State](0x01-react_intro/README.md)
 ____
 
