@@ -131,8 +131,8 @@ Refactor the render method to use the objects from the state to display the Cour
 Pass the new logIn function to the Login component
 in task_2/dashboard/src/Login/Login.js
 
-Remove from the state the isLoggedIn property, since we don’t use it anymore
-Modify the handleLoginSubmit to call the newly created logIn function
+- Remove from the state the `isLoggedIn` property, since we don’t use it anymore
+- Modify the `handleLoginSubmit` to call the newly created `logIn` function
 
 **Checkpoint**
 
