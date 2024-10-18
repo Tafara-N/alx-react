@@ -100,18 +100,19 @@ Add a test to verify that after changing the value of the two inputs, the button
 Tips:
 
 To simulate an input change, you can use the simulate method and use the change event
-Requirements:
 
-The state should have all the default values set in the constructor
-Do not forget to bind the functions you are passing to the children to improve performances
-When submitting the form, the page should not reload
-Make sure that the button is always enabled when the two inputs are not empty. And make sure that the button is always disabled when one of the input’s value is empty
-When running, there should not be any lint error in the console
+**Requirements:**
+
+- The state should have all the default values set in the `constructor`
+- Do not forget to bind the functions you are passing to the children to improve performances
+- When submitting the form, the page should not reload
+- Make sure that the button is always enabled when the two inputs are not empty. And make sure that the button is always disabled when one of the input’s value is empty
+- When running, there should not be any lint error in the console
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
-- File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
+- File: `task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js`
 
 ### 2. Context
 
