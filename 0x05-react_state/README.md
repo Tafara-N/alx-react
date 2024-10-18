@@ -112,13 +112,14 @@ When running, there should not be any lint error in the console
 - GitHub repository: `alx-react`
 - Directory: `0x05-react_state`
 - File: task_1/dashboard/src/Login/Login.js, task_1/dashboard/src/Login/Login.test.js
-2. Context
-mandatory
-Create a simple React Context in task_2/dashboard/src/App/AppContext.js
 
-Define a default user object, containing email, password, and isLoggedIn
-Define a default logOut function
-Create a React context containing a user object and a logOut function. Set both default values using the previously created elements
+### 2. Context
+
+**Create a simple React Context in `task_2/dashboard/src/App/AppContext.js`**
+
+- Define a default user object, containing `email`, `password`, and `isLoggedIn`
+- Define a default `logOut` function
+- Create a React context containing a `user` object and a `logOut` function. Set both default values using the previously created elements
 
 **Create the local state for the App in `task_2/dashboard/src/App/App.js`**
 
