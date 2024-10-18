@@ -97,9 +97,10 @@ add tests in the task_1/dashboard/src/Login/Login.js suite
 
 Add a test to verify that the submit button is disabled by default
 Add a test to verify that after changing the value of the two inputs, the button is enabled
-Tips:
 
-To simulate an input change, you can use the simulate method and use the change event
+**Tips:**
+
+- To simulate an input change, you can use the `simulate` method and use the `change` event
 
 **Requirements:**
 
