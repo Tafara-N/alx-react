@@ -8,7 +8,7 @@
 - [SetState and State callback](https://legacy.reactjs.org/docs/react-component.html)
 - [Context](https://legacy.reactjs.org/docs/context.html)
 - [Forms and Controlled components](https://legacy.reactjs.org/docs/forms.html)
-- [Lifting State Up]()
+- [Lifting State Up](https://legacy.reactjs.org/docs/lifting-state-up.html)
 - [React Hooks]()
 - [Enzyme State]()
 - [Enzyme SetState]()
