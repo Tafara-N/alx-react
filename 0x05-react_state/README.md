@@ -48,11 +48,12 @@ Modify the App test suite in task_0/dashboard/src/App/App.test.js:
 
 Add a test to verify that the default state for displayDrawer is false. Verify that after calling handleDisplayDrawer, the state should now be true
 Add a test to verify that after calling handleHideDrawer, the state is updated to be false
-Modify the Notifications component in task_0/dashboard/src/Notifications/Notifications.js:
 
-Define the propTypes and the defaultProps for the new props
-When clicking on Your notifications, call handleDisplayDrawer
-When clicking on the close button, call handleHideDrawer
+**Modify the Notifications component in `task_0/dashboard/src/Notifications/Notifications.js`:**
+
+- Define the `propTypes` and the `defaultProps` for the new props
+- When clicking on `Your notifications`, call `handleDisplayDrawer`
+- When clicking on the close button, call `handleHideDrawer`
 
 At this point, after reloading the app, you should be able to show / hide the notifications panel
 
