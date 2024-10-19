@@ -207,27 +207,30 @@ GitHub repository: alx-react
 Directory: 0x06-React_Immutable
 File: `4-mutations.js`
 
-5. Merge & concat
-mandatory
-Create a function named concatElements
+### 5. Merge & concat
 
-It accepts two arguments page1 and page2. Both are arrays
-It should return a List containing the values of the two pages
-Create a function named mergeElements
+Create a function named `concatElements`
 
-It accepts two arguments page1 and page2. Both are objects
+It accepts two arguments `page1` and `page2`. Both are arrays
 It should return a List containing the values of the two pages
-If two values are the same, page2 values should be used.
-Requirements:
+
+Create a function named `mergeElements`
+
+It accepts two arguments `page1` and `page2`. Both are objects
+It should return a List containing the values of the two pages
+If two values are the same, `page2` values should be used.
+
+**Requirements:**
 
 Use list and map from the Immutable.js library
-Repo:
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 5-merge.js
-6. Nested merge
-mandatory
+File: `5-merge.js`
+
+### 6. Nested merge
+
 Create a function named mergeDeeplyElements
 
 It should accept two arguments, page1 and page2. Both are objects
