@@ -155,8 +155,8 @@ GitHub repository: alx-react
 Directory: 0x06-React_Immutable
 File: `2-nested.js`
 
-3. List and push
-mandatory
+### 3. List and push
+
 In file 3-list.js, create these 2 functions:
 
 export function getListObject(array) {
