@@ -9,6 +9,7 @@ ___
 ___
 
 - [React Component](0x03-React_component/README.md)
+- [React Immutable](0x06-React_Immutable/README.md)
 - [React Inline Styling](0x04-React_inline_styling/README.md)
 - [React Props](0x02-react_props/README.md)
 - [React State](0x05-react_state/README.md)
