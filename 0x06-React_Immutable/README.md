@@ -231,13 +231,15 @@ File: `5-merge.js`
 
 ### 6. Nested merge
 
-Create a function named mergeDeeplyElements
+Create a function named `mergeDeeplyElements`
 
-It should accept two arguments, page1 and page2. Both are objects
-It should return a List containing the values of the two pages
-If two values are the same, they should combine each other
-Example:
+- It should accept two arguments, `page1` and `page2`. Both are objects
+- It should return a List containing the values of the two pages
+- If two values are the same, they should combine each other
 
+**Example:**
+
+```javascript
 const page1 = {
   'user-1': {
     id: 1,
@@ -261,8 +263,11 @@ const page2 = {
 };
 
 mergeDeeplyElements(page1, page2).toJS();
-Should return:
+```
 
+**Should return:**
+
+```javascript
 const page1 = {
   'user-1': {
     id: 1,
@@ -277,14 +282,17 @@ const page1 = {
     }
   },
 };
-Requirements
+```
 
-use Map from immutable.js
+**Requirements**
+
+- use `Map` from `immutable.js`
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 6-deeply.js
+File: `6-deeply.js`
+
 7. Equality
 mandatory
 Create a function named areMapsEqual
