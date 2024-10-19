@@ -88,7 +88,7 @@ File: `0-fromjs.js`
 
 In `1-map.js`, modify the function `getImmutableObject` using `Map` from Immutable.js
 
-Example:
+**Example:**
 
 ```Javascript
 {
@@ -99,7 +99,7 @@ Example:
 }
 ```
 
-Should return:
+**Should return:**
 
 ```Javascript
 Map {
