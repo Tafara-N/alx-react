@@ -11,11 +11,12 @@
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
-Immutable objects. Who, what, when, where, and why?
-How to use the Immutable.js library to bring immutability to Javascript
-The differences between List and Map
-How to use Merge, Concat, and Deep Merging
-What a lazy Seq is
+- Immutable objects. Who, what, when, where, and why?
+- How to use the Immutable.js library to bring immutability to Javascript
+- The differences between List and Map
+- How to use Merge, Concat, and Deep Merging
+- What a lazy `Seq` is
+
 Requirements
 Allowed editors: vi, vim, emacs, Visual Studio Code
 A README.md file, at the root of the folder of the project, is mandatory
