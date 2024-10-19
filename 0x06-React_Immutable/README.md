@@ -222,7 +222,7 @@ If two values are the same, `page2` values should be used.
 
 **Requirements:**
 
-Use list and map from the Immutable.js library
+Use `list` and `map` from the Immutable.js library
 
 Repo:
 GitHub repository: alx-react
