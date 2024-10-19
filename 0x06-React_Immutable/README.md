@@ -90,7 +90,7 @@ In `1-map.js`, modify the function `getImmutableObject` using `Map` from Immutab
 
 **Example:**
 
-```Javascript
+```javascript
 {
      fear: true,
      smell: -1033575916.9145899,
@@ -101,7 +101,7 @@ In `1-map.js`, modify the function `getImmutableObject` using `Map` from Immutab
 
 **Should return:**
 
-```Javascript
+```javascript
 Map {
      size: 4,
      _root: ArrayMapNode {
