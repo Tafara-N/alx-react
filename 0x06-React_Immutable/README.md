@@ -82,9 +82,10 @@ Map {
 Repo:
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 0-fromjs.js
+File: `0-fromjs.js`
 
-1. Converting into Immutable using Map
+### 1. Converting into Immutable using Map
+
 mandatory
 In 1-map.js, modify the function getImmutableObject using Map from Immutable.js
 
