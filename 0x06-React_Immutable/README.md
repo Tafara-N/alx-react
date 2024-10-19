@@ -37,7 +37,7 @@ $ sudo bash nodesource_setup.sh
 $ sudo apt install nodejs
 ```
 
-### Provided files
+## Provided files
 
 - [`babel.config.js`]()
 
