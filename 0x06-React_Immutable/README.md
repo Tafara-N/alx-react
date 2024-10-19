@@ -17,13 +17,15 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to use Merge, Concat, and Deep Merging
 - What a lazy `Seq` is
 
-Requirements
-Allowed editors: vi, vim, emacs, Visual Studio Code
-A README.md file, at the root of the folder of the project, is mandatory
-All of your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.x and npm 6.x.x
-All of your files should end with a new line
-All of your functions must be exported
-Setup
+# Requirements
+
+- All of your files will be interpreted/compiled on Ubuntu 18.04 LTS using `node 12.x.x` and `npm 6.x.x`
+- Allowed editors: `vi`, `vim`, `emacs`, `Visual Studio Code`
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- All of your files should end with a new line
+- All of your functions must be exported
+
+## Setup
 Install NodeJS 12.11.x
 Install npm 6.11.x
 The script below installs the above 2 at the specified versions
