@@ -9,7 +9,7 @@
 - [Immutable.js GitHub](https://github.com/immutable-js/immutable-js)
 
 # Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
 Immutable objects. Who, what, when, where, and why?
 How to use the Immutable.js library to bring immutability to Javascript
