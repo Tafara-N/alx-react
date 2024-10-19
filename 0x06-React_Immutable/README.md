@@ -80,7 +80,7 @@ Map {
 ```
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `0-fromjs.js`
 
@@ -115,7 +115,7 @@ Map {
 ```
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `1-map.js`
 
@@ -151,7 +151,7 @@ accessImmutableObject({
 - The function should either return undefined, a string, or a Map
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `2-nested.js`
 
@@ -174,7 +174,7 @@ export function addElementToList(list, element) {
     - append the string to the list and return the list
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `3-list.js`
 
@@ -203,7 +203,7 @@ Export a second constant named `map2`. It should use the first `map` and modify 
 - You can’t use any other variable than `map` and `map2`
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `4-mutations.js`
 
@@ -225,7 +225,7 @@ Create a function named `mergeElements`
 - Use `list` and `map` from the Immutable.js library
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `5-merge.js`
 
@@ -289,7 +289,7 @@ const page1 = {
 - use `Map` from `immutable.js`
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `6-deeply.js`
 
@@ -326,7 +326,7 @@ areMapsEqual(map1, map2);
 - Use `is` from the `immutable.js` library
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `7-equality.js`
 
@@ -359,6 +359,6 @@ const grades = {
 - Uses `seq` from `immutable.js`
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 - Directory: `0x06-React_Immutable`
 - File: `8-seq.js`
