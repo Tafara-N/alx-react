@@ -37,14 +37,16 @@ $ sudo bash nodesource_setup.sh
 $ sudo apt install nodejs
 ```
 
-Provided files
-babel.config.js
-Click to show/hide file contents
-jsconfig.json
-Click to show/hide file contents
-package.json
-Click to show/hide file contents
-Tasks
+### Provided files
+
+- [`babel.config.js`]()
+
+- [`jsconfig.json`]()
+
+- [`package.json`]()
+
+## Tasks
+
 0. Converting into an Immutable object using fromJS
 mandatory
 Copy the necessary config files specified in the description to the root directory of the project and execute npm install.
