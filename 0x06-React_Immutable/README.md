@@ -86,19 +86,22 @@ File: `0-fromjs.js`
 
 ### 1. Converting into Immutable using Map
 
-mandatory
-In 1-map.js, modify the function getImmutableObject using Map from Immutable.js
+In `1-map.js`, modify the function `getImmutableObject` using `Map` from Immutable.js
 
 Example:
 
+```Javascript
 {
      fear: true,
      smell: -1033575916.9145899,
      wall: false,
      thing: -914767132
 }
+```
+
 Should return:
 
+```Javascript
 Map {
      size: 4,
      _root: ArrayMapNode {
@@ -109,11 +112,13 @@ Map {
      __hash: undefined,
      __altered: false
 }
-Repo:
+```
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 1-map.js
+File: `1-map.js`
+
 2. Accessing nested elements
 mandatory
 Given the function below, edit it to return the value of the object at the defined path
