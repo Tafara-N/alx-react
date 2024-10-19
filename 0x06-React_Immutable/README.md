@@ -171,12 +171,13 @@ export function addElementToList(list, element) {
 
 - `getListObject` accepts an array as parameter and converts it into an immutable List using the Immutable.js library
 - `addElementToList` accepts two arguments: first one is a List and second one is a string
-append the string to the list and return the list
-Repo:
+    - append the string to the list and return the list
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 3-list.js
+File: `3-list.js`
+
 4. Chained mutations
 mandatory
 Create & export a constant named map. It should create an Immutable Map with the following object:
