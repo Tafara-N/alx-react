@@ -144,16 +144,17 @@ accessImmutableObject({
 }, ['name', 'first'])
 ```
 
-Should return `Guillaume`
+**Should return `Guillaume`**
 
-Requirements:
+**Requirements:**
 
-The function should either return undefined, a string, or a Map
+- The function should either return undefined, a string, or a Map
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 2-nested.js
+File: `2-nested.js`
+
 3. List and push
 mandatory
 In file 3-list.js, create these 2 functions:
