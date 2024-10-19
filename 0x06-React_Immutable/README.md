@@ -157,14 +157,20 @@ File: `2-nested.js`
 
 ### 3. List and push
 
-In file 3-list.js, create these 2 functions:
+In file `3-list.js`, create these 2 functions:
 
+```javascript
 export function getListObject(array) {
 }
+```
+
+```javascript
 export function addElementToList(list, element) {
 }
-getListObject accepts an array as parameter and converts it into an immutable List using the Immutable.js library
-addElementToList accepts two arguments: first one is a List and second one is a string
+```
+
+- `getListObject` accepts an array as parameter and converts it into an immutable List using the Immutable.js library
+- `addElementToList` accepts two arguments: first one is a List and second one is a string
 append the string to the list and return the list
 Repo:
 
