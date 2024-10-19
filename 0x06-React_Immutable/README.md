@@ -293,14 +293,16 @@ GitHub repository: alx-react
 Directory: 0x06-React_Immutable
 File: `6-deeply.js`
 
-7. Equality
-mandatory
-Create a function named areMapsEqual
+### 7. Equality
 
-It accepts two arguments map1 and map2. Both are Immutable.js Maps
-It should return true if the Maps are equal
-Example:
+Create a function named `areMapsEqual`
 
+- It accepts two arguments `map1` and `map2`. Both are Immutable.js Maps
+- It should return true if the Maps are equal
+
+**Example:**
+
+```javascript
 const map1 = new Map(
   {
     firstName: 'Guillaume',
@@ -315,21 +317,26 @@ const map2 = new Map(
 );
 
 areMapsEqual(map1, map2);
-Should return true
+```
 
-Requirements:
+**Should return `true`**
 
-Use is from the immutable.js library
+**Requirements:**
+
+- Use `is` from the `immutable.js` library
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 7-equality.js
-8. Lazy Seq
-mandatory
-Create a function named printBestStudents:
+File: `7-equality.js`
 
-It accepts one object as argument. The object is formed with the following structure:
+### 8. Lazy Seq
+
+Create a function named `printBestStudents`:
+
+- It accepts one object as argument. The object is formed with the following structure:
+
+```javascript
 const grades = {
   1: {
     score: 99,
@@ -337,15 +344,21 @@ const grades = {
     lastName: 'salva',
   }
 };
-Calling the function should filter any student with a score < 70 and print to the console the first name and the last name with the first letter capitalized:
+```
+
+- Calling the function should filter any student with a score < 70 and print to the `console` the first name and the last name with the first letter capitalized:
+
+```bash
 {
     "1": { score: 99, firstName: "Guillaume", lastName: "Salva" },
 }
-Requirements:
+```
 
-Uses seq from immutable.js
+**Requirements:**
+
+- Uses `seq` from `immutable.js`
+
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 8-seq.js
+File: `8-seq.js`
