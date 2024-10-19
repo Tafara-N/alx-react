@@ -55,7 +55,7 @@ In a file named `0-fromjs.js`, create a function `getImmutableObject` that accep
 
 **Example:**
 
-```
+```javascript
 {
      fear: true,
      smell: -1033575916.9145899,
@@ -66,7 +66,7 @@ In a file named `0-fromjs.js`, create a function `getImmutableObject` that accep
 
 **Should return:**
 
-```js
+```javascript
 Map {
      size: 4,
      _root: ArrayMapNode {
