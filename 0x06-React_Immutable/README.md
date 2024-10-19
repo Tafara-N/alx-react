@@ -203,10 +203,10 @@ Export a second constant named `map2`. It should use the first `map` and modify 
 - You can’t use any other variable than `map` and `map2`
 
 Repo:
-
 GitHub repository: alx-react
 Directory: 0x06-React_Immutable
-File: 4-mutations.js
+File: `4-mutations.js`
+
 5. Merge & concat
 mandatory
 Create a function named concatElements
