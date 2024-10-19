@@ -123,21 +123,28 @@ File: `1-map.js`
 
 Given the function below, edit it to return the value of the object at the defined path
 
+```javascript
 export default function accessImmutableObject(object, array) {
 }
-The first argument is a plain object
-The second one is an array containing a list of a path to some key in the object
+```
+
+- The first argument is a plain object
+- The second one is an array containing a list of a path to some key in the object
+
 The function should return the value of the object at the defined path
 
-Example:
+**Example:**
 
+```javascript
 accessImmutableObject({
      name: {
           first: "Guillaume"
           last: "Salva"
      }
 }, ['name', 'first'])
-Should return Guillaume
+```
+
+Should return `Guillaume`
 
 Requirements:
 
