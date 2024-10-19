@@ -81,7 +81,7 @@ Map {
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `0-fromjs.js`
 
 ### 1. Converting into Immutable using Map
@@ -116,7 +116,7 @@ Map {
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `1-map.js`
 
 ### 2. Accessing nested elements
@@ -152,7 +152,7 @@ accessImmutableObject({
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `2-nested.js`
 
 ### 3. List and push
@@ -175,7 +175,7 @@ export function addElementToList(list, element) {
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `3-list.js`
 
 ### 4. Chained mutations
@@ -204,7 +204,7 @@ Export a second constant named `map2`. It should use the first `map` and modify 
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `4-mutations.js`
 
 ### 5. Merge & concat
@@ -226,7 +226,7 @@ Create a function named `mergeElements`
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `5-merge.js`
 
 ### 6. Nested merge
@@ -290,7 +290,7 @@ const page1 = {
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `6-deeply.js`
 
 ### 7. Equality
@@ -327,7 +327,7 @@ areMapsEqual(map1, map2);
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `7-equality.js`
 
 ### 8. Lazy Seq
@@ -360,5 +360,5 @@ const grades = {
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x06-React_Immutable
+- Directory: `0x06-React_Immutable`
 - File: `8-seq.js`
