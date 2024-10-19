@@ -39,11 +39,11 @@ $ sudo apt install nodejs
 
 ## Provided files
 
-- [`babel.config.js`](files/babel.config.js)
+- [`babel.config.js`](babel.config.js)
 
-- [`jsconfig.json`](files/jsconfig.json)
+- [`jsconfig.json`](jsconfig.json)
 
-- [`package.json`](files/package.json)
+- [`package.json`](package.json)
 
 ## Tasks
 
