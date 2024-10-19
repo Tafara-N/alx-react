@@ -182,7 +182,7 @@ export function addElementToList(list, element) {
 
 Create & export a constant named `map`. It should create an Immutable Map with the following object:
 
-```json
+```javascript
  {
      1: 'Liam',
      2: 'Noah',
