@@ -6,7 +6,7 @@
 
 - [Immutable Object concept](https://en.wikipedia.org/wiki/Immutable_object)
 - [Immutable.js Documentation](https://immutable-js.com/docs/v5.0.0-rc.2/)
-- [Immutable.js GitHub]()
+- [Immutable.js GitHub](https://github.com/immutable-js/immutable-js)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](), **without the help of Google:**
