@@ -178,10 +178,11 @@ GitHub repository: alx-react
 Directory: 0x06-React_Immutable
 File: `3-list.js`
 
-4. Chained mutations
-mandatory
-Create & export a constant named map. It should create an Immutable Map with the following object:
+### 4. Chained mutations
 
+Create & export a constant named `map`. It should create an Immutable Map with the following object:
+
+```json
  {
      1: 'Liam',
      2: 'Noah',
@@ -190,13 +191,17 @@ Create & export a constant named map. It should create an Immutable Map with the
      5: 'Jacob',
      6: 'Lucas',
 }
-Export a second constant named map2. It should use the first map and modify the following values:
+```
 
-Modify the value for the index 2, to Benjamin
-Modify the value for the index 4, to Oliver
-Requirements:
+Export a second constant named `map2`. It should use the first `map` and modify the following values:
 
-You can’t use any other variable than map and map2
+- Modify the value for the index 2, to `Benjamin`
+- Modify the value for the index 4, to `Oliver`
+
+**Requirements:**
+
+- You can’t use any other variable than `map` and `map2`
+
 Repo:
 
 GitHub repository: alx-react
