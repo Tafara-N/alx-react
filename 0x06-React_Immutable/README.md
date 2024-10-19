@@ -119,8 +119,8 @@ GitHub repository: alx-react
 Directory: 0x06-React_Immutable
 File: `1-map.js`
 
-2. Accessing nested elements
-mandatory
+### 2. Accessing nested elements
+
 Given the function below, edit it to return the value of the object at the defined path
 
 export default function accessImmutableObject(object, array) {
