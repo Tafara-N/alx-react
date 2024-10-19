@@ -5,7 +5,7 @@
 **Read or watch:**
 
 - [Immutable Object concept]()
-- [Immutable.js Documentation]()
+- [Immutable.js Documentation](https://immutable-js.com/docs/v5.0.0-rc.2/)
 - [Immutable.js GitHub]()
 
 # Learning Objectives
