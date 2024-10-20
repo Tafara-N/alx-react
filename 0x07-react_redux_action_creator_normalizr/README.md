@@ -68,7 +68,7 @@ Requirements:
 
 You can use any loop function to go through the array
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -131,7 +131,7 @@ Requirements:
 
 You must export the list of notifications using a Normalizr’s normalize
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -148,7 +148,7 @@ You should only use one loop at this point
 You should not use Object.keys
 You should not have to modify the test, and the test should pass correctly
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -176,7 +176,7 @@ In a file named courseActionCreators.test.js, write a test for the selectCourse 
 
 Write a test for the unSelectCourse action. Calling the creator with 1 as argument should return: { type: UNSELECT_COURSE, index: 1 }
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -207,7 +207,7 @@ The function hideNotificationDrawer will create the action with the type HIDE_NO
 Test the action creators:
 In a file named uiActionCreators.test.js, write a test for each of the action creator you wrote previously.
 
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -250,7 +250,7 @@ Write a test for the setNotificationFilter action. Calling the creator with one 
   type: SET_TYPE_FILTER,
   filter: "DEFAULT"
 }
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -271,7 +271,7 @@ bound the login action creator
 bound the logout action creator
 bound the displayNotificationDrawer action creator
 bound the hideNotificationDrawer action creator
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
@@ -318,7 +318,7 @@ Requirements:
 
 All the tests in the project should pass
 
-Repo:
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
 File: `task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js`
