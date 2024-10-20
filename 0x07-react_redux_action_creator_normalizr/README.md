@@ -123,15 +123,17 @@ Add a test to verify that your normalized data has a correct notifications entit
       author: "5debd764f8452ef92346c772",
       context: "3068c575-d619-40af-bf12-dece1ee18dd3",
       id: "5debd7642e815cd350407777"
-Tips:
+```
 
-The expected goal is to obtain a very easy to use dataset
-If you are having undefined issues, look at idAttribute from the Normalizr documentation
+**Tips:**
+
+- The expected goal is to obtain a very easy to use dataset
+- If you are having undefined issues, look at `idAttribute` from the Normalizr documentation
 
 **Requirements:**
 
-You must export the list of notifications using a Normalizr’s normalize
-All the tests in the project should pass
+- You must export the list of notifications using a Normalizr’s `normalize`
+- All the tests in the project should pass
 
 **Repo:**
 - GitHub repository: `alx-react`
