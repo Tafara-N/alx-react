@@ -152,18 +152,21 @@ All the tests in the project should pass
 
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_2/dashboard/src/schema/notifications.js
-3. Create actions for the course list
-mandatory
-Copy the dashboard folder from the task_2 directory into a directory named task_3
+- File: `task_2/dashboard/src/schema/notifications.js`
 
-Create a new folder named actions
+### 3. Create actions for the course list
 
-Create the action types:
-In a file named courseActionTypes.js, create two action types:
+Copy the dashboard folder from the `task_2` directory into a directory named `task_3`
 
-SELECT_COURSE
-UNSELECT_COURSE
+Create a new folder named `actions`
+
+**Create the action types:**
+
+In a file named `courseActionTypes.js`, create two action types:
+
+- `SELECT_COURSE`
+- `UNSELECT_COURSE`
+
 They will be used to define if a user selected or unselected a specific course
 
 **Create the action creators:**
