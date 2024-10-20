@@ -181,13 +181,14 @@ Write a test for the unSelectCourse action. Calling the creator with 1 as argume
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
-4. Create actions for the UI
-mandatory
-Copy the dashboard folder from task_3 into a directory labeled task_4
 
-In src/actions/uiActionTypes.js, create four action types:
+### 4. Create actions for the UI
 
-e.g . export const LOGIN = "LOGIN"
+Copy the dashboard folder from `task_3` into a directory labeled `task_4`
+
+In `src/actions/uiActionTypes.js`, create four action types:
+
+e.g . `export const LOGIN = "LOGIN"`
 
 **Create the action types:**
 
