@@ -171,16 +171,17 @@ In a file named courseActionCreators.js, create two action creators that will se
 
 The function selectCourse will accept index as argument
 The function unSelectCourse will accept index as argument
-Test the action creators:
-In a file named courseActionCreators.test.js, write a test for the selectCourse action. Calling the creator with 1 as argument should return: { type: SELECT_COURSE, index: 1 }
 
-Write a test for the unSelectCourse action. Calling the creator with 1 as argument should return: { type: UNSELECT_COURSE, index: 1 }
+**Test the action creators:**
+
+In a file named `courseActionCreators.test.js`, write a test for the `selectCourse` action. Calling the creator with 1 as argument should return: `{ type: SELECT_COURSE, index: 1 }`
+
+Write a test for the `unSelectCourse` action. Calling the creator with 1 as argument should return: `{ type: UNSELECT_COURSE, index: 1 }`
 
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
+- File: `task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js`
 
 ### 4. Create actions for the UI
 
