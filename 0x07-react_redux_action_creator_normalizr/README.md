@@ -271,11 +271,11 @@ bound the login action creator
 bound the logout action creator
 bound the displayNotificationDrawer action creator
 bound the hideNotificationDrawer action creator
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
+- File: `task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js`
 
 ### 7. Async Action Creators
 
