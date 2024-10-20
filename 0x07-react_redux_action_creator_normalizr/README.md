@@ -11,13 +11,13 @@ Writing tests for Redux
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
 
-Normalizr’s purpose and how to use it
-schemas and normalization of nested JSON
-core concepts of Redux
-Redux actions
-Redux action creators
-async actions in Redux
-how to write tests for Redux
+- Normalizr’s purpose and how to use it
+- schemas and normalization of nested JSON
+- core concepts of Redux
+- Redux actions
+- Redux action creators
+- async actions in Redux
+- how to write tests for Redux
 
 # Requirements
 - All your files will be interpreted/compiled on Ubuntu 18.04 LTS using `node 12.x.x` and `npm 6.x.x`
