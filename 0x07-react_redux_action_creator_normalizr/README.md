@@ -68,11 +68,11 @@ Requirements:
 
 You can use any loop function to go through the array
 All the tests in the project should pass
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
+- File: `task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js`
 
 ### 1. Normalize a nested JSON
 
