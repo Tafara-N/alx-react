@@ -127,12 +127,13 @@ Tips:
 
 The expected goal is to obtain a very easy to use dataset
 If you are having undefined issues, look at idAttribute from the Normalizr documentation
-Requirements:
+
+**Requirements:**
 
 You must export the list of notifications using a Normalizr’s normalize
 All the tests in the project should pass
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: `task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js`
