@@ -201,9 +201,11 @@ In a file named uiActionCreators.js, the goal of this section is to create four 
 
 The function login will accept email and password as arguments. It will return the action with LOGIN as a type and the user object:
 { user : { email, password } }
-The function logout will create the action with the type LOGOUT
-The function displayNotificationDrawer will create the action with the type DISPLAY_NOTIFICATION_DRAWER
-The function hideNotificationDrawer will create the action with the type HIDE_NOTIFICATION_DRAWER
+```
+
+- The function `logout` will create the action with the type `LOGOUT`
+- The function `displayNotificationDrawer` will create the action with the type `DISPLAY_NOTIFICATION_DRAWER`
+- The function `hideNotificationDrawer` will create the action with the type `HIDE_NOTIFICATION_DRAWER`
 
 **Test the action creators:**
 
