@@ -308,8 +308,8 @@ if the API fails, dispatch the loginFailure action
 
 In the file `uiActionCreators.test.js`, write a test suite for the `loginRequest` action:
 
-the first test should verify that if the API returns the right response, the store received two actions LOGIN and LOGING_SUCCESS
-the first test should verify that if the API query fails, the store received two actions LOGIN and LOGIN_FAILURE
+- the first test should verify that if the API returns the right response, the store received two actions `LOGIN` and `LOGING_SUCCESS`
+- the first test should verify that if the API query fails, the store received two actions `LOGIN` and `LOGIN_FAILURE`
 
 **Tips:**
 
