@@ -204,14 +204,15 @@ The function login will accept email and password as arguments. It will return t
 The function logout will create the action with the type LOGOUT
 The function displayNotificationDrawer will create the action with the type DISPLAY_NOTIFICATION_DRAWER
 The function hideNotificationDrawer will create the action with the type HIDE_NOTIFICATION_DRAWER
-Test the action creators:
-In a file named uiActionCreators.test.js, write a test for each of the action creator you wrote previously.
+
+**Test the action creators:**
+
+- In a file named `uiActionCreators.test.js`, write a test for each of the action creator you wrote previously.
 
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
+- File: `task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js`
 
 ### 5. Create actions for the notification list
 
