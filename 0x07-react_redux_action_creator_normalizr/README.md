@@ -29,12 +29,14 @@ notifications.json
 Click to show/hide contents of notifications.json
 login-success.json
 Click to show/hide contents of login-success.json
-Tasks
-0. Read data from a JSON
-mandatory
-Reuse the latest dashboard project you worked on in the React course 0x06-React_state
 
-For this task, place notifications.json into the root of the project directory and use the data inside for the next step.
+## Tasks
+
+### 0. Read data from a JSON
+
+Reuse the latest dashboard project you worked on in the React course `0x06-React_state`
+
+For this task, place `notifications.json` into the root of the project directory and use the data inside for the next step.
 
 Create a new `notifications.js` file in a `schema` folder:
 
