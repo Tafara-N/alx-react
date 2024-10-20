@@ -223,21 +223,24 @@ In `src/actions/notificationActionTypes.js`, create two action types:
 
 - `MARK_AS_READ`
 - `SET_TYPE_FILTER`
-Create the filter states
-In src/actions/notificationActionTypes.js, create a constant named NotificationTypeFilters, that will contain the two filter states:
+
+**Create the filter states**
+
+In `src/actions/notificationActionTypes.js`, create a constant named `NotificationTypeFilters`, that will contain the two filter states:
 
 - `DEFAULT`
 - `URGENT`
 
 They will be used when the user interacts with the notification drawer
 
-Create the action creator
-Import the action types you just created in src/actions/notificationActionTypes.js
+**Create the action creator**
 
-In a file named notificationActionCreators.js, create two action creators that will send the two action types we previously created:
+Import the action types you just created in `src/actions/notificationActionTypes.js`
 
-The function markAsAread will accept index as argument
-The function setNotificationFilter will accept filter as argument
+In a file named `notificationActionCreators.js`, create two action creators that will send the two action types we previously created:
+
+- The function `markAsAread` will accept `index` as argument
+- The function `setNotificationFilter` will accept `filter` as argument
 
 **Test the action creators**
 
