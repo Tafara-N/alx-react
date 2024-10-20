@@ -224,8 +224,9 @@ SET_TYPE_FILTER
 Create the filter states
 In src/actions/notificationActionTypes.js, create a constant named NotificationTypeFilters, that will contain the two filter states:
 
-DEFAULT
-URGENT
+- `DEFAULT`
+- `URGENT`
+
 They will be used when the user interacts with the notification drawer
 
 Create the action creator
