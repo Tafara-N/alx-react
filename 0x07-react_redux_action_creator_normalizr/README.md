@@ -255,12 +255,14 @@ Write a test for the setNotificationFilter action. Calling the creator with one 
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
-6. Bound the actions
-mandatory
+
+### 6. Bound the actions
+
 Modify the Course actions creators:
 
-bound the selectCourse action creator
-bound the unSelectCourse action creator
+- bound the `selectCourse` action creator
+- bound the `unSelectCourse` action creator
+
 Modify the Notification actions creators:
 
 bound the markAsAread action creator
