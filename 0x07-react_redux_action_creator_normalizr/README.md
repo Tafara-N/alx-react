@@ -313,13 +313,13 @@ In the file `uiActionCreators.test.js`, write a test suite for the `loginRequest
 
 **Tips:**
 
-You can use node-fetch to query an API
-You can install redux-mock-store and fetch-mock to simular the API and simulate the store
-With fetch-mock, you can use getOnce and get to simulate success and failures
+- You can use `node-fetch` to query an API
+- You can install `redux-mock-store` and `fetch-mock` to simular the API and simulate the store
+- With `fetch-mock`, you can use `getOnce` and `get` to simulate success and failures
 
 **Requirements:**
 
-All the tests in the project should pass
+- All the tests in the project should pass
 
 **Repo:**
 - GitHub repository: `alx-react`
