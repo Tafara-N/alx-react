@@ -27,9 +27,9 @@ All of your functions must be exported
 
 ## Provided files
 
-- [`notifications.json`]()
+- [`notifications.json`](notifications.json)
 
-- [`login-success.json`]()
+- [`login-success.json`](login-success.json)
 
 ## Tasks
 
