@@ -1,12 +1,13 @@
-Resources
-Read or watch:
+# Resources
 
-Normalizr
-Normalizing State Shape
-Redux Getting started and core concepts
-Redux Actions
-Async Actions
-Writing tests for Redux
+**Read or watch:**
+
+- [Normalizr]()
+- [Normalizing State Shape]()
+- [Redux Getting started and core concepts]()
+- [Redux Actions]()
+- [Async Actions]()
+- [Writing tests for Redux]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
