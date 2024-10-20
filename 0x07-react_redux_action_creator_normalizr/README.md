@@ -238,14 +238,18 @@ The function setNotificationFilter will accept filter as argument
 Test the action creators
 Import the action types, NotificationTypeFilters, and the action creators into src/actions/notificationActionCreators.test.js
 
-In this file, write a test for the markAsAread action. Calling the creator with 1 as an argument should return:
+In this file, write a test for the `markAsAread` action. Calling the creator with 1 as an argument should return:
 
+```javascript
 {
   type: MARK_AS_READ,
   index: 1
 }
-Write a test for the setNotificationFilter action. Calling the creator with one of the filters from NotificationTypeFilters as an argument should return:
+```
 
+Write a test for the `setNotificationFilter` action. Calling the creator with one of the filters from `NotificationTypeFilters` as an argument should return:
+
+```javascript
 {
   type: SET_TYPE_FILTER,
   filter: "DEFAULT"
