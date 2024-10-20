@@ -105,15 +105,19 @@ Add a test in schema/notifications.test.js to verify that your normalized data h
   "5debd764af0fdd1fc815ad9b"
   "5debd76468cb5b277fd125f4"
   "5debd764de9fa684468cdc0b"
-Add a test to verify that your normalized data has a correct users entity. Test to access the user with the id 5debd764a7c57c7839d722e9. It should return:
+Add a test to verify that your normalized data has a correct `users` entity. Test to access the user with the id `5debd764a7c57c7839d722e9`. It should return:
 
+```javascript
       age: 25,
       email: "poole.sanders@holberton.nz",
       id: "5debd764a7c57c7839d722e9",
       name: { first: "Poole", last: "Sanders" },
       picture: "http://placehold.it/32x32"
-Add a test to verify that your normalized data has a correct messages entity. Test to access the message with the guid efb6c485-00f7-4fdf-97cc-5e12d14d6c41. It should return:
+```
 
+Add a test to verify that your normalized data has a correct `messages` entity. Test to access the message with the guid `efb6c485-00f7-4fdf-97cc-5e12d14d6c41`. It should return:
+
+```javascript
       guid: "efb6c485-00f7-4fdf-97cc-5e12d14d6c41",
       isRead: false,
       type: "default",
