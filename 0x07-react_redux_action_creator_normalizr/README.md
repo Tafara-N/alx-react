@@ -294,11 +294,13 @@ Modify the file named uiActionTypes.js, add two action types:
 
 LOGIN_SUCCESS
 LOGIN_FAILURE
-Modify the uiActionCreators file:
 
-Create a loginSuccess action creator, that will return the previously created type
-Create a loginFailure action creator, that will return the previously created type
-Create a loginRequest function that takes into argument the email and password of the user:
+**Modify the `uiActionCreators` file:**
+
+- Create a `loginSuccess` action creator, that will return the previously created type
+- Create a `loginFailure` action creator, that will return the previously created type
+
+Create a `loginRequest` function that takes into argument the email and password of the user:
 
 the function should dispatch the login action using the action creator previously created
 the function should fetch the API /login-success.json and if it succeeds, dispatch the loginSuccess action
