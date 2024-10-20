@@ -72,7 +72,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
+- File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
 1. Normalize a nested JSON
 mandatory
 Copy over dashboard from the previous task into a task_1 directory at the root of the project
@@ -135,7 +135,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js
+- File: task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js
 2. Filter a normalized Schema
 mandatory
 Copy the contents of dashboard from the task_1 directory into a task_2 directory at the root of the project
@@ -152,7 +152,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_2/dashboard/src/schema/notifications.js
+- File: task_2/dashboard/src/schema/notifications.js
 3. Create actions for the course list
 mandatory
 Copy the dashboard folder from the task_2 directory into a directory named task_3
@@ -180,7 +180,7 @@ Write a test for the unSelectCourse action. Calling the creator with 1 as argume
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
+- File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
 4. Create actions for the UI
 mandatory
 Copy the dashboard folder from task_3 into a directory labeled task_4
@@ -211,7 +211,7 @@ In a file named uiActionCreators.test.js, write a test for each of the action cr
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
+- File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
 5. Create actions for the notification list
 mandatory
 Copy dashboard from the task_4 directory into task_5
@@ -254,7 +254,7 @@ Write a test for the setNotificationFilter action. Calling the creator with one 
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
+- File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
 6. Bound the actions
 mandatory
 Modify the Course actions creators:
@@ -275,7 +275,7 @@ bound the hideNotificationDrawer action creator
 
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
+- File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
 7. Async Action Creators
 mandatory
 Set up Redux and Redux Thunk
@@ -321,4 +321,4 @@ All the tests in the project should pass
 **Repo:**
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: `task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js`
+- File: `task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js`
