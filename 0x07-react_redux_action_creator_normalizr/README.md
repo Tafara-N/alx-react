@@ -265,8 +265,9 @@ Modify the Course actions creators:
 
 Modify the Notification actions creators:
 
-bound the markAsAread action creator
-bound the setNotificationFilter action creator
+- bound the `markAsAread` action creator
+- bound the `setNotificationFilter` action creator
+
 Modify the UI actions creators:
 
 bound the login action creator
