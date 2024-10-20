@@ -303,9 +303,10 @@ Create a loginRequest function that takes into argument the email and password o
 the function should dispatch the login action using the action creator previously created
 the function should fetch the API /login-success.json and if it succeeds, dispatch the loginSuccess action
 if the API fails, dispatch the loginFailure action
-Write the tests
 
-In the file uiActionCreators.test.js, write a test suite for the loginRequest action:
+**Write the tests**
+
+In the file `uiActionCreators.test.js`, write a test suite for the `loginRequest` action:
 
 the first test should verify that if the API returns the right response, the store received two actions LOGIN and LOGING_SUCCESS
 the first test should verify that if the API query fails, the store received two actions LOGIN and LOGIN_FAILURE
