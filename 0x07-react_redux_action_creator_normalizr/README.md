@@ -300,7 +300,7 @@ LOGIN_FAILURE
 - Create a `loginSuccess` action creator, that will return the previously created type
 - Create a `loginFailure` action creator, that will return the previously created type
 
-Create a `loginRequest` function that takes into argument the email and password of the user:
+**Create a `loginRequest` function that takes into argument the `email` and `password` of the user:**
 
 the function should dispatch the login action using the action creator previously created
 the function should fetch the API /login-success.json and if it succeeds, dispatch the loginSuccess action
