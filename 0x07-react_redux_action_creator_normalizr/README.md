@@ -302,9 +302,9 @@ LOGIN_FAILURE
 
 **Create a `loginRequest` function that takes into argument the `email` and `password` of the user:**
 
-the function should dispatch the login action using the action creator previously created
-the function should fetch the API /login-success.json and if it succeeds, dispatch the loginSuccess action
-if the API fails, dispatch the loginFailure action
+- the function should dispatch the `login` action using the action creator previously created
+- the function should fetch the API `/login-success.json` and if it succeeds, dispatch the `loginSuccess` action
+- if the API fails, dispatch the `loginFailure` action
 
 **Write the tests**
 
