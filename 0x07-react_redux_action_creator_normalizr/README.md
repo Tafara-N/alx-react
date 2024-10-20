@@ -1,3 +1,5 @@
+![You get an action item](action_item.jpg)
+
 # Resources
 
 **Read or watch:**
