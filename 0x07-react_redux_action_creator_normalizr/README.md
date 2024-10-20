@@ -71,7 +71,7 @@ All the tests in the project should pass
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
 1. Normalize a nested JSON
 mandatory
@@ -134,7 +134,7 @@ All the tests in the project should pass
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js
 2. Filter a normalized Schema
 mandatory
@@ -151,7 +151,7 @@ All the tests in the project should pass
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_2/dashboard/src/schema/notifications.js
 3. Create actions for the course list
 mandatory
@@ -179,7 +179,7 @@ Write a test for the unSelectCourse action. Calling the creator with 1 as argume
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_3/dashboard/src/actions/courseActionCreators.js, task_3/dashboard/src/actions/courseActionCreators.test.js, task_3/dashboard/src/actions/courseActionTypes.js
 4. Create actions for the UI
 mandatory
@@ -210,7 +210,7 @@ In a file named uiActionCreators.test.js, write a test for each of the action cr
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
 5. Create actions for the notification list
 mandatory
@@ -253,7 +253,7 @@ Write a test for the setNotificationFilter action. Calling the creator with one 
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
 6. Bound the actions
 mandatory
@@ -274,7 +274,7 @@ bound the hideNotificationDrawer action creator
 **Repo:**
 
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
 7. Async Action Creators
 mandatory
@@ -320,5 +320,5 @@ All the tests in the project should pass
 
 **Repo:**
 GitHub repository: alx-react
-Directory: 0x07-react_redux_action_creator_normalizr
+- Directory: `0x07-react_redux_action_creator_normalizr`
 - File: `task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js`
