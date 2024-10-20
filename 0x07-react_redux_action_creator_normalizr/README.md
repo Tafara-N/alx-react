@@ -135,7 +135,7 @@ All the tests in the project should pass
 
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js
+- File: `task_1/dashboard/src/schema/notifications.js, task_1/dashboard/src/schema/notifications.test.js`
 
 ### 2. Filter a normalized Schema
 
