@@ -12,6 +12,7 @@ ___
 - [React Immutable](0x06-React_Immutable/README.md)
 - [React Inline Styling](0x04-React_inline_styling/README.md)
 - [React Props](0x02-react_props/README.md)
+- [React Redux Action Creator + Normalizr](0x07-react_redux_action_creator_normalizr/README.md)
 - [React State](0x05-react_state/README.md)
 ____
 
