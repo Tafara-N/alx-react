@@ -309,12 +309,14 @@ In the file uiActionCreators.test.js, write a test suite for the loginRequest ac
 
 the first test should verify that if the API returns the right response, the store received two actions LOGIN and LOGING_SUCCESS
 the first test should verify that if the API query fails, the store received two actions LOGIN and LOGIN_FAILURE
-Tips:
+
+**Tips:**
 
 You can use node-fetch to query an API
 You can install redux-mock-store and fetch-mock to simular the API and simulate the store
 With fetch-mock, you can use getOnce and get to simulate success and failures
-Requirements:
+
+**Requirements:**
 
 All the tests in the project should pass
 
