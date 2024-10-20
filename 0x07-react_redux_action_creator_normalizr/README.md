@@ -169,8 +169,8 @@ They will be used to define if a user selected or unselected a specific course
 Create the action creators:
 In a file named courseActionCreators.js, create two action creators that will send the two types we previously created:
 
-The function selectCourse will accept index as argument
-The function unSelectCourse will accept index as argument
+- The function `selectCourse` will accept `index` as argument
+- The function `unSelectCourse` will accept `index` as argument
 
 **Test the action creators:**
 
