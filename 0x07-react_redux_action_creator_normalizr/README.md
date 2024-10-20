@@ -250,11 +250,12 @@ Write a test for the setNotificationFilter action. Calling the creator with one 
   type: SET_TYPE_FILTER,
   filter: "DEFAULT"
 }
-**Repo:**
+```
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
-- File: task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
+- File: `task_5/dashboard/src/actions/notificationActionTypes.js, task_5/dashboard/src/actions/notificationActionCreators.js, task_5/dashboard/src/actions/notificationActionCreators.test.js`
 
 ### 6. Bound the actions
 
