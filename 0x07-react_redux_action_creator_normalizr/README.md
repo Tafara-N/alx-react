@@ -60,14 +60,17 @@ Add a test that uses the id 5debd764a7c57c7839d722e9 and verifies that the follo
       "Non diam phasellus vestibulum lorem sed risus ultricies. Tellus mauris a diam maecenas sed"
   }
 ]
-Tips:
+```
 
-You can easily import JSON data using Babel
-When writing your test, you can use the arrayContaining method from Jest to easily compare what the function returns and what you are expecting
-Requirements:
+**Tips:**
 
-You can use any loop function to go through the array
-All the tests in the project should pass
+- You can easily import JSON data using Babel
+- When writing your test, you can use the `arrayContaining` method from Jest to easily compare what the function returns and what you are expecting
+
+**Requirements:**
+
+- You can use any loop function to go through the array
+- All the tests in the project should pass
 
 **Repo:**
 - GitHub repository: `alx-react`
