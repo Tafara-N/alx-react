@@ -276,24 +276,25 @@ bound the hideNotificationDrawer action creator
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_6/dashboard/src/actions/courseActionCreators.js, task_6/dashboard/src/actions/notificationActionCreators.js, task_6/dashboard/src/actions/uiActionCreators.js
-7. Async Action Creators
-mandatory
+
+### 7. Async Action Creators
+
 Set up Redux and Redux Thunk
 
-Install redux and redux-thunk in your project
+Install `redux` and `redux-thunk` in your project
 
 Simulate an API
 
-Copy the file login-success.json into the dist folder. You can do the same with the notifications.json file as well now
+Copy the file `login-success.json` into the `dist` folder. You can do the same with the `notifications.json` file as well now
 
 These files will be available on the web server and will be your own API
 
 Create the first Async Action Creator
 
-Modify the file named uiActionTypes.js, add two action types:
+**Modify the file named `uiActionTypes.js`, add two action types:**
 
-LOGIN_SUCCESS
-LOGIN_FAILURE
+- `LOGIN_SUCCESS`
+- `LOGIN_FAILURE`
 
 **Modify the `uiActionCreators` file:**
 
