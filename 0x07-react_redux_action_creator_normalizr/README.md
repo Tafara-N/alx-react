@@ -270,10 +270,10 @@ Modify the Notification actions creators:
 
 Modify the UI actions creators:
 
-bound the login action creator
-bound the logout action creator
-bound the displayNotificationDrawer action creator
-bound the hideNotificationDrawer action creator
+- bound the `login action` creator
+- bound the `logout action` creator
+- bound the `displayNotificationDrawer` action creator
+- bound the `hideNotificationDrawer` action creator
 
 **Repo:**
 - GitHub repository: `alx-react`
