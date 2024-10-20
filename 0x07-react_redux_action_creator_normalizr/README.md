@@ -118,8 +118,11 @@ Add a test to verify that your normalized data has a correct messages entity. Te
       isRead: false,
       type: "default",
       value: "Cursus risus at ultrices mi."
-Add a test to verify that your normalized data has a correct notifications entity. Test to access the notification with the id 5debd7642e815cd350407777. It should return:
+```
 
+Add a test to verify that your normalized data has a correct `notifications` entity. Test to access the notification with the id `5debd7642e815cd350407777`. It should return:
+
+```javascript
       author: "5debd764f8452ef92346c772",
       context: "3068c575-d619-40af-bf12-dece1ee18dd3",
       id: "5debd7642e815cd350407777"
