@@ -89,8 +89,10 @@ Create a message entity in a variable called message whose key is messages and s
 Create a notification entity in a variable called notification whose key is notifications and set the definition of the entity as so:
 author: user
 context: message
-Add a test in schema/notifications.test.js to verify that your normalized data has a correct result array. It should contain:
 
+Add a test in `schema/notifications.test.js` to verify that your normalized data has a correct `result` array. It should contain:
+
+```javascript
   "5debd76480edafc8af244228"
   "5debd764507712e7a1307303"
   "5debd76444dd4dafea89d53b"
@@ -105,6 +107,8 @@ Add a test in schema/notifications.test.js to verify that your normalized data h
   "5debd764af0fdd1fc815ad9b"
   "5debd76468cb5b277fd125f4"
   "5debd764de9fa684468cdc0b"
+```
+
 Add a test to verify that your normalized data has a correct `users` entity. Test to access the user with the id `5debd764a7c57c7839d722e9`. It should return:
 
 ```javascript
