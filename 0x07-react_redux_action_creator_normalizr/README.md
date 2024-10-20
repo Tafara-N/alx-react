@@ -212,15 +212,17 @@ In a file named uiActionCreators.test.js, write a test for each of the action cr
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_4/dashboard/src/actions/uiActionTypes.js, task_4/dashboard/src/actions/uiActionCreators.js, task_4/dashboard/src/actions/uiActionCreators.test.js
-5. Create actions for the notification list
-mandatory
-Copy dashboard from the task_4 directory into task_5
 
-Create the action types
-In src/actions/notificationActionTypes.js, create two action types:
+### 5. Create actions for the notification list
 
-MARK_AS_READ
-SET_TYPE_FILTER
+Copy `dashboard` from the `task_4` directory into `task_5`
+
+**Create the action types**
+
+In `src/actions/notificationActionTypes.js`, create two action types:
+
+- `MARK_AS_READ`
+- `SET_TYPE_FILTER`
 Create the filter states
 In src/actions/notificationActionTypes.js, create a constant named NotificationTypeFilters, that will contain the two filter states:
 
