@@ -189,15 +189,18 @@ In src/actions/uiActionTypes.js, create four action types:
 
 e.g . export const LOGIN = "LOGIN"
 
-Create the action types:
+**Create the action types:**
+
 LOGIN
 LOGOUT
 DISPLAY_NOTIFICATION_DRAWER
 HIDE_NOTIFICATION_DRAWER
+
 They will be used to define when a user is logging in, logging out, and display / hide the notifications drawer
 
-Create the action creator:
-In a file named uiActionCreators.js, the goal of this section is to create four action creators that will send the four types we previously created. Remember to import all the types from uiActionTypes in this file.
+**Create the action creator:**
+
+In a file named `uiActionCreators.js`, the goal of this section is to create four action creators that will send the four types we previously created. Remember to import all the types from `uiActionTypes` in this file.
 
 - The function `login` will accept `email` and `password` as arguments. It will return the action with `LOGIN` as a type and the `user` object:
 
