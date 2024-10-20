@@ -317,8 +317,8 @@ With fetch-mock, you can use getOnce and get to simulate success and failures
 Requirements:
 
 All the tests in the project should pass
-Repo:
 
+Repo:
 GitHub repository: alx-react
 Directory: 0x07-react_redux_action_creator_normalizr
-File: task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js
+File: `task_7/dashboard/src/actions/uiActionTypes.js, task_7/dashboard/src/actions/uiActionCreators.js, task_7/dashboard/src/actions/uiActionCreators.test.js`
