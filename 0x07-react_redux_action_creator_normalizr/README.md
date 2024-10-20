@@ -191,10 +191,10 @@ e.g . export const LOGIN = "LOGIN"
 
 **Create the action types:**
 
-LOGIN
-LOGOUT
-DISPLAY_NOTIFICATION_DRAWER
-HIDE_NOTIFICATION_DRAWER
+- `LOGIN`
+- `LOGOUT`
+- `DISPLAY_NOTIFICATION_DRAWER`
+- `HIDE_NOTIFICATION_DRAWER`
 
 They will be used to define when a user is logging in, logging out, and display / hide the notifications drawer
 
