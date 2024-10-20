@@ -73,22 +73,23 @@ All the tests in the project should pass
 - GitHub repository: `alx-react`
 - Directory: `0x07-react_redux_action_creator_normalizr`
 - File: task_0/dashboard/src/schema/notifications.js, task_0/dashboard/src/schema/notifications.test.js
-1. Normalize a nested JSON
-mandatory
-Copy over dashboard from the previous task into a task_1 directory at the root of the project
 
-Modify src/schema/notifications.js to set up a schema using Normalizr
+### 1. Normalize a nested JSON
 
-You’re going to use schema.Entity to create a 3 of entities.
+Copy over `dashboard` from the previous task into a `task_1` directory at the root of the project
+
+Modify `src/schema/notifications.js` to set up a schema using Normalizr
+
+You’re going to use `schema.Entity` to create a 3 of entities.
 
 The first one is an example the task will provide for you.
 
-const user = new schema.Entity("users")
+`const user = new schema.Entity("users")`
 
-Create a message entity in a variable called message whose key is messages and set the idAttribute to the string guid in the options
-Create a notification entity in a variable called notification whose key is notifications and set the definition of the entity as so:
-author: user
-context: message
+- Create a message entity in a variable called `message` whose key is `messages` and set the `idAttribute` to the string `guid` in the options
+- Create a notification entity in a variable called `notification` whose key is `notifications` and set the definition of the entity as so:
+    - author: user
+    - context: message
 
 Add a test in `schema/notifications.test.js` to verify that your normalized data has a correct `result` array. It should contain:
 
