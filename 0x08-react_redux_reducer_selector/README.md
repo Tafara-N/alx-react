@@ -281,9 +281,11 @@ When updating the state of the reducer, you should also set the attribute isRead
     }
   ]
 }
-Define the MARK_AS_READ action
+```
 
-When the action creator sends the action MARK_AS_READ, it also sends an index corresponding to the id of the notification to update. The action would look like:
+**Define the `MARK_AS_READ` action**
+
+When the action creator sends the action `MARK_AS_READ`, it also sends an index corresponding to the id of the notification to update. The action would look like:
 
 ```javascript
 {
