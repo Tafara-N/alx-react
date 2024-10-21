@@ -219,12 +219,13 @@ All the tests in the project should pass
 
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js
-3. Create the reducer for notifications
-mandatory
-Create a load action
+- File: `task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js`
 
-In the notificationActionTypes file, create a new action corresponding to when the API returns the list of notifications. You can name it FETCH_NOTIFICATIONS_SUCCESS
+### 3. Create the reducer for notifications
+
+**Create a load action**
+
+In the `notificationActionTypes` file, create a new action corresponding to when the API returns the list of notifications. You can name it `FETCH_NOTIFICATIONS_SUCCESS`
 
 **Create the notifications reducer and default state**
 
