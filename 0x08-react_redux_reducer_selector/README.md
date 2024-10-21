@@ -36,15 +36,16 @@ In a file named reducers/uiReducer.js, define the initial state of the reducer f
 It should have one boolean property isNotificationDrawerVisible
 It should have one boolean property isUserLoggedIn
 It should have one empty object user
-Create the reducer function
 
-In the same file, import all the actions that you created in the file actions/uiActionTypes and create a reducer function named uiReducer:
+**Create the reducer function**
 
-DISPLAY_NOTIFICATION_DRAWER should set isNotificationDrawerVisible to true
-HIDE_NOTIFICATION_DRAWER should set isNotificationDrawerVisible to false
-LOGIN_SUCCESS should set isUserLoggedIn to true
-LOGIN_FAILURE should set isUserLoggedIn to false
-LOGOUT should set isUserLoggedIn to false
+In the same file, import all the actions that you created in the file `actions/uiActionTypes` and create a reducer function named uiReducer:
+
+- `DISPLAY_NOTIFICATION_DRAWER` should set `isNotificationDrawerVisible` to `true`
+- `HIDE_NOTIFICATION_DRAWER` should set `isNotificationDrawerVisible` to `false`
+- `LOGIN_SUCCESS` should set `isUserLoggedIn` to `true`
+- `LOGIN_FAILURE` should set `isUserLoggedIn` to `false`
+- `LOGOUT` should set `isUserLoggedIn` to `false`
 
 **Write the tests**
 
