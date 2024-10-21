@@ -142,16 +142,22 @@ When updating the state of the reducer, you should also set the attribute isSele
     credit: 40
   }
 ]
-Define the SELECT_COURSE and UNSELECT_COURSE actions
+```
 
-When the action creator sends the action SELECT_COURSE, it also sends an index corresponding to the id of the course to update. The action would look like:
+**Define the `SELECT_COURSE` and `UNSELECT_COURSE` actions**
 
+When the action creator sends the action `SELECT_COURSE`, it also sends an index corresponding to the id of the course to update. The action would look like:
+
+```javascript
 {
   type: SELECT_COURSE,
   index: 2
 }
+```
+
 The expected data from the reducer should be:
 
+```javascript
 [
   {
     id: 1,
