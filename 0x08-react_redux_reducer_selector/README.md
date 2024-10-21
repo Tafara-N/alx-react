@@ -200,23 +200,27 @@ The expected data from the reducer should be:
     credit: 40
   }
 ]
-Write the tests
+```
 
-In a courseReducer.test.js, write a test suite for the new reducer. Define the following tests:
+**Write the tests**
 
-Test that the default state returns an empty array
-Test that FETCH_COURSE_SUCCESS returns the data passed
-Test that SELECT_COURSE returns the data with the right item updated
-Test that UNSELECT_COURSE returns the data with the right item updated
-Tips:
+In a `courseReducer.test.js`, write a test suite for the new reducer. Define the following tests:
 
-Use ES6 for this reducer, we can look at Immutable later
+- Test that the default state returns an empty array
+- Test that `FETCH_COURSE_SUCCESS returns the data passed
+- Test that `SELECT_COURSE returns the data with the right item updated
+- Test that `UNSELECT_COURSE returns the data with the right item updated
+
+**Tips:**
+
+- Use ES6 for this reducer, we can look at Immutable later
+
 **Requirements:**
 
-Try to make the update of object as efficient as possible, for example you can use ES6 Map
-All the tests in the project should pass
-**Repo:**
+- Try to make the update of object as efficient as possible, for example you can use ES6 Map
+- All the tests in the project should pass
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
 - File: `task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js`
