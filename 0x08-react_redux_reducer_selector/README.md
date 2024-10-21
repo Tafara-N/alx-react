@@ -4,12 +4,12 @@
 
 **Read or watch:**
 
-Reducers
-Selectors
-Writing tests
-Immutable Map documentation
-Normalizr
-Normalizing State Shape
+- [Reducers]()
+- [Selectors]()
+- [Writing tests]()
+- [Immutable Map documentation]()
+- [Normalizr]()
+- [Normalizing State Shape]()
 
 # Learning Objectives
 At the end of this project, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
