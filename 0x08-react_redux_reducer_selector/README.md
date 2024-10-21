@@ -64,7 +64,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
+- File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
 1. Use Immutable for the UI Reducer
 mandatory
 Now that you have set up a basic reducer, let’s reuse what we learned in the Immutable module and apply it to that reducer:
@@ -85,7 +85,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
+- File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
 2. Create a reducer for Courses
 mandatory
 Create a load action
@@ -219,7 +219,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js
+- File: task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js
 3. Create the reducer for notifications
 mandatory
 Create a load action
@@ -358,7 +358,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
+- File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
 4. Normalizr & Immutable
 mandatory
 As you can see, updating a specific item in a collection is rather complicated and error prone. Using Normalizr is a good opportunity to simplify mutation
@@ -400,7 +400,7 @@ All the tests in the project should pass
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js
+- File: task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js
 5. Selectors
 mandatory
 Selectors are an efficient way to access the data from the state because a selector is not recomputed unless one of its arguments change.
@@ -422,8 +422,8 @@ You can also look into using Reselect for your own projects when you have advanc
 Requirements:
 
 All the tests in the project should pass
-**Repo:**
 
+**Repo:**
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
-File: task_5/dashboard/src/selectors/notificationSelector.js, task_5/dashboard/src/selectors/notificationSelector.test.js
+- File: task_5/dashboard/src/selectors/notificationSelector.js, task_5/dashboard/src/selectors/notificationSelector.test.js
