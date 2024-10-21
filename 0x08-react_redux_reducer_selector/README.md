@@ -226,16 +226,18 @@ Create a load action
 
 In the notificationActionTypes file, create a new action corresponding to when the API returns the list of notifications. You can name it FETCH_NOTIFICATIONS_SUCCESS
 
-Create the notifications reducer and default state
+**Create the notifications reducer and default state**
 
-In a file notificationReducer.js, write a reducer function. The default state should be an object with:
+In a file `notificationReducer.js`, write a reducer function. The default state should be an object with:
 
-notifications, which will store the list of notifications
-filter, which will be the attribute storing which filter is selected
-Define the FETCH_NOTIFICATIONS_SUCCESS action
+- `notifications`, which will store the list of notifications
+- `filter`, which will be the attribute storing which filter is selected
 
-When the action creator sends the action FETCH_NOTIFICATIONS_SUCCESS, it also sends the list of notifications in a data attribute. The action would look like:
+**Define the `FETCH_NOTIFICATIONS_SUCCESS` action**
 
+When the action creator sends the action `FETCH_NOTIFICATIONS_SUCCESS`, it also sends the list of notifications in a data attribute. The action would look like:
+
+```javascript
 {
   type: FETCH_NOTIFICATIONS_SUCCESS,
   data: [
