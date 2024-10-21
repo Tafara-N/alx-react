@@ -410,11 +410,12 @@ Let’s create a few selectors for the Notifications reducer in src/selectors/no
 Create a first selector for the filter named filterTypeSelected, that will return the value of the filter
 Create another selector for the notifications named getNotifications, that will return the list of notifications in a Map format
 Create another selector for the notifications named getUnreadNotifications, that will return the list of unread notifications in a Map format
-Create a test suite for your selectors in a file named src/selectors/notificationSelector.test.js:
 
-test that filterTypeSelected works as expected
-test that getNotifications returns a list of the message entities within the reducer
-test that getUnreadNotifications return a list of the message entities within the reducer
+Create a test suite for your selectors in a file named `src/selectors/notificationSelector.test.js:`
+
+- test that `filterTypeSelected` works as expected
+- test that `getNotifications` returns a list of the message entities within the reducer
+- test that `getUnreadNotifications` return a list of the message entities within the reducer
 
 **Tips:**
 
