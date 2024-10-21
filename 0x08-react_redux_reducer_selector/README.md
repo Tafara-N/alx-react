@@ -314,16 +314,22 @@ The expected data from the reducer should be:
     }
   ]
 }
-Define the SET_TYPE_FILTER action
+```
 
-When the action creator sends the action SET_TYPE_FILTER, it also sends a filter attribute with either DEFAULT or URGENT. The action would look like:
+**Define the `SET_TYPE_FILTER` action**
 
+When the action creator sends the action `SET_TYPE_FILTER`, it also sends a filter attribute with either `DEFAULT` or `URGENT`. The action would look like:
+
+```javascript
 {
   type: SET_TYPE_FILTER,
   filter: "URGENT"
 }
+```
+
 The expected data from the reducer should be:
 
+```javascript
 {
   filter: "URGENT",
   notifications: [
