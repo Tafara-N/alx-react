@@ -367,11 +367,11 @@ Course schema
 
 Create a new file schema/courses.js. In the file define a schema entity for courses. Create a function coursesNormalizer that would take data as argument and normalize the data with the schema you created.
 
-In the course reducer function:
+**In the course reducer function:**
 
-Update the initial state to use an Immutable.js Map
-When FETCH_COURSE_SUCCESS action is called, normalize the data with the function you created and merge it with the state
-When SELECT_COURSE or UNSELECT_COURSE is called, use the setIn function from Immutable to update the value of the item
+- Update the initial state to use an `Immutable.js` Map
+- When `FETCH_COURSE_SUCCESS` action is called, normalize the data with the function you created and merge it with the state
+- When `SELECT_COURSE` or `UNSELECT_COURSE` is called, use the `setIn` function from Immutable to update the value of the item
 
 **Update the notification schema**
 
