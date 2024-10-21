@@ -372,9 +372,10 @@ In the course reducer function:
 Update the initial state to use an Immutable.js Map
 When FETCH_COURSE_SUCCESS action is called, normalize the data with the function you created and merge it with the state
 When SELECT_COURSE or UNSELECT_COURSE is called, use the setIn function from Immutable to update the value of the item
-Update the notification schema
 
-In the file schema/notifications.js, create a function notificationsNormalizer that would take data as argument and normalize it with the notification schema you created in the previous course.
+**Update the notification schema**
+
+In the file `schema/notifications.js`, create a function `notificationsNormalizer` that would take `data` as argument and normalize it with the notification schema you created in the previous course.
 
 **Update the notification reducer**
 
