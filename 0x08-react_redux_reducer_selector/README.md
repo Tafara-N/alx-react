@@ -86,20 +86,22 @@ All the tests in the project should pass
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
 - File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
-2. Create a reducer for Courses
-mandatory
-Create a load action
 
-In the courseActionTypes file, create a new action corresponding to when the API returns the list of courses. You can name it FETCH_COURSE_SUCCESS
+### 2. Create a reducer for Courses
 
-Create the course reducer and default state
+**Create a load action**
 
-In a file courseReducer.js, write a reducer function. The default state should be an empty array.
+In the `courseActionTypes` file, create a new action corresponding to when the API returns the list of courses. You can name it `FETCH_COURSE_SUCCESS`
 
-Define the FETCH_COURSE_SUCCESS action
+**Create the course reducer and default state**
 
-When the action creator sends the action FETCH_COURSE_SUCCESS, it also sends the list of courses in a data attribute. The action would look like:
+In a file `courseReducer.js`, write a reducer function. The default state should be an empty array.
 
+**Define the `FETCH_COURSE_SUCCESS` action**
+
+When the action creator sends the action `FETCH_COURSE_SUCCESS`, it also sends the list of courses in a data attribute. The action would look like:
+
+```javascript
 {
   type: FETCH_COURSE_SUCCESS,
   data: [
@@ -120,8 +122,11 @@ When the action creator sends the action FETCH_COURSE_SUCCESS, it also sends the
     }
   ]
 }
-When updating the state of the reducer, you should also set the attribute isSelected to false for every item in the list. The expected data from the reducer should be:
+```
 
+When updating the state of the reducer, you should also set the attribute `isSelected` to false for every item in the list. The expected data from the reducer should be:
+
+```javascript
 [
   {
     id: 1,
