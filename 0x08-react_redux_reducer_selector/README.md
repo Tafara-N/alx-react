@@ -45,16 +45,18 @@ HIDE_NOTIFICATION_DRAWER should set isNotificationDrawerVisible to false
 LOGIN_SUCCESS should set isUserLoggedIn to true
 LOGIN_FAILURE should set isUserLoggedIn to false
 LOGOUT should set isUserLoggedIn to false
-Write the tests
 
-In a file named reducers/uiReducer.test.js, define the test suite for our simple reducer:
+**Write the tests**
 
-Write a test verifying the state returned by the uiReducer function equals the initial state when no action is passed
-Write a test verifying the state returned by the uiReducer function equals the initial state when the action SELECT_COURSE is passed
-Write a test verifying the state returned by the uiReducer function, when the action DISPLAY_NOTIFICATION_DRAWER is passed, changes correctly the isNotificationDrawerVisible property
-Tips:
+In a file named `reducers/uiReducer.test.js`, define the test suite for our simple reducer:
 
-Don’t forget to set up the default case in your switch function
+- Write a test verifying the state returned by the `uiReducer` function equals the initial state when no action is passed
+- Write a test verifying the state returned by the `uiReducer` function equals the initial state when the action `SELECT_COURSE` is passed
+- Write a test verifying the state returned by the `uiReducer` function, when the action `DISPLAY_NOTIFICATION_DRAWER` is passed, changes correctly the `isNotificationDrawerVisible` property
+
+**Tips:**
+
+- Don’t forget to set up the default case in your switch function
 
 **Requirements:**
 
