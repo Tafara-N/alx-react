@@ -395,12 +395,12 @@ Selecting an unselecting a course item should only take one line now
 Marking a notification item as read should only take one line now
 Requirements:
 
-All the tests in the project should pass
-**Repo:**
+- All the tests in the project should pass
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js
+- File: `task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js`
 
 ### 5. Selectors
 
