@@ -55,16 +55,17 @@ Write a test verifying the state returned by the uiReducer function, when the ac
 Tips:
 
 Don’t forget to set up the default case in your switch function
+
 **Requirements:**
 
-You should not mutate the state within the reducer
-You must use the spread operator to change the state
-All the tests in the project should pass
-**Repo:**
+- You should not mutate the state within the reducer
+- You must use the spread operator to change the state
+- All the tests in the project should pass
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
+- File: `task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js`
 
 ### 1. Use Immutable for the UI Reducer
 
