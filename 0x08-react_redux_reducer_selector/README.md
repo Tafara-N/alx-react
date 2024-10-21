@@ -25,17 +25,20 @@ All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node 12.x.
 A README.md file, at the root of the folder of the project, is mandatory
 Push all of your files, including package.json and .babelrc
 All of your functions must be exported
-Tasks
-0. Write a basic reducer
-mandatory
-Reuse the latest dashboard project you worked on in the React course 0x08-React_Redux_action_creator+normalizr
-Create the basic state
 
-In a file named reducers/uiReducer.js, define the initial state of the reducer for the UI:
+## Tasks
 
-It should have one boolean property isNotificationDrawerVisible
-It should have one boolean property isUserLoggedIn
-It should have one empty object user
+### 0. Write a basic reducer
+
+- Reuse the latest dashboard project you worked on in the React course `0x08-React_Redux_action_creator+normalizr`
+
+**Create the basic state**
+
+In a file named `reducers/uiReducer.js`, define the initial state of the reducer for the UI:
+
+- It should have one boolean property `isNotificationDrawerVisible`
+- It should have one boolean property `isUserLoggedIn`
+- It should have one empty object `user`
 
 **Create the reducer function**
 
