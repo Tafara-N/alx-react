@@ -426,4 +426,4 @@ All the tests in the project should pass
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_5/dashboard/src/selectors/notificationSelector.js, task_5/dashboard/src/selectors/notificationSelector.test.js
+- File: `task_5/dashboard/src/selectors/notificationSelector.js, task_5/dashboard/src/selectors/notificationSelector.test.js`
