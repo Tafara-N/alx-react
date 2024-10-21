@@ -401,15 +401,16 @@ All the tests in the project should pass
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
 - File: task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js
-5. Selectors
-mandatory
+
+### 5. Selectors
+
 Selectors are an efficient way to access the data from the state because a selector is not recomputed unless one of its arguments change.
 
-Let’s create a few selectors for the Notifications reducer in src/selectors/notificationSelector.js
+Let’s create a few selectors for the Notifications reducer in `src/selectors/notificationSelector.js`
 
-Create a first selector for the filter named filterTypeSelected, that will return the value of the filter
-Create another selector for the notifications named getNotifications, that will return the list of notifications in a Map format
-Create another selector for the notifications named getUnreadNotifications, that will return the list of unread notifications in a Map format
+- Create a first selector for the filter named `filterTypeSelected`, that will return the value of the filter
+- Create another selector for the notifications named `getNotifications`, that will return the list of notifications in a Map format
+- Create another selector for the notifications named `getUnreadNotifications`, that will return the list of unread notifications in a Map format
 
 Create a test suite for your selectors in a file named `src/selectors/notificationSelector.test.js:`
 
