@@ -87,7 +87,7 @@ Update the test suite, so it takes into account the changes
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
+- File: `task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js`
 
 ### 2. Create a reducer for Courses
 
