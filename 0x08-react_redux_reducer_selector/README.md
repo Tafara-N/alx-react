@@ -172,14 +172,20 @@ The expected data from the reducer should be:
     credit: 40
   }
 ]
-When the action creator sends the action UNSELECT_COURSE, it also sends an index corresponding to the id of the course to update. The action would look like:
+```
 
+When the action creator sends the action `UNSELECT_COURSE`, it also sends an index corresponding to the id of the course to update. The action would look like:
+
+```javascript
 {
   type: UNSELECT_COURSE,
   index: 2
 }
+```
+
 The expected data from the reducer should be:
 
+```javascript
 [
   {
     id: 1,
