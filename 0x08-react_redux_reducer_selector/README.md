@@ -1,3 +1,5 @@
+![React redux reducer + selector](react_reducer.jpg)
+
 Resources
 Read or watch:
 
@@ -58,7 +60,7 @@ Requirements:
 You should not mutate the state within the reducer
 You must use the spread operator to change the state
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
@@ -79,7 +81,7 @@ Requirements:
 
 For better performances, do not use any fromJS, toJS function within the reducer
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
@@ -213,7 +215,7 @@ Requirements:
 
 Try to make the update of object as efficient as possible, for example you can use ES6 Map
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
@@ -352,7 +354,7 @@ Requirements:
 
 Try to make the update of object as efficient as possible, for example you can use ES6 Map
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
@@ -394,7 +396,7 @@ Marking a notification item as read should only take one line now
 Requirements:
 
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
@@ -420,7 +422,7 @@ You can also look into using Reselect for your own projects when you have advanc
 Requirements:
 
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 GitHub repository: alx-react
 Directory: 0x08-react_redux_reducer_selector
