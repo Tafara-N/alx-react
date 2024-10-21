@@ -65,14 +65,15 @@ All the tests in the project should pass
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
 - File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
-1. Use Immutable for the UI Reducer
-mandatory
+
+### 1. Use Immutable for the UI Reducer
+
 Now that you have set up a basic reducer, let’s reuse what we learned in the Immutable module and apply it to that reducer:
 
-Install Immutable.js within the project
-Update the uiReducer.js file to use Map from Immutable.js
-Update the different part of the reducer function to use set from Map
-Update the test suite, so it takes into account the changes
+- Install `Immutable.js` within the project
+- Update the `uiReducer.js` file to use `Map` from `Immutable.js`
+- Update the different part of the reducer function to use `set` from `Map`
+- Update the test suite, so it takes into account the changes
 
 **Tips:**
 
