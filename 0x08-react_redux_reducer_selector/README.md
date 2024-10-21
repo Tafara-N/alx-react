@@ -256,8 +256,11 @@ When the action creator sends the action FETCH_NOTIFICATIONS_SUCCESS, it also se
     }
   ]
 }
-When updating the state of the reducer, you should also set the attribute isRead to false for every item in the list. The expected data from the reducer should be:
+```
 
+When updating the state of the reducer, you should also set the attribute `isRead` to false for every item in the list. The expected data from the reducer should be:
+
+```javascript
 {
   filter: "DEFAULT",
   notifications: [
