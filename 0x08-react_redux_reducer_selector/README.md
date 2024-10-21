@@ -285,12 +285,16 @@ Define the MARK_AS_READ action
 
 When the action creator sends the action MARK_AS_READ, it also sends an index corresponding to the id of the notification to update. The action would look like:
 
+```javascript
 {
   type: MARK_AS_READ,
   index: 2
 }
+```
+
 The expected data from the reducer should be:
 
+```javascript
 {
   filter: "DEFAULT",
   notifications: [
