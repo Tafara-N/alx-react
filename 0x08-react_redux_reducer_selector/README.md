@@ -359,13 +359,14 @@ All the tests in the project should pass
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
 - File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
-4. Normalizr & Immutable
-mandatory
+
+### 4. Normalizr & Immutable
+
 As you can see, updating a specific item in a collection is rather complicated and error prone. Using Normalizr is a good opportunity to simplify mutation
 
-Course schema
+**C**ourse schema**
 
-Create a new file schema/courses.js. In the file define a schema entity for courses. Create a function coursesNormalizer that would take data as argument and normalize the data with the schema you created.
+Create a new file `schema/courses.js`. In the file define a schema entity for `courses`. Create a function `coursesNormalizer` that would take `data` as argument and normalize the data with the schema you created.
 
 **In the course reducer function:**
 
