@@ -4,12 +4,12 @@
 
 **Read or watch:**
 
-- [Reducers]()
-- [Selectors]()
-- [Writing tests]()
-- [Immutable Map documentation]()
-- [Normalizr]()
-- [Normalizing State Shape]()
+- [Reducers](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers)
+- [Selectors](https://redux.js.org/introduction/learning-resources#selectors)
+- [Writing tests](https://redux.js.org/usage/writing-tests)
+- [Immutable Map documentation](https://immutable-js.com/docs/v5.0.0-rc.2/)
+- [Normalizr](https://github.com/paularmstrong/normalizr)
+- [Normalizing State Shape](https://redux.js.org/usage/structuring-reducers/normalizing-state-shape)
 
 # Learning Objectives
 At the end of this project, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
