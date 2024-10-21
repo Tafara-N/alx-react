@@ -347,18 +347,21 @@ The expected data from the reducer should be:
     }
   ]
 }
-Tips:
+```
 
-Use ES6 for this reducer, we can look at Immutable later
+**Tips:**
+
+- Use ES6 for this reducer, we can look at Immutable later
+
 **Requirements:**
 
-Try to make the update of object as efficient as possible, for example you can use ES6 Map
-All the tests in the project should pass
-**Repo:**
+- Try to make the update of object as efficient as possible, for example you can use ES6 Map
+- All the tests in the project should pass
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x08-react_redux_reducer_selector`
-- File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
+- File: `task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js`
 
 ### 4. Normalizr & Immutable
 
