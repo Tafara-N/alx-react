@@ -1,7 +1,8 @@
 ![React redux reducer + selector](react_reducer.jpg)
 
-Resources
-Read or watch:
+# Resources
+
+**Read or watch:**
 
 Reducers
 Selectors
