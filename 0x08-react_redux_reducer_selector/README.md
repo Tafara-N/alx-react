@@ -62,7 +62,7 @@ You must use the spread operator to change the state
 All the tests in the project should pass
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_0/dashboard/src/reducers/uiReducer.js, task_0/dashboard/src/reducers/uiReducer.test.js
 1. Use Immutable for the UI Reducer
@@ -83,7 +83,7 @@ For better performances, do not use any fromJS, toJS function within the reducer
 All the tests in the project should pass
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_1/dashboard/src/reducers/uiReducer.js, task_1/dashboard/src/reducers/uiReducer.test.js
 2. Create a reducer for Courses
@@ -217,7 +217,7 @@ Try to make the update of object as efficient as possible, for example you can u
 All the tests in the project should pass
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_2/dashboard/src/actions/courseActionTypes.js, task_2/dashboard/src/reducers/courseReducer.js, task_2/dashboard/src/reducers/courseReducer.test.js
 3. Create the reducer for notifications
@@ -356,7 +356,7 @@ Try to make the update of object as efficient as possible, for example you can u
 All the tests in the project should pass
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_3/dashboard/src/actions/notificationActionTypes.js, task_3/dashboard/src/reducers/notificationReducer.js, task_3/dashboard/src/reducers/notificationReducer.test.js
 4. Normalizr & Immutable
@@ -398,7 +398,7 @@ Requirements:
 All the tests in the project should pass
 **Repo:**
 
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_4/dashboard/src/schema/courses.js, task_4/dashboard/src/reducers/courseReducer.js, task_4/dashboard/src/schema/notifications.js, task_4/dashboard/src/reducers/notificationReducer.js, task_4/dashboard/src/reducers/courseReducer.test.js, task_4/dashboard/src/reducers/notificationReducer.test.js
 5. Selectors
@@ -424,6 +424,6 @@ Requirements:
 All the tests in the project should pass
 
 **Repo:**
-GitHub repository: alx-react
+- GitHub repository: `alx-react`
 Directory: 0x08-react_redux_reducer_selector
 - File: task_5/dashboard/src/selectors/notificationSelector.js, task_5/dashboard/src/selectors/notificationSelector.test.js
