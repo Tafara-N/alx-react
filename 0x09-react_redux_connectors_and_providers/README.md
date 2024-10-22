@@ -69,7 +69,7 @@ let state = fromJS({
 });
 Should return { isLoggedIn: true }
 
-Tips:
+**Tips:**
 
 At this point your app is not functional but you should be able to load the page without crashing
 Remember that the state of uiReducer is using Map from Immutable
@@ -125,7 +125,7 @@ You can now refactor the App.test.js file:
 
 You don’t need to test the functions handleDisplayDrawer and handleHideDrawer since everything is already tested using the Redux mechanism
 You need to update the test you previously created to support the new attribute
-Tips:
+**Tips:**
 
 At this point your app should be functional and able to display/hide the drawer using the Redux state
 Remember that the state of uiReducer is using Map from Immutable
@@ -204,7 +204,7 @@ Remove any use of the mount function, and convert everything to use the shallow 
 You should remove any use of setState within the tests and pass directly the props to the stateless components
 Remove any test linked to the login, logout function within App, and Header
 Add a test in uiReducer to support the new action you just created
-Tips:
+**Tips:**
 
 At this point your app should be functional and able to display/hide the drawer, login/logout using the Redux state
 Remember that the state of uiReducer is using Map from Immutable
@@ -226,7 +226,7 @@ Install the Redux DevTools extension on your Chrome browser:
 Modify the index.js to support the extension
 Use the application and note the different actions being registered when you are logging in / logging out
 Note that a version of the state is saved along the different actions and you can jump at a different moment of the user journey
-Tips:
+**Tips:**
 
 Read the documentation of the extension to learn how to support the Chrome extension as well as the Thunk middleware
 This extension can be one of the most powerful tool to debug an application. Make sure to become familiar with it
@@ -346,7 +346,7 @@ Add new tests:
 Add a test in Notifications.test.js to verify that the function fetchNotifications is called when the component is mounted
 Add a test for setLoadingState, setNotifications, and fetchNotifications to verify that they each create the right actions
 Add a test for SET_LOADING_STATE to verify that it updates the reducer correctly
-Tips:
+**Tips:**
 
 At this point, when you load the page, you should be able to see the list of notifications coming from the API using the developer tools or when clicking on the notifications toggle
 Use some CSS to make the notifications panel readable
@@ -366,7 +366,7 @@ To improve performance in your connector, you should always use selectors when y
 
 Update Notifications.js to use getUnreadNotifications
 Map the markAsAread action creator to the component, and use it for markNotificationAsRead
-Tips:
+**Tips:**
 
 At this point, when you load the page, you should be able to see the list of notifications. Clicking on one notification should make it disappear from the list
 Requirements:
@@ -426,7 +426,7 @@ In the file CourseList.test.js, create two new tests:
 
 Verify that the action is dispatched when the component is mounted
 Verify that the two actions are correctly dispatched when the onChangeRow function is called
-Tips:
+**Tips:**
 
 At this point, when you load the page and you log in, you should be able to see the list of courses. Make sure that everything is working correctly using the developer tools or using the Redux tool
 When checking or unchecking a row, you should see the state in the Redux tool updated. You should also see the change on the UI
@@ -477,14 +477,14 @@ In notificationSelector.test.js:
 
 Update the previous tests to work correctly
 Create a new test to verify that the selector returns unread urgent notifications when the filter is set
-Tips:
+**Tips:**
 
 At this point, you should be able to load the notifications panel, filter the list using the two new buttons, and mark items as read
 Requirements:
 
 Make sure to update the tests to work as expected
-**Repo:**
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard/src/selectors/notificationSelector.test.js
@@ -499,7 +499,7 @@ Modify the file `Notifications.js`. It should now become a functional component
 Create a new test file for `NotificationsContainer.js`. It should make sure the fetching is happening on mount
 Modify `Notifications.test.js` file to only support the new behavior of the file
 
-**Tips:**
+****Tips:****
 
 - No need to repeat every single prop, you can use the spread operator
 
