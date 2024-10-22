@@ -260,27 +260,32 @@ Any component connected to the state will probably need to be updated since you 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: task_4/dashboard/src/index.js
-16. Combine store: write the tests
-mandatory
+
+### 16. Combine store: write the tests
+
 Modify the test suites:
 
-In the App.test.js, modify mapStateToProps to correctly work with the new format of the reducer
-Create a rootReducer.test.js file to test the root reducer’s initial state for the following structure:
+- In the `App.test.js`, modify `mapStateToProps` to correctly work with the new format of the reducer
+- Create a `rootReducer.test.js` file to test the root reducer’s initial state for the following structure:
+
+```javascript
 {
   courses: Map {},
   notifications: Map {},
   ui: Map {}
 }
+```
+
 **Requirements:**
 
-No errors in the browser’s console
-All tests should pass
-Use combineReducer to create the root reducer
-**Repo:**
+- No errors in the browser’s console
+- All tests should pass
+- Use `combineReducer` to create the root reducer
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/reducers/rootReducer.test.js
+- File: `task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/reducers/rootReducer.test.js`
 
 ### 17. Connect notifications: New Action Creator
 
