@@ -4,13 +4,13 @@
 
 **Read or watch:**
 
-- [Redux CreateStore]()
-- [Redux Connect]()
-- [Redux Provider]()
-- [Redux Middleware]()
-- [Redux Thunk]()
-- [Redux devtools]()
-- [Redux Reselect]()
+- [Redux CreateStore](https://react-redux.js.org/api/connect)
+- [Redux Connect](https://react-redux.js.org/api/connect)
+- [Redux Provider](https://react-redux.js.org/api/provider)
+- [Redux Middleware](https://redux.js.org/tutorials/fundamentals/part-4-store#middleware)
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Redux devtools](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+- [Redux Reselect](https://github.com/reduxjs/reselect)
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
