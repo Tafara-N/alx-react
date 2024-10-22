@@ -480,14 +480,15 @@ Create a new test to verify that the selector returns unread urgent notification
 **Tips:**
 
 At this point, you should be able to load the notifications panel, filter the list using the two new buttons, and mark items as read
+
 Requirements:
 
-Make sure to update the tests to work as expected
+- Make sure to update the tests to work as expected
 
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard/src/selectors/notificationSelector.test.js
+- File: `task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard/src/selectors/notificationSelector.test.js`
 
 ### 29. Container/Component
 
