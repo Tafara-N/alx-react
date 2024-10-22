@@ -346,11 +346,12 @@ Add new tests:
 Add a test in Notifications.test.js to verify that the function fetchNotifications is called when the component is mounted
 Add a test for setLoadingState, setNotifications, and fetchNotifications to verify that they each create the right actions
 Add a test for SET_LOADING_STATE to verify that it updates the reducer correctly
+
 **Tips:**
 
-At this point, when you load the page, you should be able to see the list of notifications coming from the API using the developer tools or when clicking on the notifications toggle
-Use some CSS to make the notifications panel readable
-Look at valueSeq from Immutable to iterate on your list of notifications without having to use toJS()
+- At this point, when you load the page, you should be able to see the list of notifications coming from the API using the developer tools or when clicking on the notifications toggle
+- Use some CSS to make the notifications panel readable
+- Look at `valueSeq` from Immutable to iterate on your list of notifications without having to use `toJS()`
 
 **Requirements:**
 
