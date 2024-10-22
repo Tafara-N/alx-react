@@ -404,14 +404,15 @@ In courseActionCreators.test.js, create a test to verify that the fetch is worki
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src/actions/courseActionCreators.test.js
-25. Connect the courses component
-mandatory
-In CourseList.js, connect the component to:
+- File: `task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src/actions/courseActionCreators.test.js`
 
-The three action creators: fetchCourses, selectCourse, and unSelectCourse
-Connect the data to the list of courses using getListCourses selector
-When the component mount, call the action fetchCourses
+### 25. Connect the courses component
+
+In `CourseList.js`, connect the component to:
+
+- The three action creators: `fetchCourses`, `selectCourse`, and `unSelectCourse`
+- Connect the data to the list of courses using `getListCourses` selector
+- When the component mount, call the action `fetchCourses`
 
 Create a new function `onChangeRow`:
 
