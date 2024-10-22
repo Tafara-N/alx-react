@@ -33,31 +33,34 @@ dashboard/dist/login-success.json
 Click to show/hide file contents
 dashboard/dist/notifications.json
 Click to show/hide file contents
-Tasks
-0. Write mapStateToProps
-mandatory
-Reuse the latest dashboard project you worked on in the React course 0x09-React_Redux_reducer and install react-redux
 
-Within the App/App.js file:
+## Tasks
 
-Create a function named mapStateToProps. This should connect the uiReducer you created and the property isLoggedIn that your component is already using
-Import connect from Redux, and connect the mapStateToProps to the component
+### 0. Write mapStateToProps
+
+Reuse the latest dashboard project you worked on in the React course `0x09-React_Redux_reducer` and install `react-redux`
+
+Within the `App/App.js` file:
+
+- Create a function named `mapStateToProps`. This should connect the `uiReducer` you created and the property `isLoggedIn` that your component is already using
+- Import `connect` from Redux, and connect the `mapStateToProps` to the component
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_0/dashboard/src/App/App.js
-1. Create a small store
-mandatory
-In the index.js file:
+- File: `task_0/dashboard/src/App/App.js`
 
-Create a store using createStore from Redux that would contain the uiReducer state
-Implement a provider passing the store that you created to the main App
+### 1. Create a small store
+
+In the `index.js` file:
+
+- Create a store using `createStore` from Redux that would contain the `uiReducer` state
+- Implement a provider passing the store that you created to the main `App`
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_0/dashboard/src/index.js
+- File: `task_0/dashboard/src/index.js`
 
 ### 2. Test MapStateToProps
 
