@@ -30,11 +30,11 @@ All of your functions must be exported
 
 ## Provided files
 
-- [dashboard/dist/courses.json]()
+- [dashboard/dist/courses.json](dashboard/dist/courses.json)
 
-- [dashboard/dist/login-success.json]()
+- [dashboard/dist/login-success.json](dashboard/dist/login-success.json)
 
-- [dashboard/dist/notifications.json]()
+- [dashboard/dist/notifications.json](dashboard/dist/notifications.json)
 
 ## Tasks
 
