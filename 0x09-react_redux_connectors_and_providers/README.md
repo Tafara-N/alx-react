@@ -297,43 +297,46 @@ At the end of the query it sets the loading state to false again
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_5/dashboard/src/actions/notificationActionCreators.js
-18. Connect notifications: Improve reducer
-mandatory
-In the function notificationReducer within notificationReducer.js:
+- File: `task_5/dashboard/src/actions/notificationActionCreators.js`
 
-Make sure to add a loading attribute to the initial state.
-Modify the notifications object to have the right initial state when merging the data coming from the API
-Create a SET_LOADING_STATE case and update the state accordingly
-Modify the FETCH_NOTIFICATIONS_SUCCESS case to perform a mergeDeep with the data
+### 18. Connect notifications: Improve reducer
+
+In the function `notificationReducer` within `notificationReducer.js`:
+
+- Make sure to add a `loading` attribute to the initial state.
+- Modify the `notifications` object to have the right initial state when merging the data coming from the API
+- Create a `SET_LOADING_STATE` case and update the state accordingly
+- Modify the `FETCH_NOTIFICATIONS_SUCCESS` case to perform a `mergeDeep` with the data
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_5/dashboard/src/reducers/notificationReducer.js
-19. Connect notifications to the reducer
-mandatory
-In the Notifications.js component:
+- File: `task_5/dashboard/src/reducers/notificationReducer.js`
 
-Map the prop listNotifications to the messages within the notifications state
-Map the action fetchNotifications to the component
-In componentDidMount, call fetchNotifications
+### 19. Connect notifications to the reducer
+
+In the `Notifications.js` component:
+
+- Map the prop `listNotifications` to the `messages` within the `notifications` state
+- Map the action `fetchNotifications` to the component
+- In `componentDidMount`, call `fetchNotifications`
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_5/dashboard/src/Notifications/Notifications.js
-20. Connect notifications: clean up
-mandatory
+- File: `task_5/dashboard/src/Notifications/Notifications.js`
+
+### 20. Connect notifications: clean up
+
 With this new behavior, let’s clean up old functions and test data
 
-Delete NotificationItemShape.js
-Remove the notification list and delete markNotificationAsRead within App.js
-**Repo:**
+- Delete `NotificationItemShape.js`
+- Remove the notification list and delete `markNotificationAsRead` within `App.js`
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_5/dashboard/src/App/App.js
+- File: `task_5/dashboard/src/App/App.js`
 
 ### 21. Connect notifications: update the test suites
 
