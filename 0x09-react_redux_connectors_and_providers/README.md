@@ -1,14 +1,16 @@
+![React Redux Connectors and Providers](connectors_and_providers.jpg)
 
-Resources
-Read or watch:
+# Resources
 
-Redux CreateStore
-Redux Connect
-Redux Provider
-Redux Middleware
-Redux Thunk
-Redux devtools
-Redux Reselect
+**Read or watch:**
+
+- [Redux CreateStore]()
+- [Redux Connect]()
+- [Redux Provider]()
+- [Redux Middleware]()
+- [Redux Thunk]()
+- [Redux devtools]()
+- [Redux Reselect]()
 
 # Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google:**
