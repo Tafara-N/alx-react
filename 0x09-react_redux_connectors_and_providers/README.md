@@ -104,18 +104,19 @@ Modify the render function of the component to use the functions passed within t
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_1/dashboard/src/App/App.js
-5. Refactor your code
-mandatory
-In the App.js file:
+- File: `task_1/dashboard/src/App/App.js`
 
-You can delete the old function handleDisplayDrawer
-You can delete the old function handleHideDrawer
-Remove any state property related to the display of the drawer
-Remove any binding in the constructor
-You are now passing to your components props. You need to define propTypes and defaultProps
+### 5. Refactor your code
+
+In the `App.js` file:
+
+- You can delete the old function `handleDisplayDrawer`
+- You can delete the old function `handleHideDrawer`
+- Remove any state property related to the display of the drawer
+- Remove any binding in the constructor
+- You are now passing to your components props. You need to define `propTypes` and `defaultProps`
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: `task_1/dashboard/src/App/App.js`
