@@ -334,18 +334,20 @@ Remove the notification list and delete markNotificationAsRead within App.js
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: task_5/dashboard/src/App/App.js
-21. Connect notifications: update the test suites
-mandatory
+
+### 21. Connect notifications: update the test suites
+
 Modify the test suites to pass the tests:
 
-Update notificationReducer.test.js to support the new attributes and default state
-Clean up App.test.js for the function you just removed
-Modify Notifications.js and Notifications.test.js to make sure that every tests pass correctly
+- Update `notificationReducer.test.js` to support the new attributes and default state
+- Clean up `App.test.js` for the function you just removed
+- Modify `Notifications.js` and `Notifications.test.js` to make sure that every tests pass correctly
+
 Add new tests:
 
-Add a test in Notifications.test.js to verify that the function fetchNotifications is called when the component is mounted
-Add a test for setLoadingState, setNotifications, and fetchNotifications to verify that they each create the right actions
-Add a test for SET_LOADING_STATE to verify that it updates the reducer correctly
+- Add a test in `Notifications.test.js` to verify that the function `fetchNotifications` is called when the component is mounted
+- Add a test for `setLoadingState`, `setNotifications`, and `fetchNotifications` to verify that they each create the right actions
+- Add a test for `SET_LOADING_STATE` to verify that it updates the reducer correctly
 
 **Tips:**
 
