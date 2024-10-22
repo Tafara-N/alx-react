@@ -454,16 +454,17 @@ Delete getUnreadNotifications
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_8/dashboard/src/selectors/notificationSelector.js
-27. Memoized selectors: update the UI
-mandatory
+- File: `task_8/dashboard/src/selectors/notificationSelector.js`
+
+### 27. Memoized selectors: update the UI
+
 In the Notifications component:
 
 Update the component to use the new selector you just created
-Map the component to the Action setNotificationFilter
-Add two buttons under the text Here is the list of notifications. The first one contains ‼️. On click, it set the filters of notifications to URGENT. The second one contains 💠. On click, it sets the filter of notifications to DEFAULT
-**Repo:**
+Map the component to the Action `setNotificationFilter`
+Add two buttons under the text `Here is the list of notifications`. The first one contains `‼️`. On click, it set the filters of notifications to `URGENT`. The second one contains `💠`. On click, it sets the filter of notifications to `DEFAULT`
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: `task_8/dashboard/src/Notifications/Notifications.js`
