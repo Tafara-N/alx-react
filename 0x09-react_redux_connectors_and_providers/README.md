@@ -412,11 +412,12 @@ In CourseList.js, connect the component to:
 The three action creators: fetchCourses, selectCourse, and unSelectCourse
 Connect the data to the list of courses using getListCourses selector
 When the component mount, call the action fetchCourses
-Create a new function onChangeRow:
 
-It will take two arguments: id (string), checked (boolean)
-When checked is true, call the action selectCourse with the id
-When checked is false, call the action unSelectCourse with the id
+Create a new function `onChangeRow`:
+
+- It will take two arguments: i`d (string)`, `checked (boolean)`
+- When `checked` is `true`, call the action `selectCourse` with the `id`
+- When `checked` is `false`, call the action `unSelectCourse` with the `id`
 
 Modify `CourseListRow`:
 
