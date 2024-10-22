@@ -234,32 +234,34 @@ This extension can be one of the most powerful tool to debug an application. Mak
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_3/dashboard/src/index.js
-14. Combine store: Root reducer
-mandatory
+- File: `task_3/dashboard/src/index.js`
+
+### 14. Combine store: Root reducer
+
 Since you have more than one reducer for your application, you will need to combine them into the store.
 
-Create a new file reducers/rootReducer.js, in this file, export a rootReducer:
+Create a new file `reducers/rootReducer.js`, in this file, export a `rootReducer`:
 
-the root should contain every reducer
-courses maps to courseReducer
-notifications maps to notificationReducer
-ui maps to uiReducer
+- the root should contain every reducer
+- `courses` maps to `courseReducer`
+- `notifications` maps to `notificationReducer`
+- `ui` maps to `uiReducer`
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_4/dashboard/src/reducers/rootReducer.js
-15. Combine store: modify the application
-mandatory
-In the index.js, create the store using the root reducer instead of only the ui reducer:
+- File: `task_4/dashboard/src/reducers/rootReducer.js`
 
-Any component connected to the state will probably need to be updated since you added a nested level
+### 15. Combine store: modify the application
+
+In the `index.js`, create the store using the root reducer instead of only the ui reducer:
+
+- Any component connected to the state will probably need to be updated since you added a nested level
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_4/dashboard/src/index.js
+- File: `task_4/dashboard/src/index.js`
 
 ### 16. Combine store: write the tests
 
