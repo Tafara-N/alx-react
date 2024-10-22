@@ -73,7 +73,7 @@ Should return { isLoggedIn: true }
 
 At this point your app is not functional but you should be able to load the page without crashing
 Remember that the state of uiReducer is using Map from Immutable
-Requirements:
+**Requirements:**
 
 No error should be displayed within the console
 All the tests in the project should pass
@@ -209,7 +209,7 @@ Add a test in uiReducer to support the new action you just created
 At this point your app should be functional and able to display/hide the drawer, login/logout using the Redux state
 Remember that the state of uiReducer is using Map from Immutable
 You can now see that your components logic is simplified. They only respond to props change. The logic is happening within the action creators
-Requirements:
+**Requirements:**
 
 Do not forget to add defaultProps and PropTypes to any component receiving props
 No error should be displayed within the console
@@ -271,7 +271,7 @@ Create a rootReducer.test.js file to test the root reducer’s initial state for
   notifications: Map {},
   ui: Map {}
 }
-Requirements:
+**Requirements:**
 
 No errors in the browser’s console
 All tests should pass
@@ -351,7 +351,7 @@ Add a test for SET_LOADING_STATE to verify that it updates the reducer correctly
 At this point, when you load the page, you should be able to see the list of notifications coming from the API using the developer tools or when clicking on the notifications toggle
 Use some CSS to make the notifications panel readable
 Look at valueSeq from Immutable to iterate on your list of notifications without having to use toJS()
-Requirements:
+**Requirements:**
 
 Make sure to update the different Proptypes so you don’t have any errors in the console
 Make sure to create the new actions that the action creators are using
@@ -369,7 +369,7 @@ Map the markAsAread action creator to the component, and use it for markNotifica
 **Tips:**
 
 At this point, when you load the page, you should be able to see the list of notifications. Clicking on one notification should make it disappear from the list
-Requirements:
+**Requirements:**
 
 Make sure to update the selector to use the same valueSeq you created previously
 Make sure to update the tests to work as expected
@@ -432,7 +432,7 @@ At this point, when you load the page and you log in, you should be able to see 
 When checking or unchecking a row, you should see the state in the Redux tool updated. You should also see the change on the UI
 Be careful that the API is sending Strings instead of Number for the IDs. You will probably need to adapt your reducers and tests
 Delete the CourseShape file now
-Requirements:
+**Requirements:**
 
 Make sure to update the tests to work as expected
 **Repo:**
@@ -481,7 +481,7 @@ Create a new test to verify that the selector returns unread urgent notification
 
 At this point, you should be able to load the notifications panel, filter the list using the two new buttons, and mark items as read
 
-Requirements:
+**Requirements:**
 
 - Make sure to update the tests to work as expected
 
