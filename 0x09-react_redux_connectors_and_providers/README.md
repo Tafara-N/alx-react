@@ -351,15 +351,16 @@ Add a test for SET_LOADING_STATE to verify that it updates the reducer correctly
 At this point, when you load the page, you should be able to see the list of notifications coming from the API using the developer tools or when clicking on the notifications toggle
 Use some CSS to make the notifications panel readable
 Look at valueSeq from Immutable to iterate on your list of notifications without having to use toJS()
+
 **Requirements:**
 
-Make sure to update the different Proptypes so you don’t have any errors in the console
-Make sure to create the new actions that the action creators are using
-**Repo:**
+- Make sure to update the different Proptypes so you don’t have any errors in the console
+- Make sure to create the new actions that the action creators are using
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_5/dashboard/src/reducers/notificationReducer.test.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
+- File: `task_5/dashboard/src/reducers/notificationReducer.test.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/actions/notificationActionCreators.test.js`
 
 ### 22. Selectors
 
