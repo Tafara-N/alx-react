@@ -391,17 +391,18 @@ Write a new file courseSelector.test.js, that will verify that the selector is w
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_7/dashboard/src/selectors/courseSelector.js, task_7/dashboard/src/selectors/courseSelector.test.js
-24. Connect courses: create a fetch courses function
-mandatory
-In actions/courseActionCreators.js:
+- File: `task_7/dashboard/src/selectors/courseSelector.js, task_7/dashboard/src/selectors/courseSelector.test.js`
 
-Create a new function named fetchCourses, that will query the API in courses.json (provided in the project description, put it in your dist folder)
-When the API returns the data, dispatch the action setCourses
-In courseActionCreators.test.js, create a test to verify that the fetch is working correctly
+### 24. Connect courses: create a fetch courses function
+
+In `actions/courseActionCreators.js`:
+
+- Create a new function named `fetchCourses`, that will query the API in `courses.json` (provided in the project description, put it in your `dist` folder)
+- When the API returns the data, dispatch the action `setCourses`
+
+In `courseActionCreators.test.js`, create a test to verify that the fetch is working correctly
 
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: `task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src/actions/courseActionCreators.test.js`
