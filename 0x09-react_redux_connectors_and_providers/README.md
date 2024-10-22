@@ -426,20 +426,22 @@ In the file CourseList.test.js, create two new tests:
 
 Verify that the action is dispatched when the component is mounted
 Verify that the two actions are correctly dispatched when the onChangeRow function is called
+
 **Tips:**
 
-At this point, when you load the page and you log in, you should be able to see the list of courses. Make sure that everything is working correctly using the developer tools or using the Redux tool
-When checking or unchecking a row, you should see the state in the Redux tool updated. You should also see the change on the UI
-Be careful that the API is sending Strings instead of Number for the IDs. You will probably need to adapt your reducers and tests
-Delete the CourseShape file now
+- At this point, when you load the page and you log in, you should be able to see the list of courses. Make sure that everything is working correctly using the developer tools or using the Redux tool
+- When checking or unchecking a row, you should see the state in the Redux tool updated. You should also see the change on the UI
+- Be careful that the API is sending Strings instead of Number for the IDs. You will probably need to adapt your reducers and tests
+- Delete the `CourseShape` file now
+
 **Requirements:**
 
-Make sure to update the tests to work as expected
-**Repo:**
+- Make sure to update the tests to work as expected
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_7/dashboard/src/CourseList/CourseList.js, task_7/dashboard/src/CourseList/CourseList.test.js
+- File: `task_7/dashboard/src/CourseList/CourseList.js, task_7/dashboard/src/CourseList/CourseList.test.js`
 
 ### 26. Memoized selectors: Redux Reselect
 
