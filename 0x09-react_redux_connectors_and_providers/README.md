@@ -144,32 +144,34 @@ Install redux-thunk within your project. And in the index.js file, apply the mid
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_2/dashboard/src/index.js
-8. Connect LoginRequest to the App
-mandatory
-Modify the file App/App.js:
+- File: `task_2/dashboard/src/index.js`
 
-Connect the action creator loginRequest and map it to the login prop
-Modify the component to use the new login function from the props instead of the one within the class
-Refactor the component to remove any login or logout function and bind
+### 8. Connect LoginRequest to the App
+
+Modify the file `App/App.js`:
+
+- Connect the action creator `loginRequest` and map it to the `login` prop
+- Modify the component to use the new `login` function from the props instead of the one within the class
+- Refactor the component to remove any `login` or logout function and bind
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_2/dashboard/src/App/App.js
-9. Connect user state to the Footer
-mandatory
-Modify the file Footer/Footer.js
+- File: `task_2/dashboard/src/App/App.js`
 
-Create a mapStateToProps function
-Map the user props to the user within the Redux state
-Connect the Footer component to the function you created
-Modify the render function and remove any use of the Context. Instead use the user prop
+### 9. Connect user state to the Footer
+
+Modify the file `Footer/Footer.js`
+
+- Create a `mapStateToProps` function
+- Map the `user` props to the `user` within the Redux state
+- Connect the Footer component to the function you created
+- Modify the render function and remove any use of the Context. Instead use the `user` prop
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_2/dashboard/src/Footer/Footer.js
+- File: `task_2/dashboard/src/Footer/Footer.js`
 
 ### 10. Connect Logout action creator to the Header
 
