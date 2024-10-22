@@ -499,7 +499,7 @@ Modify the file `Notifications.js`. It should now become a functional component
 Create a new test file for `NotificationsContainer.js`. It should make sure the fetching is happening on mount
 Modify `Notifications.test.js` file to only support the new behavior of the file
 
-****Tips:****
+**Tips:**
 
 - No need to repeat every single prop, you can use the spread operator
 
