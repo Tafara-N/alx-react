@@ -46,7 +46,7 @@ Import connect from Redux, and connect the mapStateToProps to the component
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_0/dashboard/src/App/App.js
+- File: task_0/dashboard/src/App/App.js
 1. Create a small store
 mandatory
 In the index.js file:
@@ -57,7 +57,7 @@ Implement a provider passing the store that you created to the main App
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_0/dashboard/src/index.js
+- File: task_0/dashboard/src/index.js
 2. Test MapStateToProps
 mandatory
 Export the mapStateToProps function you created if you haven’t already, and in the App.test.js file:
@@ -81,7 +81,7 @@ All the tests in the project should pass
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_0/dashboard/src/App/App.test.js
+- File: task_0/dashboard/src/App/App.test.js
 3. Update mapStateToProps
 mandatory
 In the App.js file:
@@ -92,7 +92,7 @@ Update the render function of the component to use the value displayDrawer comin
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_1/dashboard/src/App/App.js
+- File: task_1/dashboard/src/App/App.js
 4. Connect your actions creators
 mandatory
 In the App.js file:
@@ -104,7 +104,7 @@ Modify the render function of the component to use the functions passed within t
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_1/dashboard/src/App/App.js
+- File: task_1/dashboard/src/App/App.js
 5. Refactor your code
 mandatory
 In the App.js file:
@@ -118,7 +118,7 @@ You are now passing to your components props. You need to define propTypes and d
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_1/dashboard/src/App/App.js
+- File: task_1/dashboard/src/App/App.js
 6. Update your tests
 mandatory
 You can now refactor the App.test.js file:
@@ -133,7 +133,7 @@ Remember that the state of uiReducer is using Map from Immutable
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_1/dashboard/src/App/App.test.js
+- File: task_1/dashboard/src/App/App.test.js
 7. Async actions & Thunk middleware
 mandatory
 Let’s implement the LoginRequest / logout actions creators accross the entire application. LoginRequest is calling an API and is Async. Therefore, Redux will not support it. We will need to use a middleware
@@ -144,7 +144,7 @@ Install redux-thunk within your project. And in the index.js file, apply the mid
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/index.js
+- File: task_2/dashboard/src/index.js
 8. Connect LoginRequest to the App
 mandatory
 Modify the file App/App.js:
@@ -156,7 +156,7 @@ Refactor the component to remove any login or logout function and bind
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/App/App.js
+- File: task_2/dashboard/src/App/App.js
 9. Connect user state to the Footer
 mandatory
 Modify the file Footer/Footer.js
@@ -169,7 +169,7 @@ Modify the render function and remove any use of the Context. Instead use the us
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/Footer/Footer.js
+- File: task_2/dashboard/src/Footer/Footer.js
 10. Connect Logout action creator to the Header
 mandatory
 Modify the file Header/Header.js
@@ -183,7 +183,7 @@ Modify the render function and remove any use of the Context. Instead use the us
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/Header/Header.js
+- File: task_2/dashboard/src/Header/Header.js
 11. Modify the uiReducer
 mandatory
 Now that we can have the entire login request and the entire feedback loop, let’s modify a few things within the reducer:
@@ -194,7 +194,7 @@ When the LOGOUT action is passed, make sure to set the user to null
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/reducers/uiReducer.js
+- File: task_2/dashboard/src/reducers/uiReducer.js
 12. Modify the test suites
 mandatory
 Modify the test suites of the different components you modified:
@@ -218,7 +218,7 @@ All the tests in the project should pass
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_2/dashboard/src/App/App.test.js, task_2/dashboard/src/Footer/Footer.test.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/reducers/uiReducer.test.js
+- File: task_2/dashboard/src/App/App.test.js, task_2/dashboard/src/Footer/Footer.test.js, task_2/dashboard/src/Header/Header.test.js, task_2/dashboard/src/reducers/uiReducer.test.js
 13. Understand how to use the Redux Chrome extension
 mandatory
 Install the Redux DevTools extension on your Chrome browser:
@@ -234,7 +234,7 @@ This extension can be one of the most powerful tool to debug an application. Mak
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_3/dashboard/src/index.js
+- File: task_3/dashboard/src/index.js
 14. Combine store: Root reducer
 mandatory
 Since you have more than one reducer for your application, you will need to combine them into the store.
@@ -249,7 +249,7 @@ ui maps to uiReducer
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_4/dashboard/src/reducers/rootReducer.js
+- File: task_4/dashboard/src/reducers/rootReducer.js
 15. Combine store: modify the application
 mandatory
 In the index.js, create the store using the root reducer instead of only the ui reducer:
@@ -259,7 +259,7 @@ Any component connected to the state will probably need to be updated since you 
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_4/dashboard/src/index.js
+- File: task_4/dashboard/src/index.js
 16. Combine store: write the tests
 mandatory
 Modify the test suites:
@@ -280,7 +280,7 @@ Use combineReducer to create the root reducer
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/reducers/rootReducer.test.js
+- File: task_4/dashboard/src/App/App.test.js, task_4/dashboard/src/reducers/rootReducer.test.js
 17. Connect notifications: New Action Creator
 mandatory
 We now know how to connect a simple component to a reducer. Let’s work on connecting a more complex component to the the entire API.
@@ -297,7 +297,7 @@ At the end of the query it sets the loading state to false again
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_5/dashboard/src/actions/notificationActionCreators.js
+- File: task_5/dashboard/src/actions/notificationActionCreators.js
 18. Connect notifications: Improve reducer
 mandatory
 In the function notificationReducer within notificationReducer.js:
@@ -310,7 +310,7 @@ Modify the FETCH_NOTIFICATIONS_SUCCESS case to perform a mergeDeep with the data
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_5/dashboard/src/reducers/notificationReducer.js
+- File: task_5/dashboard/src/reducers/notificationReducer.js
 19. Connect notifications to the reducer
 mandatory
 In the Notifications.js component:
@@ -322,7 +322,7 @@ In componentDidMount, call fetchNotifications
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_5/dashboard/src/Notifications/Notifications.js
+- File: task_5/dashboard/src/Notifications/Notifications.js
 20. Connect notifications: clean up
 mandatory
 With this new behavior, let’s clean up old functions and test data
@@ -333,7 +333,7 @@ Remove the notification list and delete markNotificationAsRead within App.js
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_5/dashboard/src/App/App.js
+- File: task_5/dashboard/src/App/App.js
 21. Connect notifications: update the test suites
 mandatory
 Modify the test suites to pass the tests:
@@ -359,7 +359,7 @@ Make sure to create the new actions that the action creators are using
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_5/dashboard/src/reducers/notificationReducer.test.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
+- File: task_5/dashboard/src/reducers/notificationReducer.test.js, task_5/dashboard/src/App/App.test.js, task_5/dashboard/src/Notifications/Notifications.js, task_5/dashboard/src/Notifications/Notifications.test.js, task_5/dashboard/src/actions/notificationActionCreators.test.js
 22. Selectors
 mandatory
 To improve performance in your connector, you should always use selectors when you can. Let’s modify the Notifications connector to reuse the selector we built in the previous project:
@@ -378,7 +378,7 @@ Make sure to create the new actions that the action creators are using
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_6/dashboard/src/Notifications/Notifications.js, task_6/dashboard/src/Notifications/Notifications.test.js
+- File: task_6/dashboard/src/Notifications/Notifications.js, task_6/dashboard/src/Notifications/Notifications.test.js
 23. Connect courses: create a course selector
 mandatory
 In selectors/courseSelector.js, create a selector that will:
@@ -391,7 +391,7 @@ Write a new file courseSelector.test.js, that will verify that the selector is w
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_7/dashboard/src/selectors/courseSelector.js, task_7/dashboard/src/selectors/courseSelector.test.js
+- File: task_7/dashboard/src/selectors/courseSelector.js, task_7/dashboard/src/selectors/courseSelector.test.js
 24. Connect courses: create a fetch courses function
 mandatory
 In actions/courseActionCreators.js:
@@ -404,7 +404,7 @@ In courseActionCreators.test.js, create a test to verify that the fetch is worki
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src/actions/courseActionCreators.test.js
+- File: task_7/dashboard/src/actions/courseActionCreators.js, task_7/dashboard/src/actions/courseActionCreators.test.js
 25. Connect the courses component
 mandatory
 In CourseList.js, connect the component to:
@@ -439,7 +439,7 @@ Make sure to update the tests to work as expected
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_7/dashboard/src/CourseList/CourseList.js, task_7/dashboard/src/CourseList/CourseList.test.js
+- File: task_7/dashboard/src/CourseList/CourseList.js, task_7/dashboard/src/CourseList/CourseList.test.js
 26. Memoized selectors: Redux Reselect
 mandatory
 Our current selectors are useful but they are not really performant. Imagine a very long list of notifications with multiple filters on the type and on the read status. This would require a lot of resources to compute. Memoized selectors are very powerful in this sense.
@@ -454,7 +454,7 @@ Delete getUnreadNotifications
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_8/dashboard/src/selectors/notificationSelector.js
+- File: task_8/dashboard/src/selectors/notificationSelector.js
 27. Memoized selectors: update the UI
 mandatory
 In the Notifications component:
@@ -466,7 +466,7 @@ Add two buttons under the text Here is the list of notifications. The first one 
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_8/dashboard/src/Notifications/Notifications.js
+- File: task_8/dashboard/src/Notifications/Notifications.js
 28. Memoized selectors: update the test suite
 mandatory
 In Notifications.test.js, add two new tests:
@@ -487,7 +487,7 @@ Make sure to update the tests to work as expected
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard/src/selectors/notificationSelector.test.js
+- File: task_8/dashboard/src/Notifications/Notifications.test.js, task_8/dashboard/src/selectors/notificationSelector.test.js
 
 ### 29. Container/Component
 
@@ -506,4 +506,4 @@ Modify `Notifications.test.js` file to only support the new behavior of the file
 **Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-File: `task_9/dashboard/src/Notifications/Notifications.js, task_9/dashboard/src/Notifications/Notifications.test.js, task_9/dashboard/src/Notifications/NotificationsContainer.js, task_9/dashboard/src/Notifications/NotificationsContainer.test.js`
+- File: `task_9/dashboard/src/Notifications/Notifications.js, task_9/dashboard/src/Notifications/Notifications.test.js, task_9/dashboard/src/Notifications/NotificationsContainer.js, task_9/dashboard/src/Notifications/NotificationsContainer.test.js`
