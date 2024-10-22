@@ -42,7 +42,7 @@ Within the App/App.js file:
 
 Create a function named mapStateToProps. This should connect the uiReducer you created and the property isLoggedIn that your component is already using
 Import connect from Redux, and connect the mapStateToProps to the component
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -53,7 +53,7 @@ In the index.js file:
 
 Create a store using createStore from Redux that would contain the uiReducer state
 Implement a provider passing the store that you created to the main App
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -77,7 +77,7 @@ Requirements:
 
 No error should be displayed within the console
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -88,7 +88,7 @@ In the App.js file:
 
 Update the mapStateToProps function to also pass to the component the value for displayDrawer. It should be connected to the Reducer attribute isNotificationDrawerVisible
 Update the render function of the component to use the value displayDrawer coming from the props instead of the state
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -100,7 +100,7 @@ In the App.js file:
 Connect to the component the actions creators displayNotificationDrawer and hideNotificationDrawer
 You should use the simplified version for the mapDispatchToProps. No need to import bindActionCreators
 Modify the render function of the component to use the functions passed within the props instead of the action within the Class component
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -114,7 +114,7 @@ You can delete the old function handleHideDrawer
 Remove any state property related to the display of the drawer
 Remove any binding in the constructor
 You are now passing to your components props. You need to define propTypes and defaultProps
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -129,7 +129,7 @@ Tips:
 
 At this point your app should be functional and able to display/hide the drawer using the Redux state
 Remember that the state of uiReducer is using Map from Immutable
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -140,7 +140,7 @@ Let’s implement the LoginRequest / logout actions creators accross the entire 
 
 Install redux-thunk within your project. And in the index.js file, apply the middleware to your store
 
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -152,7 +152,7 @@ Modify the file App/App.js:
 Connect the action creator loginRequest and map it to the login prop
 Modify the component to use the new login function from the props instead of the one within the class
 Refactor the component to remove any login or logout function and bind
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -165,7 +165,7 @@ Create a mapStateToProps function
 Map the user props to the user within the Redux state
 Connect the Footer component to the function you created
 Modify the render function and remove any use of the Context. Instead use the user prop
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -179,7 +179,7 @@ Map the user props to the user within the Redux state
 Connect the Header component to the function you created
 Connect the Header component to the logout action creator
 Modify the render function and remove any use of the Context. Instead use the user prop. When the user clicks on the link, it should now dispatch the logout action creator
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -190,7 +190,7 @@ Now that we can have the entire login request and the entire feedback loop, let�
 
 When the action LOGIN is passed, set the user within the state to the one passed within the action
 When the LOGOUT action is passed, make sure to set the user to null
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -214,7 +214,7 @@ Requirements:
 Do not forget to add defaultProps and PropTypes to any component receiving props
 No error should be displayed within the console
 All the tests in the project should pass
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -230,7 +230,7 @@ Tips:
 
 Read the documentation of the extension to learn how to support the Chrome extension as well as the Thunk middleware
 This extension can be one of the most powerful tool to debug an application. Make sure to become familiar with it
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -245,7 +245,7 @@ the root should contain every reducer
 courses maps to courseReducer
 notifications maps to notificationReducer
 ui maps to uiReducer
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -255,7 +255,7 @@ mandatory
 In the index.js, create the store using the root reducer instead of only the ui reducer:
 
 Any component connected to the state will probably need to be updated since you added a nested level
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -276,7 +276,7 @@ Requirements:
 No errors in the browser’s console
 All tests should pass
 Use combineReducer to create the root reducer
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -293,7 +293,7 @@ fetchNotifications (which does not have a parameter). Calling it will dispatch s
 It fetches /notifications.json
 Once the fetch is realized, it will dispatch setNotifications with the data
 At the end of the query it sets the loading state to false again
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -306,7 +306,7 @@ Make sure to add a loading attribute to the initial state.
 Modify the notifications object to have the right initial state when merging the data coming from the API
 Create a SET_LOADING_STATE case and update the state accordingly
 Modify the FETCH_NOTIFICATIONS_SUCCESS case to perform a mergeDeep with the data
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -318,7 +318,7 @@ In the Notifications.js component:
 Map the prop listNotifications to the messages within the notifications state
 Map the action fetchNotifications to the component
 In componentDidMount, call fetchNotifications
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -329,7 +329,7 @@ With this new behavior, let’s clean up old functions and test data
 
 Delete NotificationItemShape.js
 Remove the notification list and delete markNotificationAsRead within App.js
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -355,7 +355,7 @@ Requirements:
 
 Make sure to update the different Proptypes so you don’t have any errors in the console
 Make sure to create the new actions that the action creators are using
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -374,7 +374,7 @@ Requirements:
 Make sure to update the selector to use the same valueSeq you created previously
 Make sure to update the tests to work as expected
 Make sure to create the new actions that the action creators are using
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -387,7 +387,7 @@ Get all the course entities from within the reducer
 Return a List using valueSeq from Immutable
 Write a new file courseSelector.test.js, that will verify that the selector is working correctly
 
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -400,7 +400,7 @@ Create a new function named fetchCourses, that will query the API in courses.jso
 When the API returns the data, dispatch the action setCourses
 In courseActionCreators.test.js, create a test to verify that the fetch is working correctly
 
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -435,7 +435,7 @@ Delete the CourseShape file now
 Requirements:
 
 Make sure to update the tests to work as expected
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -450,7 +450,7 @@ This selector should combine the state of the filter, and the list of notificati
 When the filter is set to default, it should return all the unread notifications
 When the filter is set to urgent, it should return all the unread and urgent notifications
 Delete getUnreadNotifications
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -462,7 +462,7 @@ In the Notifications component:
 Update the component to use the new selector you just created
 Map the component to the Action setNotificationFilter
 Add two buttons under the text Here is the list of notifications. The first one contains ‼️. On click, it set the filters of notifications to URGENT. The second one contains 💠. On click, it sets the filter of notifications to DEFAULT
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -483,7 +483,7 @@ At this point, you should be able to load the notifications panel, filter the li
 Requirements:
 
 Make sure to update the tests to work as expected
-Repo:
+**Repo:**
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
@@ -503,7 +503,7 @@ Modify `Notifications.test.js` file to only support the new behavior of the file
 
 - No need to repeat every single prop, you can use the spread operator
 
-Repo:
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 File: `task_9/dashboard/src/Notifications/Notifications.js, task_9/dashboard/src/Notifications/Notifications.test.js, task_9/dashboard/src/Notifications/NotificationsContainer.js, task_9/dashboard/src/Notifications/NotificationsContainer.test.js`
