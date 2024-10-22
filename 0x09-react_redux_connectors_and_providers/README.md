@@ -417,16 +417,17 @@ Create a new function onChangeRow:
 It will take two arguments: id (string), checked (boolean)
 When checked is true, call the action selectCourse with the id
 When checked is false, call the action unSelectCourse with the id
-Modify CourseListRow:
 
-Pass a new prop, isChecked, to the component that will pass the isSelected attribute coming from the state of the reducer
-Pass the onChangeRow function to the component
-Modify the component to not use its local state anymore
+Modify `CourseListRow`:
+
+- Pass a new prop, `isChecked`, to the component that will pass the `isSelected` attribute coming from the state of the reducer
+- Pass the `onChangeRow` function to the component
+- Modify the component to not use its local state anymore
 
 In the file `CourseList.test.js`, create two new tests:
 
 - Verify that the action is dispatched when the component is mounted
-- Verify that the two actions are correctly dispatched when the onChangeRow function is called
+- Verify that the two actions are correctly dispatched when the `onChangeRow` function is called
 
 **Tips:**
 
