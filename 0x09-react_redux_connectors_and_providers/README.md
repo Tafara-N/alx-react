@@ -466,20 +466,23 @@ Add two buttons under the text Here is the list of notifications. The first one 
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_8/dashboard/src/Notifications/Notifications.js
-28. Memoized selectors: update the test suite
-mandatory
-In Notifications.test.js, add two new tests:
+- File: `task_8/dashboard/src/Notifications/Notifications.js`
 
-Clicking on the first button should call setNotificationFilter with URGENT
-Clicking on the second button should call setNotificationFilter with DEFAULT
-In notificationSelector.test.js:
+### 28. Memoized selectors: update the test suite
 
-Update the previous tests to work correctly
-Create a new test to verify that the selector returns unread urgent notifications when the filter is set
+In `Notifications.test.js`, add two new tests:
+
+- Clicking on the first button should call `setNotificationFilter` with `URGENT`
+- Clicking on the second button should call `setNotificationFilter` with `DEFAULT`
+
+In `notificationSelector.test.js`:
+
+- Update the previous tests to work correctly
+- Create a new test to verify that the selector returns unread urgent notifications when the filter is set
+
 **Tips:**
 
-At this point, you should be able to load the notifications panel, filter the list using the two new buttons, and mark items as read
+- At this point, you should be able to load the notifications panel, filter the list using the two new buttons, and mark items as read
 
 **Requirements:**
 
