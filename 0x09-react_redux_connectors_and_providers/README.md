@@ -92,16 +92,17 @@ Update the render function of the component to use the value displayDrawer comin
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_1/dashboard/src/App/App.js
-4. Connect your actions creators
-mandatory
-In the App.js file:
+- File: `task_1/dashboard/src/App/App.js`
 
-Connect to the component the actions creators displayNotificationDrawer and hideNotificationDrawer
-You should use the simplified version for the mapDispatchToProps. No need to import bindActionCreators
-Modify the render function of the component to use the functions passed within the props instead of the action within the Class component
+### 4. Connect your actions creators
+
+In the `App.js` file:
+
+- Connect to the component the actions creators `displayNotificationDrawer` and `hideNotificationDrawer`
+- You should use the simplified version for the `mapDispatchToProps`. No need to import `bindActionCreators`
+- Modify the render function of the component to use the functions passed within the props instead of the action within the Class component
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: `task_1/dashboard/src/App/App.js`
