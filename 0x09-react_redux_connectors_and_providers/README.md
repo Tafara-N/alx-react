@@ -170,27 +170,28 @@ Modify the render function and remove any use of the Context. Instead use the us
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
 - File: task_2/dashboard/src/Footer/Footer.js
-10. Connect Logout action creator to the Header
-mandatory
-Modify the file Header/Header.js
 
-Create a mapStateToProps function
-Map the user props to the user within the Redux state
-Connect the Header component to the function you created
-Connect the Header component to the logout action creator
-Modify the render function and remove any use of the Context. Instead use the user prop. When the user clicks on the link, it should now dispatch the logout action creator
+### 10. Connect Logout action creator to the Header
+
+Modify the file `Header/Header.js`
+
+- Create a `mapStateToProps` function
+- Map the `user` props to the `user` within the Redux state
+- Connect the Header component to the function you created
+- Connect the Header component to the `logout` action creator
+- Modify the render function and remove any use of the Context. Instead use the `user` prop. When the user clicks on the link, it should now dispatch the `logout` action creator
+
 **Repo:**
-
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_2/dashboard/src/Header/Header.js
+- File: `task_2/dashboard/src/Header/Header.js`
 
 ### 11. Modify the uiReducer
 
 Now that we can have the entire login request and the entire feedback loop, let’s modify a few things within the reducer:
 
 - When the action `LOGIN` is passed, set the user within the state to the one passed within the action
-- When the `LOGOUT` action is passed, make sure to set the user to null
+- When the `LOGOUT` action is passed, make sure to set the `user` to `null`
 
 **Repo:**
 - GitHub repository: `alx-react`
