@@ -118,27 +118,30 @@ You are now passing to your components props. You need to define propTypes and d
 
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_1/dashboard/src/App/App.js
-6. Update your tests
-mandatory
-You can now refactor the App.test.js file:
+- File: `task_1/dashboard/src/App/App.js`
 
-You don’t need to test the functions handleDisplayDrawer and handleHideDrawer since everything is already tested using the Redux mechanism
-You need to update the test you previously created to support the new attribute
+### 6. Update your tests
+
+You can now refactor the `App.test.js` file:
+
+- You don’t need to test the functions `handleDisplayDrawer` and `handleHideDrawer` since everything is already tested using the Redux mechanism
+- You need to update the test you previously created to support the new attribute
+
 **Tips:**
 
-At this point your app should be functional and able to display/hide the drawer using the Redux state
-Remember that the state of uiReducer is using Map from Immutable
-**Repo:**
+- At this point your app should be functional and able to display/hide the drawer using the Redux state
+- Remember that the state of `uiReducer` is using Map from Immutable
 
+**Repo:**
 - GitHub repository: `alx-react`
 - Directory: `0x09-react_redux_connectors_and_providers`
-- File: task_1/dashboard/src/App/App.test.js
-7. Async actions & Thunk middleware
-mandatory
-Let’s implement the LoginRequest / logout actions creators accross the entire application. LoginRequest is calling an API and is Async. Therefore, Redux will not support it. We will need to use a middleware
+- File: `task_1/dashboard/src/App/App.test.js`
 
-Install redux-thunk within your project. And in the index.js file, apply the middleware to your store
+### 7. Async actions & Thunk middleware
+
+Let’s implement the `LoginRequest` / `logout` actions creators accross the entire application. `LoginRequest` is calling an API and is Async. Therefore, Redux will not support it. We will need to use a middleware
+
+Install `redux-thunk` within your project. And in the `index.js` file, apply the middleware to your store
 
 **Repo:**
 
